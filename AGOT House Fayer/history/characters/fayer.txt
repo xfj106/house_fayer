@@ -1,0 +1,328 @@
+54600001 = {
+	name = "Roland"
+	dynasty = 10012
+	religion = "the_seven"
+	culture = "high_valyrian"
+
+	father = 54600006
+	mother = 54800007
+	
+	dna="bluzjbubjfa"
+	
+	add_trait = dragonXY
+	add_trait="twin"
+	add_trait="strong"
+	add_trait="just"
+	add_trait="trusting"
+	add_trait="lustful"
+	add_trait="charitable"
+	add_trait="proud"
+	add_trait="deceitful"
+	add_trait="arbitrary"
+	
+
+	8040.1.22 = {
+		birth="8040.1.22"
+	}
+	
+	8056.1.22 = {
+		add_trait = "skilled_tactician"
+		add_trait = "skilled_warrior"
+	}
+
+	8068.7.15 = {
+		add_spouse=54700002
+	}
+
+	8105.1.1 = {
+		death="8105.1.1"
+	}
+}
+
+
+
+54600003 = {
+	name = "Julien"
+	dynasty = 10012
+	religion = "the_seven"
+	culture = "high_valyrian"
+	mother = 54700002 
+	father = 54600001
+
+	add_trait = "quick"
+	add_trait = dragonXY
+
+	8070.5.10 = {
+		birth="8070.5.10"
+	}
+	
+	8086.5.10 = {
+		add_trait = "midas_touched"
+		add_trait = "skilled_warrior"
+		
+		add_trait = "shrewd"
+		add_trait = "diligent"
+		add_trait = "patient"
+		
+		add_trait = "honorable"
+		add_trait = "just"
+		add_trait = "cynical"
+		add_trait = "authoritative"
+		
+		add_trait = "gamer"
+		
+	}
+
+	8146.1.1 = {
+		death = "8146.1.1"
+	}
+}
+
+54600004 = {
+	name = "Thomas"
+	dynasty = 10012
+	religion = "the_seven"
+	culture = "high_valyrian"
+	mother = 54700002 
+	father = 54600001
+
+	add_trait = "quick"
+	add_trait = "tall"	
+	add_trait = dragonXY
+
+	8072.3.10 = {
+		birth="8072.3.10"
+	}
+	
+	8088.3.10 = {
+		add_trait = "brilliant_strategist"
+		add_trait = "master_warrior"
+		add_trait = "robust"
+		
+		add_trait = "greedy"
+		add_trait = "diligent"
+		add_trait = "envious"
+		add_trait = "proud"
+		
+		add_trait = "brave"
+		add_trait = "ambitious"
+		add_trait = "deceitful"
+	}
+
+	8150.1.1 = {
+		death = "8151.1.1"
+	}
+}
+
+54600005 = {
+	name = "Antoine"
+	dynasty = 10012
+	religion = "valyrian"
+	culture = "high_valyrian"
+	
+	add_trait = dragonXY
+
+	7970.1.1 = {
+		birth="7970.1.1"
+	}
+	8040.1.1 = {
+		death="8040.1.1"
+	}
+}
+
+54600006 = {
+	name = "Antoine"
+	dynasty = 10012
+	religion = "the_seven"
+	culture = "high_valyrian"
+	father = 54600005
+	
+	add_trait = dragonXY
+	
+	8005.1.1 = {
+		birth="8005.1.1"
+	}
+
+	8025.1.1 = {
+		add_spouse = 54800007
+	}
+
+	8050.1.1 = {
+		effect = {
+			107 = { 
+				add_province_modifier = { name = completeharren3 duration = -1 }
+			}	
+		}
+	}
+
+	8061.1.1 = {
+		death="8061.1.1"
+	}
+}
+
+
+
+
+54600008 = {
+	name = "Antoine"
+	dynasty = 10012
+	religion = "the_seven"
+	culture = "high_valyrian"
+	
+	dna="bluzjbubjfa"
+
+	add_trait="twin"
+	add_trait="strong"
+	
+	father = 54600006
+	mother = 54800007
+	
+
+	8040.1.22 = {
+		birth="8040.1.22"
+	}
+
+	8105.1.1 = {
+		death="8105.1.1"
+	}
+}
+
+##Charbonnier
+
+54700002 = {
+	name = "Chantal"
+	dynasty = 10013
+	female = yes
+	religion = "the_seven"
+	culture = "western_valyrian"
+	
+	dna="bmgiadcaaak"
+	
+	father = 54700003
+	mother = 54800002
+	
+	add_trait = dragonXX
+
+	add_trait="attractive"
+	add_trait="quick"
+	
+	add_trait="diligent"
+	add_trait="kind"
+	
+	add_trait="just"
+	add_trait="honest"
+	add_trait="shy"
+	add_trait="cynical"
+	
+
+	8042.4.15 = {
+		birth="8042.4.15"
+	}
+	
+	8048.4.15 = {
+		add_trait = "scholarly_theologian"
+	}
+
+	8104.1.1 = {
+		death="8104.1.1"
+	}
+}
+
+54700001 = {
+	name = "Pierre"
+	dynasty = 10013
+	religion = "valyrian"
+	culture = "western_valyrian"
+	
+
+	7980.1.1 = {
+		birth="7970.1.1"
+	}
+	
+	8000.1.1 = {
+		add_spouse = 54800001
+	}
+	8030.1.1 = {
+		death="8030.1.1"
+	}
+}
+
+54700003 = {
+	name = "Paul"
+	dynasty = 10013
+	religion = "the_seven"
+	culture = "western_valyrian"
+	
+	father = 54700001
+	mother = 54800001
+	
+	add_trait = dragonXY
+	add_trait = "weak"
+	
+
+	8020.1.1 = {
+		birth="8020.1.1"
+	}
+	
+	8040.1.1 = {
+		add_spouse = 54800002
+	}
+	8060.1.1 = {
+		death="8060.1.1"
+	}
+}
+
+##Other
+
+54800001 = {
+	name = "Leia"
+	female = yes
+	religion = "valyrian"
+	culture = "western_valyrian"
+	
+	add_trait = dragonX
+	
+	7984.1.1 = {
+		birth="7984.1.1"
+	}
+	
+	8042.1.1 = {
+		death="8042.1.1"
+	}
+}
+
+54800002 = {
+	name = "Erica"
+	female = yes
+	religion = "the_seven"
+	culture = "western_valyrian"
+	
+	add_trait = dragonX
+	add_trait = "strong"
+	
+	8024.1.1 = {
+		birth="8024.1.1"
+	}
+	
+	8110.1.1 = {
+		death="8110.1.1"
+	}
+}
+
+
+54800007 = {
+	name = "Amelie"
+	female = yes
+	culture = "high_valyrian"
+	religion = "the_seven"	
+	
+
+	8015.1.1 = {
+		birth="8015.1.1"
+	}
+
+	8101.1.1 = {
+		death="8101.1.1"
+	}
+
+}

@@ -1,0 +1,1097 @@
+namespace = customizer_houses
+
+#Select either current house or extinct house
+character_event = {
+	id = customizer_houses.1	
+	picture = GFX_TARGARYEN
+	
+	is_triggered_only = yes
+	hide_from = yes
+	
+	trigger = {
+		ai = no
+		trait = house_customizer
+	}
+	
+	desc = {
+		text = "EVTDESCCUSTOMIZERHOUSES1"
+		trigger = { NOT = { is_nomadic = yes } }
+	}
+	desc = {
+		text = "EVTDESCCUSTOMIZERHOUSES1B"
+		trigger = { is_nomadic = yes }
+	}
+	
+	option = {
+		name = "EVTOPTACUSTOMIZERHOUSES1" #Current House
+		trigger = { NOT = { is_nomadic = yes } }
+		custom_tooltip = { text = TOOLTIPhouse_customizerA }
+		hidden_tooltip = { character_event = { id = customizer_houses.4 days = 50 } } #valid for 50 days
+	}
+	
+	option = {
+		name = "EVTOPTBCUSTOMIZERHOUSES1" #Extinct House
+		trigger = { NOT = { is_nomadic = yes } }
+		custom_tooltip = { text = TOOLTIPhouse_customizerB }
+		set_character_flag = page_1
+		hidden_tooltip = { character_event = { id = customizer_houses.2 } }
+	}
+	
+	option = {
+		name = OK
+		trigger = { is_nomadic = yes }
+		remove_trait = house_customizer
+	}
+}
+#Pick Extinct House
+character_event = {
+	id = customizer_houses.2
+	desc = "EVTDESCCUSTOMIZERHOUSES2"
+	picture = GFX_STARK
+	
+	is_triggered_only = yes
+
+	trigger = {
+		ai = no
+		trait = house_customizer
+	}
+	
+	option = {
+		name = "EVTOPTACUSTOMIZERHOUSES2" #Reyne
+		trigger = { 
+			year = 8261
+			d_castamere = { holder_scope = { NOT = { dynasty = 197 } } }
+			has_character_flag = page_1
+		}	
+		dynasty = 197
+		any_child = { dynasty = 197 }
+		assign_mission_target = {
+			limit = { 
+				dynasty = 197
+				character = 33197 #Rafford Reyne
+			}
+			ROOT = { set_father = PREV }
+			hidden_tooltip = { remove_trait = assign_mission_target }
+		}
+		hidden_tooltip = { 
+			remove_trait = house_customizer 
+			character_event = { id = customizer_houses.7 } #Patrician/Clan maintenance
+		}
+		clr_character_flag = page_1
+	}
+	option = {
+		name = "EVTOPTBCUSTOMIZERHOUSES2" #Tarbeck
+		trigger = { 
+			year = 8261
+			c_tarbeck_hall = { holder_scope = { NOT = { dynasty = 225 } } }
+			has_character_flag = page_1
+		}	
+		dynasty = 225
+		any_child = { dynasty = 225 }
+		assign_mission_target = {
+			limit = { 
+				dynasty = 225
+				character = 225 #Lucion Tarbeck
+			}
+			ROOT = { set_father = PREV }
+			hidden_tooltip = { remove_trait = assign_mission_target }
+		}
+		hidden_tooltip = { 
+			remove_trait = house_customizer 
+			character_event = { id = customizer_houses.7 } #Patrician/Clan maintenance
+		}
+		clr_character_flag = page_1
+	}
+	option = {
+		name = "EVTOPTCCUSTOMIZERHOUSES2" #Blackfyre
+		trigger = { 
+			OR = {
+				NOT = { year = 8182 }
+				year = 8260
+			}
+			has_character_flag = page_1
+		}	
+		dynasty = 57
+		any_child = { dynasty = 57 }
+		if = {
+			limit = { year = 8260 }
+			assign_mission_target = {
+				limit = { 
+					dynasty = 57
+					character = 110757 #Daemon Blackfyre
+				}
+				ROOT = { set_father = PREV }
+				hidden_tooltip = { remove_trait = assign_mission_target }
+			}
+		}		
+		hidden_tooltip = { 
+			remove_trait = house_customizer 
+			character_event = { id = customizer_houses.7 } #Patrician/Clan maintenance
+		}
+		clr_character_flag = page_1
+	}
+	option = {
+		name = "MORE" 
+		trigger = { 
+			has_character_flag = page_1
+		}	
+		clr_character_flag = page_1
+		set_character_flag = page_2
+		hidden_tooltip = { character_event = { id = customizer_houses.2 } }
+	}
+	option = {
+		name = "EVTOPTDCUSTOMIZERHOUSES2" #Greystark
+		trigger = { 
+			has_character_flag = page_2
+		}	
+		dynasty = 63859
+		any_child = { dynasty = 63859 }
+		hidden_tooltip = { 
+			remove_trait = house_customizer 
+			character_event = { id = customizer_houses.7 } #Patrician/Clan maintenance
+		}
+		clr_character_flag = page_2
+	}
+	option = {
+		name = "EVTOPTECUSTOMIZERHOUSES2" #Durrandon
+		trigger = { 
+			year = 8059
+			has_character_flag = page_2
+		}	
+		dynasty = 1544
+		any_child = { dynasty = 1544 }
+		assign_mission_target = {
+			limit = { 
+				dynasty = 1544
+				character = 3003544 #Baldric Durrandon
+			}
+			ROOT = { set_father = PREV }
+			hidden_tooltip = { remove_trait = assign_mission_target }
+		}
+		hidden_tooltip = { 
+			remove_trait = house_customizer 
+			character_event = { id = customizer_houses.7 } #Patrician/Clan maintenance
+		}
+		clr_character_flag = page_2
+	}
+	option = {
+		name = "EVTOPTFCUSTOMIZERHOUSES2" #Gardener
+		trigger = { 
+			year = 7998
+			has_character_flag = page_2
+			c_highgarden = { holder_scope = { NOT = { dynasty = 1254 } } }
+		}	
+		dynasty = 1254
+		any_child = { dynasty = 1254 }
+		assign_mission_target = {
+			limit = { 
+				dynasty = 1254
+				character = 8888180 #Gyles Gardener
+			}
+			ROOT = { set_father = PREV }
+			hidden_tooltip = { remove_trait = assign_mission_target }
+		}
+		hidden_tooltip = { 
+			remove_trait = house_customizer 
+			character_event = { id = customizer_houses.7 } #Patrician/Clan maintenance
+		}
+		clr_character_flag = page_2
+	}
+	option = {
+		name = "MORE" 
+		trigger = { 
+			has_character_flag = page_2
+		}	
+		clr_character_flag = page_2
+		set_character_flag = page_3
+		hidden_tooltip = { character_event = { id = customizer_houses.2 } }
+	}
+	option = {
+		name = "EVTOPTMCUSTOMIZERHOUSES2" #Bittersteel
+		trigger = { 
+			OR = {
+				NOT = { year = 8172 }
+				year = 8241
+			}
+			has_character_flag = page_3
+		}	
+		dynasty = 7000
+		any_child = { dynasty = 7000 }
+		if = {
+			limit = { year = 8241 }
+			assign_mission_target = {
+				limit = { 
+					dynasty = 7000
+					character = 77025 #Bittersteel
+				}
+				ROOT = { set_father = PREV }
+				hidden_tooltip = { remove_trait = assign_mission_target }
+			}
+		}
+		hidden_tooltip = { 
+			remove_trait = house_customizer 
+			character_event = { id = customizer_houses.7 } #Patrician/Clan maintenance
+		}
+		clr_character_flag = page_3
+	}
+	option = {
+		name = "EVTOPTGCUSTOMIZERHOUSES2" #Hoare
+		trigger = { 
+			year = 8024
+			has_character_flag = page_3
+		}	
+		dynasty = 66
+		any_child = { dynasty = 66 }
+		assign_mission_target = {
+			limit = { 
+				dynasty = 66
+				character = 11866 #Ygon Hoare
+			}
+			ROOT = { set_father = PREV }
+			hidden_tooltip = { remove_trait = assign_mission_target }
+		}
+		hidden_tooltip = { 
+			remove_trait = house_customizer 
+			character_event = { id = customizer_houses.7 } #Patrician/Clan maintenance
+		}
+		clr_character_flag = page_3
+	}
+	
+	# option = {
+		# name = "EVTOPTHCUSTOMIZERHOUSES2" #Ironfoot
+		# trigger = { 
+			# has_character_flag = page_3
+		# }	
+		# dynasty = 174440
+		# any_child = { dynasty = 174440 }
+		# hidden_tooltip = { remove_trait = house_customizer }
+		# clr_character_flag = page_3
+	# }
+	option = {
+		name = "EVTOPTICUSTOMIZERHOUSES2" #Greyiron
+		trigger = { 
+			has_character_flag = page_3
+		}	
+		dynasty = 174420
+		any_child = { dynasty = 174420 }
+		assign_mission_target = {
+			limit = { 
+				dynasty = 174420
+				character = 523174420 #Rognar Greyiron
+			}
+			ROOT = { set_father = PREV }
+			hidden_tooltip = { remove_trait = assign_mission_target }
+		}
+		hidden_tooltip = { 
+			remove_trait = house_customizer 
+			character_event = { id = customizer_houses.7 } #Patrician/Clan maintenance
+		}
+		clr_character_flag = page_3
+	}
+	option = {
+		name = "MORE" 
+		trigger = { 
+			has_character_flag = page_3
+		}	
+		clr_character_flag = page_3
+		set_character_flag = page_4
+		hidden_tooltip = { character_event = { id = customizer_houses.2 } }
+	}
+	option = {
+		name = "EVTOPTJCUSTOMIZERHOUSES2" #Teague
+		trigger = { 
+			has_character_flag = page_4
+		}	
+		dynasty = 174435
+		any_child = { dynasty = 174435 }
+		assign_mission_target = {
+			limit = { 
+				dynasty = 174435
+				character = 612174435 #Damon Teague
+			}
+			ROOT = { set_father = PREV }
+			hidden_tooltip = { remove_trait = assign_mission_target }
+		}
+		hidden_tooltip = { 
+			remove_trait = house_customizer 
+			character_event = { id = customizer_houses.7 } #Patrician/Clan maintenance
+		}
+		clr_character_flag = page_4
+	}
+	option = {
+		name = "EVTOPTKCUSTOMIZERHOUSES2" #Fisher
+		trigger = { 
+			has_character_flag = page_4
+		}	
+		dynasty = 174430
+		any_child = { dynasty = 174430 }
+		assign_mission_target = {
+			limit = { 
+				dynasty = 174430
+				character = 614174430 #Edmure Fisher
+			}
+			ROOT = { set_father = PREV }
+			hidden_tooltip = { remove_trait = assign_mission_target }
+		}
+		hidden_tooltip = { 
+			remove_trait = house_customizer 
+			character_event = { id = customizer_houses.7 } #Patrician/Clan maintenance
+		}
+		clr_character_flag = page_4
+	}
+	option = {
+		name = "EVTOPTLCUSTOMIZERHOUSES2" #Justman
+		trigger = { 
+			has_character_flag = page_4
+		}	
+		dynasty = 174432
+		any_child = { dynasty = 174432 }
+		assign_mission_target = {
+			limit = { 
+				dynasty = 174432
+				character = 615174432 #bernarr Justman
+			}
+			ROOT = { set_father = PREV }
+			hidden_tooltip = { remove_trait = assign_mission_target }
+		}
+		hidden_tooltip = { 
+			remove_trait = house_customizer 
+			character_event = { id = customizer_houses.7 } #Patrician/Clan maintenance
+		}
+		clr_character_flag = page_4
+	}
+	option = {
+		name = "MORE" 
+		trigger = { 
+			has_character_flag = page_4
+		}	
+		clr_character_flag = page_4
+		set_character_flag = page_5
+		hidden_tooltip = { character_event = { id = customizer_houses.2 } }
+	}
+	option = {
+		name = "EVTOPTNCUSTOMIZERHOUSES2" #Brightstone
+		trigger = { 
+			has_character_flag = page_5
+		}	
+		dynasty = 881801
+		any_child = { dynasty = 881801 }
+		assign_mission_target = {
+			limit = { 
+				dynasty = 881801
+				character = 550881801 #Jon Brightstone
+			}
+			ROOT = { set_father = PREV }
+			hidden_tooltip = { remove_trait = assign_mission_target }
+		}
+		hidden_tooltip = { 
+			remove_trait = house_customizer 
+			character_event = { id = customizer_houses.7 } #Patrician/Clan maintenance
+		}
+		clr_character_flag = page_5
+	}
+	option = {
+		name = "EVTOPTOCUSTOMIZERHOUSES2" #Shell
+		trigger = { 
+			has_character_flag = page_5
+		}	
+		dynasty = 881800
+		any_child = { dynasty = 881800 }
+		assign_mission_target = {
+			limit = { 
+				dynasty = 881800
+				character = 550881800 #Dywen Shell
+			}
+			ROOT = { set_father = PREV }
+			hidden_tooltip = { remove_trait = assign_mission_target }
+		}
+		hidden_tooltip = { 
+			remove_trait = house_customizer 
+			character_event = { id = customizer_houses.7 } #Patrician/Clan maintenance
+		}
+		clr_character_flag = page_5
+	}
+	option = {
+		name = "EVTOPTPCUSTOMIZERHOUSES2" #Casterly
+		trigger = { 
+			has_character_flag = page_5
+		}	
+		dynasty = 174406
+		any_child = { dynasty = 174406 }
+		assign_mission_target = {
+			limit = { 
+				dynasty = 174406
+				character = 25174406 #Caster Casterly
+			}
+			ROOT = { set_father = PREV }
+			hidden_tooltip = { remove_trait = assign_mission_target }
+		}
+		hidden_tooltip = { 
+			remove_trait = house_customizer 
+			character_event = { id = customizer_houses.7 } #Patrician/Clan maintenance
+		}
+		clr_character_flag = page_5
+	}
+	option = {
+		name = "MORE" 
+		trigger = { 
+			has_character_flag = page_5
+		}	
+		clr_character_flag = page_5
+		set_character_flag = page_6
+		hidden_tooltip = { character_event = { id = customizer_houses.2 } }
+	}
+	option = {
+		name = "EVTOPTDCUSTOMIZERHOUSES21" #Fayer
+		trigger = { 
+			has_character_flag = page_6
+		}	
+		dynasty = 10012
+		any_child = { dynasty = 10012 }
+		hidden_tooltip = { 
+			remove_trait = house_customizer 
+			character_event = { id = customizer_houses.7 } #Patrician maintenance
+		}
+		clr_character_flag = page_2
+	}
+	
+	option = {
+		name = "BACK" 
+		trigger = { 
+			has_character_flag = page_6
+		}	
+		clr_character_flag = page_6
+		hidden_tooltip = { character_event = { id = customizer_houses.1 } }
+	}
+}
+#Choose relation to customiser target
+character_event = {
+	id = customizer_houses.3
+	desc = "EVTDESCCUSTOMIZERHOUSES3"
+	picture = GFX_STARK
+	
+	is_triggered_only = yes
+
+	trigger = {
+		ai = no
+		dynasty = FROM
+	}
+	
+	immediate = {
+		character_event = { id = customizer_houses.7 days = 1 } #Patrician/Clan maintenance
+	}
+	
+	option = {
+		name = "EVTOPTACUSTOMIZERHOUSES3" #Child
+		trigger = { 
+			FROM = {
+				is_older_than = ROOT
+				age_diff = { who = ROOT years = 13 }
+				OR = {
+					is_female = no
+					is_married_matrilineally = yes
+				}
+				OR = {
+					is_female = yes
+					is_married_matrilineally = no
+					is_married = no
+				}
+			}
+		}	
+		FROM = {
+			if = {
+				limit = { is_female = no }
+				ROOT = { set_father = PREV }					
+			}
+			if = {
+				limit = { is_female = yes }
+				ROOT = { set_mother = PREV }					
+			}
+			recalc_succession = yes
+		}	
+		hidden_tooltip = { character_event = { id = customizer_houses.399 } } #locate second parent
+		recalc_succession = yes
+	}
+	
+	option = {
+		name = "EVTOPTBCUSTOMIZERHOUSES3" #Sibling (father)
+		trigger = { 
+			NOT = { age_diff = { who = FROM years = 20 } }
+			FROM = {
+				father_even_if_dead = {
+					dynasty = ROOT
+					OR = {
+						is_alive = no
+						is_older_than = ROOT
+					}	
+				}	
+			}
+		}	
+		FROM = {
+			father_even_if_dead = {
+				ROOT = { set_father = PREV }
+			}	
+		}
+		hidden_tooltip = { character_event = { id = customizer_houses.399 } } #locate second parent	
+		recalc_succession = yes		
+	}
+	
+	option = {
+		name = "EVTOPTBCUSTOMIZERHOUSES3" #Sibling (mother)
+		trigger = { 
+			NOT = { age_diff = { who = FROM years = 20 } }
+			FROM = {
+				mother_even_if_dead = {
+					dynasty = ROOT
+					OR = {
+						is_alive = no
+						is_older_than = ROOT
+					}
+				}	
+				NOT = {
+					father_even_if_dead = {
+						dynasty = ROOT
+						OR = {
+							is_alive = no
+							is_older_than = ROOT
+						}
+					}
+				}
+			}
+		}	
+		FROM = {
+			mother_even_if_dead = {
+				ROOT = { set_mother = PREV }
+			}	
+		}
+		hidden_tooltip = { character_event = { id = customizer_houses.399 } } #locate second parent		
+		recalc_succession = yes
+	}
+	
+	option = { #Uncle (Pat Grandfather)
+		name = {
+			text = "EVTOPTCCUSTOMIZERHOUSES3"
+			trigger = { is_female = no }
+		}	
+		name = {
+			text = "EVTOPTCCUSTOMIZERHOUSES3AUNT"
+			trigger = { is_female = yes }
+		}
+		trigger = { 
+			age_diff = { who = FROM years = 15 }
+			is_older_than = FROM
+			FROM = {
+				father_even_if_dead = {
+					dynasty = ROOT
+					father_even_if_dead = {
+						dynasty = ROOT
+						OR = {
+							is_alive = no
+							is_older_than = ROOT
+						}
+					}
+				}	
+			}
+		}	
+		FROM = {
+			father_even_if_dead = {
+				father_even_if_dead = {
+					ROOT = { set_father = PREV }	
+				}	
+			}	
+		}	
+		hidden_tooltip = { character_event = { id = customizer_houses.399 } } #locate second parent
+		recalc_succession = yes
+	}
+	option = { #Uncle (Mat Grandfather)
+		name = {
+			text = "EVTOPTCCUSTOMIZERHOUSES3"
+			trigger = { is_female = no }
+		}	
+		name = {
+			text = "EVTOPTCCUSTOMIZERHOUSES3AUNT"
+			trigger = { is_female = yes }
+		}
+		trigger = { 
+			age_diff = { who = FROM years = 15 }
+			is_older_than = FROM
+			FROM = {
+				mother_even_if_dead = {
+					dynasty = ROOT
+					father_even_if_dead = {
+						dynasty = ROOT
+						OR = {
+							is_alive = no
+							is_older_than = ROOT
+						}
+					}
+				}	
+			}
+		}	
+		FROM = {
+			mother_even_if_dead = {
+				father_even_if_dead = {
+					ROOT = { set_father = PREV }
+				}	
+			}	
+		}	
+		hidden_tooltip = { character_event = { id = customizer_houses.399 } } #locate second parent
+		recalc_succession = yes
+	}
+	option = { #Uncle (Mat Grandmother)
+		name = {
+			text = "EVTOPTCCUSTOMIZERHOUSES3"
+			trigger = { is_female = no }
+		}	
+		name = {
+			text = "EVTOPTCCUSTOMIZERHOUSES3AUNT"
+			trigger = { is_female = yes }
+		}
+		trigger = { 
+			age_diff = { who = FROM years = 15 }
+			is_older_than = FROM
+			FROM = {
+				mother_even_if_dead = {
+					dynasty = ROOT
+					mother_even_if_dead = {
+						dynasty = ROOT
+						OR = {
+							is_alive = no
+							is_older_than = ROOT
+						}
+					}
+				}	
+			}
+		}	
+		FROM = {
+			mother_even_if_dead = {
+				mother_even_if_dead = {
+					ROOT = { set_mother = PREV }
+				}	
+			}	
+		}	
+		hidden_tooltip = { character_event = { id = customizer_houses.399 } } #locate second parent
+		recalc_succession = yes
+	}
+	option = { #Uncle (Pat Grandmother)
+		name = {
+			text = "EVTOPTCCUSTOMIZERHOUSES3"
+			trigger = { is_female = no }
+		}	
+		name = {
+			text = "EVTOPTCCUSTOMIZERHOUSES3AUNT"
+			trigger = { is_female = yes }
+		}
+		trigger = { 
+			age_diff = { who = FROM years = 15 }
+			is_older_than = FROM
+			FROM = {
+				father_even_if_dead = {
+					dynasty = ROOT
+					mother_even_if_dead = {
+						dynasty = ROOT
+						OR = {
+							is_alive = no
+							is_older_than = ROOT
+						}
+					}
+				}	
+			}
+		}	
+		FROM = {
+			father_even_if_dead = {
+				mother_even_if_dead = {
+					ROOT = { set_mother = PREV }
+				}	
+			}	
+		}	
+		hidden_tooltip = { character_event = { id = customizer_houses.399 } } #locate second parent
+		recalc_succession = yes
+	}
+	
+	option = { #Great Uncle
+		name = {
+			text = "EVTOPTDCUSTOMIZERHOUSES3"
+			trigger = { is_female = no }
+		}	
+		name = {
+			text = "EVTOPTDCUSTOMIZERHOUSES3AUNT"
+			trigger = { is_female = yes }
+		}
+		trigger = { 
+			age_diff = { who = FROM years = 30 }
+			is_older_than = FROM
+			FROM = {
+				father_even_if_dead = {
+					dynasty = ROOT
+					father_even_if_dead = {
+						dynasty = ROOT
+						father_even_if_dead = {
+							dynasty = ROOT
+							OR = {
+								is_alive = no
+								is_older_than = ROOT
+							}
+						}
+					}
+				}	
+			}
+		}	
+		FROM = {
+			father_even_if_dead = {
+				father_even_if_dead = {
+					father_even_if_dead = {
+						ROOT = { set_father = PREV }
+					}	
+				}	
+			}	
+		}	
+		hidden_tooltip = { character_event = { id = customizer_houses.399 } } #locate second parent
+		recalc_succession = yes
+	}
+
+	option = {
+		name = "EVTOPTFCUSTOMIZERHOUSES3" #Bastard sibling (father)
+		trigger = { 
+			NOT = { age_diff = { who = FROM years = 20 } }
+			FROM = {
+				father_even_if_dead = {
+					dynasty = ROOT
+					OR = {
+						is_alive = no
+						is_older_than = ROOT
+					}	
+				}	
+			}
+			OR = {
+				trait = bastard
+				trait = legit_bastard
+			}
+		}	
+		FROM = {
+			father_even_if_dead = {
+				ROOT = { set_father = PREV }
+			}	
+		}
+		hidden_tooltip = { character_event = { id = customizer_houses.5 } }	
+	}
+
+	option = {
+		name = "EVTOPTGCUSTOMIZERHOUSES3" #Bastard child
+		trigger = { 
+			FROM = {
+				is_older_than = ROOT
+				age_diff = { who = ROOT years = 13 }
+				OR = {
+					is_female = no
+					is_married_matrilineally = yes
+				}
+				OR = {
+					is_female = yes
+					is_married_matrilineally = no
+					is_married = no
+				}
+			}
+			OR = {
+				trait = bastard
+				trait = legit_bastard
+			}
+		}	
+		FROM = {
+			if = {
+				limit = { is_female = no }
+				ROOT = { set_father = PREV }					
+			}
+			if = {
+				limit = { is_female = yes }
+				ROOT = { set_mother = PREV }					
+			}
+			recalc_succession = yes
+		}	
+		hidden_tooltip = { character_event = { id = customizer_houses.5 } }
+	}
+
+
+	option = {
+		name = "EVTOPTHCUSTOMIZERHOUSES3" #Bastard sibling (mother)
+		trigger = { 
+			NOT = { age_diff = { who = FROM years = 20 } }
+			FROM = {
+				mother_even_if_dead = {
+					dynasty = ROOT
+					OR = {
+						is_alive = no
+						is_older_than = ROOT
+					}
+				}	
+				NOT = {
+					father_even_if_dead = {
+						dynasty = ROOT
+						OR = {
+							is_alive = no
+							is_older_than = ROOT
+						}
+					}
+				}
+			}
+			OR = {
+				trait = bastard
+				trait = legit_bastard
+			}
+		}	
+		FROM = {
+			mother_even_if_dead = {
+				ROOT = { set_mother = PREV }
+			}	
+		}
+		hidden_tooltip = { character_event = { id = customizer_houses.5 } }
+	}
+	
+	option = { #No relation
+		name = EVTOPTECUSTOMIZERHOUSES3
+		custom_tooltip = { text = TOOLTIPCUSTOMISERWARNING }
+	}
+}	
+character_event = { #set new parent's spouse as parent
+	id = customizer_houses.399
+	desc = "EVTDESCCUSTOMIZERHOUSES399"
+	picture = GFX_STARK
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = { 
+		ai = no 
+		NOT = { trait = bastard }
+		NOT = { trait = legit_bastard }
+		NOT = { trait = child_of_consort }
+		NOT = { trait = adopted }
+	}
+
+	immediate = { 
+		mother_even_if_dead = {
+			if = {
+				limit = { 
+					dynasty = ROOT
+					spouse_even_if_dead = { 
+						OR = {
+							is_alive = no
+							is_older_than = ROOT
+						}
+					}
+				}
+				spouse_even_if_dead = {
+					if = {
+						limit = { is_female = no }
+						ROOT = { set_father = PREV }					
+					}
+					if = {
+						limit = { is_female = yes }
+						ROOT = { set_mother = PREV }					
+					}
+				}
+			}
+		}
+		father_even_if_dead = {
+			if = {
+				limit = { 
+					dynasty = ROOT
+					spouse_even_if_dead = {
+						OR = {
+							is_alive = no
+							is_older_than = ROOT
+						}
+					}
+				}
+				spouse_even_if_dead = {
+					if = {
+						limit = { is_female = no }
+						ROOT = { set_father = PREV }					
+					}
+					if = {
+						limit = { is_female = yes }
+						ROOT = { set_mother = PREV }					
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}	
+#Customiser time out
+character_event = {
+	id = customizer_houses.4
+	desc = "EVTDESCCUSTOMIZERHOUSES4"
+	picture = GFX_STARK
+	
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		trait = house_customizer
+	}
+	
+	immediate = { remove_trait = house_customizer }
+	
+	option = {
+		name = OK
+	}
+}
+
+character_event = {
+	id = customizer_houses.5
+	desc = "EVTDESCHOUSECUSTOMIZER5"
+	picture = GFX_STARK
+
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {
+		any_child = {
+			character_event = { id = customizer_houses.6 days = 1 }
+		}
+	}
+
+	option = {
+		name = "OK"
+		trigger = { 
+			dynasty = 59
+		}
+		character_event = { id = cadet.1 } #Stark
+	}
+	option = {
+		name = "OK"
+		trigger = { 
+			dynasty = 496
+		}
+		character_event = { id = cadet.2 } #Targ
+	}
+	option = {
+		name = "OK"
+		trigger = { 
+			dynasty = 190
+		}
+		character_event = { id = cadet.3 } #Lannister
+	}
+	option = {
+		name = "OK"
+		trigger = {
+			dynasty = 1
+		}
+		character_event = { id = cadet.4 } #Martell
+	}
+	option = {
+		name = "OK"
+		trigger = { 
+			dynasty = 159
+		}
+		character_event = { id = cadet.5 } #Tully
+	}
+	option = {
+		name = "OK"
+		trigger = { 
+			dynasty = 178
+		}
+		character_event = { id = cadet.6 } #Arryn
+	}
+	option = {
+		name = "OK"
+		trigger = { 
+			dynasty = 317
+		}
+		character_event = { id = cadet.7 } #Baratheon
+	}
+	option = {
+		name = "OK"
+		trigger = { 
+			dynasty = 253
+		}
+		character_event = { id = cadet.8 } #Tyrell
+	}
+	option = {
+		name = "OK"
+		trigger = { 
+			dynasty = 107
+		}
+		character_event = { id = cadet.9 } #Greyjoy
+	}
+	option = {
+		name = "OK"
+		trigger = { 
+			dynasty = 127
+		}
+		character_event = { id = cadet.13 } #Frey
+	}
+	option = {
+		name = "OK"
+		trigger = {  #If your dynasty is not one of the great houses
+			NOT = {
+				OR = {
+					dynasty = 59
+					dynasty = 496
+					dynasty = 190
+					dynasty = 1
+					dynasty = 159
+					dynasty = 178
+					dynasty = 317
+					dynasty = 253
+					dynasty = 107
+					dynasty = 127
+				}
+			}
+		}
+	   	character_event = { id = cadet.11 } #New Dynasty
+	}
+}
+
+character_event = {
+	id = customizer_houses.6
+	is_triggered_only = yes
+	hide_window = yes
+	immediate = { dynasty = FROM }
+	option = {
+		name = OK
+	}
+}
+
+#Create new palace/clan to avoid CTD
+character_event = {
+	id = customizer_houses.7
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = { 
+		if = {
+			limit = { is_patrician = yes }
+			family_palace = { destroy_settlement = THIS }
+			create_family_palace = yes
+		}	
+		# if = {
+			# limit = { is_nomadic = yes }
+			# liege = { save_event_target_as = nomad_liege }
+			# clan_title = { destroy_landed_title = THIS }
+			# create_title = {
+				# tier = KING
+				# landless = yes
+				# temporary = no
+				# custom_created = yes
+				# culture = ROOT
+				# holder = ROOT
+				# nomad = yes
+				# name = CUSTOMISED_NOMAD_CLAN
+			# }	
+			# primary_title = {
+				# set_title_nomad = { title = THIS status = yes }
+			# }
+			# event_target:nomad_liege = { ROOT = { set_defacto_liege = PREV } }
+		# }	
+	}
+	
+	option = {
+		name = OK
+	}
+}

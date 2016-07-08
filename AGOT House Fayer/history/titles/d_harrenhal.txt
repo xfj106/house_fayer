@@ -1,0 +1,76 @@
+7600.1.1={
+	liege="e_riverlands"
+	law = succ_primogeniture
+}
+7933.1.1 = { holder=11366 } # Harwyn (C)
+7956.1.1 = { holder=11466 } # Harrock (nc)
+7960.1.1 = { holder=11566 } # Harren (C)
+#Qoherys
+7998.2.1={
+	liege="k_riverlands"
+	#holder=359 #Quenton
+	holder=54600005 #Antoine
+}
+#House Fayer
+#7999.1.1={
+#	holder=54600005 #Antoine
+#}
+8040.1.1 = {
+	holder=54600006 #Antoine II
+}
+8061.1.1 = {
+	holder=54600001 #Roland 
+}
+
+8103.1.1={
+	liege = e_iron_throne
+}
+8105.1.1 = {
+	holder=54600003 #Julien
+}
+8130.1.1={
+	liege = k_riverlands
+}
+#Reverts to the crown post dance
+8131.1.8={
+	holder = 77015		#Aegon III the Unlucky
+}
+#House Lothston
+8151.1.1 = {
+	holder=5355 #Ser Lucas
+}
+8173.1.1 = {
+	holder=3355 #Lucas the Pander
+}
+8195.3.7={
+	liege = 0
+}
+8196.1.1={
+	liege = "k_riverlands"
+}
+8198.1.1 = {
+	holder=2355
+}
+8200.1.1 = {
+	holder=1355
+}
+#House Whent
+8229.1.1 = {
+	holder=6146
+}
+8233.1.1 = {
+	holder=4146
+}
+8265.1.1={
+	holder=5056 #Walter Whent 
+}
+8296.1.1={
+	holder=15056 #Shella Whent
+}
+8299.1.1={
+	holder = 190 #Tywin
+}
+8299.11.5 = {
+	holder=94043 #Littlefinger
+	liege=k_vale
+}

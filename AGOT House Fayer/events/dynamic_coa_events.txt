@@ -1,0 +1,1300 @@
+namespace = dynamic_coa
+
+#on game load/start, update CoAs
+character_event = {
+	id = dynamic_coa.1
+	
+	is_triggered_only = yes
+	only_rulers = yes
+	hide_window = yes
+	
+	trigger = { has_landed_title = c_the_citadel }
+	
+	immediate = {
+		e_iron_throne = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 496 } }
+				set_coa = d_daemons_host #Targaryen
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 57 } }
+				set_coa = d_daemon_blackfyres_host #Blackfyre
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 59 } }
+				set_coa = c_stark
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 159 } }
+				set_coa = c_tully
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 178 } }
+				set_coa = c_the_eyrie #Arryn
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 190 } }
+				if = {
+					limit = { holder_scope = { has_dynasty_flag = lannister_baratheon } }
+					set_coa = c_lannister_baratheon
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { has_dynasty_flag = lannister_baratheon } } }
+					set_coa = c_lannister
+				}
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 253 } }
+				set_coa = c_tyrell
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1254 } }
+				set_coa = c_gardener
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 317 } }
+				if = {
+					limit = { holder_scope = { religion = rhllor } }
+					set_coa = c_baratheon_rhllor
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { religion = rhllor } } }
+					set_coa = c_baratheon
+				}
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1544 } }
+				set_coa = c_baratheon #Durrandon
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1 } }
+				set_coa = c_martell
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 107 } }
+				set_coa = c_greyjoy
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 66 } }
+				set_coa = c_hoare
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 10012 } }
+				set_coa = c_fayer
+			}
+		}
+		k_crownlands = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 496 } }
+				set_coa = d_daemons_host #Targaryen
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 57 } }
+				set_coa = d_daemon_blackfyres_host #Blackfyre
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 59 } }
+				set_coa = c_stark
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 159 } }
+				set_coa = c_tully
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 178 } }
+				set_coa = c_the_eyrie #Arryn
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 190 } }
+				if = {
+					limit = { holder_scope = { has_dynasty_flag = lannister_baratheon } }
+					set_coa = c_lannister_baratheon
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { has_dynasty_flag = lannister_baratheon } } }
+					set_coa = c_lannister
+				}
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 253 } }
+				set_coa = c_tyrell
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1254 } }
+				set_coa = c_gardener
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 317 } }
+				if = {
+					limit = { holder_scope = { religion = rhllor } }
+					set_coa = c_baratheon_rhllor
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { religion = rhllor } } }
+					set_coa = c_baratheon
+				}
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1544 } }
+				set_coa = c_baratheon #Durrandon
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1 } }
+				set_coa = c_martell
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 107 } }
+				set_coa = c_greyjoy
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 66 } }
+				set_coa = c_hoare
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 10012 } }
+				set_coa = c_fayer
+			}
+		}
+		k_kings_landingTK = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 496 } }
+				set_coa = d_daemons_host #Targaryen
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 57 } }
+				set_coa = d_daemon_blackfyres_host #Blackfyre
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 59 } }
+				set_coa = c_stark
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 159 } }
+				set_coa = c_tully
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 178 } }
+				set_coa = c_the_eyrie #Arryn
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 190 } }
+				if = {
+					limit = { holder_scope = { has_dynasty_flag = lannister_baratheon } }
+					set_coa = c_lannister_baratheon
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { has_dynasty_flag = lannister_baratheon } } }
+					set_coa = c_lannister
+				}
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 253 } }
+				set_coa = c_tyrell
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1254 } }
+				set_coa = c_gardener
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 317 } }
+				if = {
+					limit = { holder_scope = { religion = rhllor } }
+					set_coa = c_baratheon_rhllor
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { religion = rhllor } } }
+					set_coa = c_baratheon
+				}
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1544 } }
+				set_coa = c_baratheon #Durrandon
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1 } }
+				set_coa = c_martell
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 107 } }
+				set_coa = c_greyjoy
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 66 } }
+				set_coa = c_hoare
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 10012 } }
+				set_coa = c_fayer
+			}
+		}
+		d_kings_landing = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 496 } }
+				set_coa = d_daemons_host #Targaryen
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 57 } }
+				set_coa = d_daemon_blackfyres_host #Blackfyre
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 59 } }
+				set_coa = c_stark
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 159 } }
+				set_coa = c_tully
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 178 } }
+				set_coa = c_the_eyrie #Arryn
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 190 } }
+				if = {
+					limit = { holder_scope = { has_dynasty_flag = lannister_baratheon } }
+					set_coa = c_lannister_baratheon
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { has_dynasty_flag = lannister_baratheon } } }
+					set_coa = c_lannister
+				}
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 253 } }
+				set_coa = c_tyrell
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1254 } }
+				set_coa = c_gardener
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 317 } }
+				if = {
+					limit = { holder_scope = { religion = rhllor } }
+					set_coa = c_baratheon_rhllor
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { religion = rhllor } } }
+					set_coa = c_baratheon
+				}
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1544 } }
+				set_coa = c_baratheon #Durrandon
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1 } }
+				set_coa = c_martell
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 107 } }
+				set_coa = c_greyjoy
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 66 } }
+				set_coa = c_hoare
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 10012 } }
+				set_coa = c_fayer
+			}
+		}
+		c_kings_landing = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 496 } }
+				set_coa = d_daemons_host #Targaryen
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 57 } }
+				set_coa = d_daemon_blackfyres_host #Blackfyre
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 59 } }
+				set_coa = c_stark
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 159 } }
+				set_coa = c_tully
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 178 } }
+				set_coa = c_the_eyrie #Arryn
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 190 } }
+				if = {
+					limit = { holder_scope = { has_dynasty_flag = lannister_baratheon } }
+					set_coa = c_lannister_baratheon
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { has_dynasty_flag = lannister_baratheon } } }
+					set_coa = c_lannister
+				}
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 253 } }
+				set_coa = c_tyrell
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1254 } }
+				set_coa = c_gardener
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 317 } }
+				if = {
+					limit = { holder_scope = { religion = rhllor } }
+					set_coa = c_baratheon_rhllor
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { religion = rhllor } } }
+					set_coa = c_baratheon
+				}
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1544 } }
+				set_coa = c_baratheon #Durrandon
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1 } }
+				set_coa = c_martell
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 107 } }
+				set_coa = c_greyjoy
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 66 } }
+				set_coa = c_hoare
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 10012 } }
+				set_coa = c_fayer
+			}
+		}
+		e_new_valyria = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 496 } }
+				set_coa = d_daemons_host #Targaryen
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 57 } }
+				set_coa = d_daemon_blackfyres_host #Blackfyre
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 10012 } }
+				set_coa = c_fayer #Fayer
+			}
+		}
+		e_north = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 59 } }
+				set_coa = c_stark
+			}
+		}
+		k_north = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 59 } }
+				set_coa = c_stark
+			}
+		}
+		k_winterfellTK = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 59 } }
+				set_coa = c_stark
+			}
+		}
+		d_winterfell = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 59 } }
+				set_coa = c_stark
+			}
+		}
+		c_winterfell = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 59 } }
+				set_coa = c_stark
+			}
+		}
+		e_riverlands = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 159 } }
+				set_coa = c_tully
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 10012 } }
+				set_coa = c_fayer
+			}
+		}
+		k_riverlands = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 159 } }
+				set_coa = c_tully
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 10012 } }
+				set_coa = c_fayer
+			}
+		}
+		k_riverrunTK = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 159 } }
+				set_coa = c_tully
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 10012 } }
+				set_coa = c_fayer
+			}
+		}
+		d_riverrun = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 159 } }
+				set_coa = c_tully
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 10012 } }
+				set_coa = c_fayer
+			}
+		}
+		c_riverrun = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 159 } }
+				set_coa = c_tully
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 10012 } }
+				set_coa = c_fayer
+			}
+		}
+		e_vale = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 178 } }
+				set_coa = c_the_eyrie #Arryn
+			}
+		}
+		k_vale = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 178 } }
+				set_coa = c_the_eyrie #Arryn
+			}
+		}
+		k_the_giants_lanceTK = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 178 } }
+				set_coa = c_the_eyrie #Arryn
+			}
+		}
+		d_the_giants_lance = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 178 } }
+				set_coa = c_the_eyrie #Arryn
+			}
+		}
+		# c_the_eyrie = {
+			# if = {
+				# limit = { holder_scope = { dynasty = 178 } }
+				# set_coa = c_the_eyrie #Arryn
+			# }
+		# }
+		e_westerlands = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 190 } }
+				set_coa = c_lannister
+			}
+		}
+		k_westerlands = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 190 } }
+				set_coa = c_lannister
+			}
+		}
+		k_casterly_rockTK = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 190 } }
+				set_coa = c_lannister
+			}
+		}
+		d_casterly_rock = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 190 } }
+				set_coa = c_lannister
+			}
+		}
+		c_casterly_rock = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 190 } }
+				set_coa = c_lannister
+			}
+		}
+		e_reach = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 253 } }
+				set_coa = c_tyrell
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1254 } }
+				set_coa = c_gardener
+			}
+		}
+		k_reach = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 253 } }
+				set_coa = c_tyrell
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1254 } }
+				set_coa = c_gardener
+			}
+		}
+		k_highgardenTK = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 253 } }
+				set_coa = c_tyrell
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1254 } }
+				set_coa = c_gardener
+			}
+		}
+		d_highgarden = { 
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 253 } }
+				set_coa = c_tyrell
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1254 } }
+				set_coa = c_gardener
+			}
+		}
+		c_highgarden= {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 253 } }
+				set_coa = c_tyrell
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1254 } }
+				set_coa = c_gardener
+			}
+		}
+		e_stormlands = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 317 } }
+				if = {
+					limit = { holder_scope = { religion = rhllor } }
+					set_coa = c_baratheon_rhllor
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { religion = rhllor } } }
+					set_coa = c_baratheon
+				}
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1544 } }
+				set_coa = c_baratheon #Durrandon
+			}
+		}
+		k_stormlands = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 317 } }
+				if = {
+					limit = { holder_scope = { religion = rhllor } }
+					set_coa = c_baratheon_rhllor
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { religion = rhllor } } }
+					set_coa = c_baratheon
+				}
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1544 } }
+				set_coa = c_baratheon #Durrandon
+			}
+		}
+		k_shipbreakerTK = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 317 } }
+				if = {
+					limit = { holder_scope = { religion = rhllor } }
+					set_coa = c_baratheon_rhllor
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { religion = rhllor } } }
+					set_coa = c_baratheon
+				}
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1544 } }
+				set_coa = c_baratheon #Durrandon
+			}
+		}
+		d_shipbreaker = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 317 } }
+				if = {
+					limit = { holder_scope = { religion = rhllor } }
+					set_coa = c_baratheon_rhllor
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { religion = rhllor } } }
+					set_coa = c_baratheon
+				}
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1544 } }
+				set_coa = c_baratheon #Durrandon
+			}
+		}
+		c_storms_end = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 317 } }
+				if = {
+					limit = { holder_scope = { religion = rhllor } }
+					set_coa = c_baratheon_rhllor
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { religion = rhllor } } }
+					set_coa = c_baratheon
+				}
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1544 } }
+				set_coa = c_baratheon #Durrandon
+			}
+		}
+		e_dorne = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 1 } }
+				set_coa = c_martell
+			}
+		}
+		k_dorne = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 1 } }
+				set_coa = c_martell
+			}
+		}
+		k_brokenarmTK = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 1 } }
+				set_coa = c_martell
+			}
+		}
+		d_brokenarm = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 1 } }
+				set_coa = c_martell
+			}
+		}
+		c_sunspear = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 1 } }
+				set_coa = c_martell
+			}
+		}
+		e_iron_isles = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 107 } }
+				set_coa = c_greyjoy
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 66 } }
+				set_coa = c_hoare
+			}
+		}
+		k_iron_isles = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 107 } }
+				set_coa = c_greyjoy
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 66 } }
+				set_coa = c_hoare
+			}
+		}
+		k_pykeTK = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 107 } }
+				set_coa = c_greyjoy
+			}
+		}
+		d_pyke = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 107 } }
+				set_coa = c_greyjoy
+			}
+		}
+		c_pyke = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 107 } }
+				set_coa = c_greyjoy
+			}
+		}
+		k_seastone_islesTK = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 66 } }
+				set_coa = c_hoare
+			}
+		}
+		d_seastone_isles = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 66 } }
+				set_coa = c_hoare
+			}
+		}
+		c_orkmont = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 66 } }
+				set_coa = c_hoare
+			}
+		}
+		c_harrenhal = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 10012 } }
+				set_coa = c_fayer
+			}
+		}
+		d_harrenhal = {
+			reset_coa = THIS
+			if = {
+				limit = { holder_scope = { dynasty = 10012 } }
+				set_coa = c_fayer
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+#Check CoAs on new holder
+character_event = {
+	id = dynamic_coa.2
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = { 
+		FROM = {
+			NOT = { tier = BARON }
+			OR = {
+				title = e_iron_throne
+				title = k_crownlands
+				title = k_kings_landingTK
+				title = d_kings_landing
+				title = c_kings_landing
+			}	
+		}
+	}
+	
+	immediate = {
+		FROM = {
+			if = {
+				limit = { holder_scope = { dynasty = 496 } }
+				set_coa = d_daemons_host #Targaryen
+				break = yes
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 57 } }
+				set_coa = d_daemon_blackfyres_host #Blackfyre
+				break = yes
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 59 } }
+				set_coa = c_stark
+				break = yes
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 159 } }
+				set_coa = c_tully
+				break = yes
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 178 } }
+				set_coa = c_the_eyrie #Arryn
+				break = yes
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 190 } }
+				if = {
+					limit = { holder_scope = { has_dynasty_flag = lannister_baratheon } }
+					set_coa = c_lannister_baratheon
+					break = yes
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { has_dynasty_flag = lannister_baratheon } } }
+					set_coa = c_lannister
+					break = yes
+				}
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 253 } }
+				set_coa = c_tyrell
+				break = yes
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1254 } }
+				set_coa = c_gardener
+				break = yes
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 317 } }
+				if = {
+					limit = { holder_scope = { religion = rhllor } }
+					set_coa = c_baratheon_rhllor
+					break = yes
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { religion = rhllor } } }
+					set_coa = c_baratheon
+					break = yes
+				}
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1544 } }
+				set_coa = c_baratheon #Durrandon
+				break = yes
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1 } }
+				set_coa = c_martell
+				break = yes
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 107 } }
+				set_coa = c_greyjoy
+				break = yes
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 66 } }
+				set_coa = c_hoare
+				break = yes
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 10012 } }
+				set_coa = c_fayer
+				break = yes
+			}
+			reset_coa = THIS
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+character_event = {
+	id = dynamic_coa.3
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = { 
+		FROM = { title = e_new_valyria }
+	}
+	
+	immediate = {
+		FROM = {
+			if = {
+				limit = { holder_scope = { dynasty = 496 } }
+				set_coa = d_daemons_host #Targaryen
+				break = yes
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 57 } }
+				set_coa = d_daemon_blackfyres_host #Blackfyre
+				break = yes
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 10012 } }
+				set_coa = c_fayer
+				break = yes
+			}
+			
+			reset_coa = THIS
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+character_event = {
+	id = dynamic_coa.4
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = { 
+		FROM = { 
+			NOT = { tier = BARON }
+			OR = {
+				title = e_north
+				title = k_north
+				title = k_winterfellTK
+				title = d_winterfell
+				title = c_winterfell
+			}	
+		}
+	}
+	
+	immediate = {
+		FROM = {
+			if = {
+				limit = { holder_scope = { dynasty = 59 } }
+				set_coa = c_stark
+				break = yes
+			}
+			reset_coa = THIS
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+character_event = {
+	id = dynamic_coa.5
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = { 
+		FROM = { 
+			NOT = { tier = BARON }
+			OR = {
+				title = e_riverlands
+				title = k_riverlands
+				title = k_riverrunTK
+				title = d_riverrun
+				title = c_riverrun
+			}	
+		}
+	}
+	
+	immediate = {
+		FROM = {
+			if = {
+				limit = { holder_scope = { dynasty = 159 } }
+				set_coa = c_tully
+				break = yes
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 10012 } }
+				set_coa = c_fayer
+				break = yes
+			}
+			reset_coa = THIS
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+character_event = {
+	id = dynamic_coa.6
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = { 
+		FROM = { 
+			NOT = { tier = BARON }
+			OR = {
+				title = e_vale
+				title = k_vale
+				title = k_the_giants_lanceTK
+				title = d_the_giants_lance
+				#title = c_the_eyrie
+			}	
+		}
+	}
+	
+	immediate = {
+		FROM = {
+			if = {
+				limit = { holder_scope = { dynasty = 178 } }
+				set_coa = c_the_eyrie #Arryn
+				break = yes
+			}
+			reset_coa = THIS
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+character_event = {
+	id = dynamic_coa.7
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = { 
+		FROM = { 
+			NOT = { tier = BARON }
+			OR = {
+				title = e_westerlands
+				title = k_westerlands
+				title = k_casterly_rockTK
+				title = d_casterly_rock
+				title = c_casterly_rock
+			}	
+		}
+	}
+	
+	immediate = {
+		FROM = {
+			if = {
+				limit = { holder_scope = { dynasty = 190 } }
+				set_coa = c_lannister
+				break = yes
+			}
+			reset_coa = THIS
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+character_event = {
+	id = dynamic_coa.8
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = { 
+		FROM = { 
+			NOT = { tier = BARON }
+			OR = {
+				title = e_reach
+				title = k_reach
+				title = k_highgardenTK
+				title = d_highgarden
+				title = c_highgarden
+			}	
+		}
+	}
+	
+	immediate = {
+		FROM = {
+			if = {
+				limit = { holder_scope = { dynasty = 253 } }
+				set_coa = c_tyrell
+				break = yes
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1254 } }
+				set_coa = c_gardener
+				break = yes
+			}
+			reset_coa = THIS
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+character_event = {
+	id = dynamic_coa.9
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = { 
+		FROM = { 
+			NOT = { tier = BARON }
+			OR = {
+				title = e_stormlands
+				title = k_stormlands
+				title = k_shipbreakerTK
+				title = d_shipbreaker
+				title = c_storms_end
+			}	
+		}
+	}
+	
+	immediate = {
+		FROM = {
+			if = {
+				limit = { holder_scope = { dynasty = 317 } }
+				if = {
+					limit = { holder_scope = { religion = rhllor } }
+					set_coa = c_baratheon_rhllor
+				}	
+				if = {
+					limit = { holder_scope = { NOT = { religion = rhllor } } }
+					set_coa = c_baratheon
+				}
+				break = yes
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 1544 } }
+				set_coa = c_baratheon #Durrandon
+				break = yes
+			}
+			reset_coa = THIS
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+character_event = {
+	id = dynamic_coa.10
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = { 
+		FROM = { 
+			NOT = { tier = BARON }
+			OR = {
+				title = e_dorne
+				title = k_dorne
+				title = k_brokenarmTK
+				title = d_brokenarm
+				title = c_sunspear
+			}	
+		}
+	}
+	
+	immediate = {
+		FROM = {
+			if = {
+				limit = { holder_scope = { dynasty = 1 } }
+				set_coa = c_martell
+				break = yes
+			}
+			reset_coa = THIS
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+character_event = {
+	id = dynamic_coa.11
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = { 
+		FROM = { 
+			NOT = { tier = BARON }
+			OR = {
+				title = e_iron_isles
+				title = k_iron_isles
+				title = k_pykeTK
+				title = d_pyke
+				title = c_pyke
+				title = k_seastone_islesTK
+				title = d_seastone_isles
+				title = c_orkmont
+			}	
+		}
+	}
+	
+	immediate = {
+		FROM = {
+			if = {
+				limit = { holder_scope = { dynasty = 107 } }
+				set_coa = c_greyjoy
+				break = yes
+			}
+			if = {
+				limit = { holder_scope = { dynasty = 66 } }
+				set_coa = c_hoare
+				break = yes
+			}
+			reset_coa = THIS
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+character_event = {
+	id = dynamic_coa.12
+	
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = { 
+		FROM = { 
+			NOT = { tier = BARON }
+			OR = {
+				title = c_harrenhal
+				title = d_harrenhal
+			}	
+		}
+	}
+	
+	immediate = {
+		FROM = {
+			if = {
+				limit = { holder_scope = { dynasty = 10012 } }
+				set_coa = c_fayer
+				break = yes
+			}
+			reset_coa = THIS
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}

@@ -1,0 +1,108 @@
+##dummy titles to allow the changing of other title's coats of arms dynamically
+
+
+# c_targaryen = {    d_daemons_host
+
+# c_blackfyre = {  d_daemon_blackfyres_host
+
+c_stark = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_tully = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+# c_arryn = {  c_the_eyrie
+
+c_lannister = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_lannister_baratheon = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_tyrell = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_gardener = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_baratheon = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_baratheon_rhllor = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+#c_durrandon = { c_baratheon
+
+c_martell = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_greyjoy = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_hoare = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+
+c_fayer = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
