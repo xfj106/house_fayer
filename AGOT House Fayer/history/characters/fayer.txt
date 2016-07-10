@@ -30,6 +30,14 @@
 		add_trait = "skilled_warrior"
 	}
 
+	8061.1.1 = {
+		effect = {
+			107 = { 
+				add_province_modifier = { name = completeharren3 duration = -1 }
+			}	
+		}
+	}
+
 	8068.7.15 = {
 		add_spouse=54700002
 	}
@@ -71,6 +79,14 @@
 		
 		add_trait = "gamer"
 		
+	}
+
+	8105.1.1 = {
+		effect = {
+			107 = { 
+				add_province_modifier = { name = completeharren3 duration = -1 }
+			}	
+		}
 	}
 
 	8146.1.1 = {

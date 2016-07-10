@@ -1,0 +1,69 @@
+# 107 - Harrenhal
+
+# County Title
+title = c_harrenhal
+
+# Settlements
+max_settlements = 7 #one of the richest areas
+b_harrenhal = castle
+b_harrentown = city
+b_upstream = city
+b_harrenhal_sept = temple
+b_kingharren1 = castle
+b_kingharren2 = castle
+b_kingharren3 = castle
+
+# Misc
+culture = riverlander
+religion = the_seven
+
+# History
+
+
+
+6000.1.1 = {
+
+b_harrenhal = ca_asoiaf_river_basevalue_1
+b_harrenhal = ca_asoiaf_river_basevalue_2
+b_harrenhal = ca_asoiaf_river_basevalue_3
+b_harrenhal = ca_asoiaf_river_basevalue_4
+b_harrenhal = ca_asoiaf_river_basevalue_5
+
+b_harrentown = ct_asoiaf_river_basevalue_1
+b_harrentown = ct_asoiaf_river_basevalue_2
+b_harrentown = ct_asoiaf_river_basevalue_3
+b_harrentown = ct_asoiaf_river_basevalue_4
+
+b_upstream = ct_asoiaf_river_basevalue_1
+b_upstream = ct_asoiaf_river_basevalue_2
+
+}
+7982.1.1 = {
+	b_harrenhal = ca_harrenhal_castle
+	b_harrenhal = ca_asoiaf_slavepit_1
+	b_harrenhal = ca_asoiaf_slavepit_2
+	b_harrenhal = ca_asoiaf_slavepit_3
+	
+	#b_harrenhal = ca_asoiaf_ironshipyard
+	#b_harrenhal = ca_asoiaf_large_ironshipyard
+}
+
+8000.2.1 = {
+	b_kingharren1 = ca_harrenhal_ruins
+
+	b_kingharren2 = ca_harrenhal_ruins
+
+	b_kingharren3 = ca_harrenhal_ruins
+}
+
+8050.1.1 = {
+#	add_province_modifier = { name = completeharren3 duration = -1 }
+	b_kingharren1 = castle
+	b_kingharren2 = castle
+	b_kingharren3 = castle
+}
+
+8070.1.1 = { #Jaehaerys constructs road network
+	b_harrenhal = ca_kingsroad
+}
+
