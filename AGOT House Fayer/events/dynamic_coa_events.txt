@@ -22,7 +22,14 @@ character_event = {
 				set_coa = d_daemon_blackfyres_host #Blackfyre
 			}
 			if = {
-				limit = { holder_scope = { dynasty = 59 } }
+				limit = { 
+					holder_scope = { 
+						OR = {
+							dynasty = 59
+							dynasty = 1559
+						}
+					} 
+				}
 				set_coa = c_stark
 			}
 			if = {
@@ -95,7 +102,14 @@ character_event = {
 				set_coa = d_daemon_blackfyres_host #Blackfyre
 			}
 			if = {
-				limit = { holder_scope = { dynasty = 59 } }
+				limit = { 
+					holder_scope = { 
+						OR = {
+							dynasty = 59
+							dynasty = 1559
+						}
+					} 
+				}
 				set_coa = c_stark
 			}
 			if = {
@@ -168,7 +182,14 @@ character_event = {
 				set_coa = d_daemon_blackfyres_host #Blackfyre
 			}
 			if = {
-				limit = { holder_scope = { dynasty = 59 } }
+				limit = { 
+					holder_scope = { 
+						OR = {
+							dynasty = 59
+							dynasty = 1559
+						}
+					} 
+				}
 				set_coa = c_stark
 			}
 			if = {
@@ -241,7 +262,14 @@ character_event = {
 				set_coa = d_daemon_blackfyres_host #Blackfyre
 			}
 			if = {
-				limit = { holder_scope = { dynasty = 59 } }
+				limit = { 
+					holder_scope = { 
+						OR = {
+							dynasty = 59
+							dynasty = 1559
+						}
+					} 
+				}
 				set_coa = c_stark
 			}
 			if = {
@@ -314,7 +342,14 @@ character_event = {
 				set_coa = d_daemon_blackfyres_host #Blackfyre
 			}
 			if = {
-				limit = { holder_scope = { dynasty = 59 } }
+				limit = { 
+					holder_scope = { 
+						OR = {
+							dynasty = 59
+							dynasty = 1559
+						}
+					} 
+				}
 				set_coa = c_stark
 			}
 			if = {
@@ -388,41 +423,76 @@ character_event = {
 			}
 			if = {
 				limit = { holder_scope = { dynasty = 10012 } }
-				set_coa = c_fayer #Fayer
+				set_coa = c_fayer
 			}
 		}
 		e_north = {
 			reset_coa = THIS
 			if = {
-				limit = { holder_scope = { dynasty = 59 } }
+				limit = { 
+					holder_scope = { 
+						OR = {
+							dynasty = 59
+							dynasty = 1559
+						}
+					} 
+				}
 				set_coa = c_stark
 			}
 		}
 		k_north = {
 			reset_coa = THIS
 			if = {
-				limit = { holder_scope = { dynasty = 59 } }
+				limit = { 
+					holder_scope = { 
+						OR = {
+							dynasty = 59
+							dynasty = 1559
+						}
+					} 
+				}
 				set_coa = c_stark
 			}
 		}
 		k_winterfellTK = {
 			reset_coa = THIS
 			if = {
-				limit = { holder_scope = { dynasty = 59 } }
+				limit = { 
+					holder_scope = { 
+						OR = {
+							dynasty = 59
+							dynasty = 1559
+						}
+					} 
+				}
 				set_coa = c_stark
 			}
 		}
 		d_winterfell = {
 			reset_coa = THIS
 			if = {
-				limit = { holder_scope = { dynasty = 59 } }
+				limit = { 
+					holder_scope = { 
+						OR = {
+							dynasty = 59
+							dynasty = 1559
+						}
+					} 
+				}
 				set_coa = c_stark
 			}
 		}
 		c_winterfell = {
 			reset_coa = THIS
 			if = {
-				limit = { holder_scope = { dynasty = 59 } }
+				limit = { 
+					holder_scope = { 
+						OR = {
+							dynasty = 59
+							dynasty = 1559
+						}
+					} 
+				}
 				set_coa = c_stark
 			}
 		}
@@ -846,7 +916,14 @@ character_event = {
 				break = yes
 			}
 			if = {
-				limit = { holder_scope = { dynasty = 59 } }
+				limit = { 
+					holder_scope = { 
+						OR = {
+							dynasty = 59
+							dynasty = 1559
+						}
+					} 
+				}
 				set_coa = c_stark
 				break = yes
 			}
@@ -956,7 +1033,6 @@ character_event = {
 				set_coa = c_fayer
 				break = yes
 			}
-			
 			reset_coa = THIS
 		}
 	}
@@ -987,7 +1063,14 @@ character_event = {
 	immediate = {
 		FROM = {
 			if = {
-				limit = { holder_scope = { dynasty = 59 } }
+				limit = { 
+					holder_scope = { 
+						OR = {
+							dynasty = 59
+							dynasty = 1559
+						}
+					} 
+				}
 				set_coa = c_stark
 				break = yes
 			}

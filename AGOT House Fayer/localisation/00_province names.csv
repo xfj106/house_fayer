@@ -1,0 +1,1146 @@
+PROV1;Land of Always Winter;Contrées de l'Eternel Hiver;Land of Always Winter;Land of Always Winter;Tierras del Eterno Invierno;;;;;;;;;x
+PROV2;Thenn;Thenn;Thenn;Thenn;Thenn;;;;;;;;;x
+PROV3;North Frostfangs;Crocgivre Septentrional;Northern Frostfangs;Northern Frostfangs;Colmillos Helados del Norte;;;;;;;;;x
+PROV4;The Frozen Shore;Grève Glacée;The Frozen Shore;The Frozen Shore;La Costa Helada;;;;;;;;;x
+PROV5;Skirling Pass;Skirling Pass;Skirling Pass;Skirling Pass;Paso Aullante;;;;;;;;;x
+PROV6;Shivering Forest;Forêt Frissonnante;Shivering Forest;Shivering Forest;Bosque de los Escalofríos;;;;;;;;;x
+PROV7;Ice Bay Shore;Baie des Glaces;Ice Bay Shore;Ice Bay Shore;Costa de Bahía Helada;;;;;;;;;x
+PROV8;Central Frostfangs;Crocgivre;Central Frostfangs;Central Frostfangs;Colmillos Helados Centrales;;;;;;;;;x
+PROV9;Fist of the First Men;Poing des Premiers Hommes;Fist of the First Men;Fist of the First Men;Puño de los Primeros Hombres;;;;;;;;;x
+PROV10;Antler Vale;Épois;Antler Vale;Antler Vale;Valle del Asta;;;;;;;;;x
+PROV11;Winter Keep;Fort-Hiver;;;Torreón del Invierno;;;;;;;;;x
+PROV12;Whitetree;L'Arbre Blanc;Whitetree;Whitetree;Árbolblanco;;;;;;;;;x
+PROV13;The Haunted Forest;La Forêt Hantée;The Haunted Forest;The Haunted Forest;El Bosque Encantado;;;;;;;;;x
+PROV14;Hardhome;Durlieu;Hardhome;Hardhome;Casa Austera;;;;;;;;;x
+PROV15;The Gorge;Les Gorges;The Gorge;The Gorge;La Garganta;;;;;;;;;x
+PROV16;The Shadow Tower;Tour Ombreuse;Shadow Tower;Shadow Tower;Torre Sombría;;;;;;;;;x
+PROV17;Castle Black;Châteaunoir;Castle Black;Castle Black;Castillo Negro;;;;;;;;;x
+PROV18;Eastwatch;Fort-Levant;Eastwatch by-the-Sea;Eastwatch by-the-Sea;Guardiaoriente del Mar;;;;;;;;;x
+PROV19;Brandon's Gift;Bran-Don;Brandon's Gift;Brandon's Gift;Agasajo de Brandon;;;;;;;;;x
+PROV20;The New Gift;Neufdon;New Gift;New Gift;Nuevo Agasajo;;;;;;;;;x
+PROV21;Crow's Edge;Frontière des Corbeaux;Crow's Edge;Crow's Edge;Linde del Cuervo;;;;;;;;;x
+PROV22;Arrendell;Val d'Arren;Arrendell;Arrendell;Hondonada de Arren;;;;;;;;;x
+PROV23;Pinesend;Cime-des-Pins;Pinesend;Pinesend;Fin del Pinar;;;;;;;;;x
+PROV24;Shadowmoor;Lande Ombreuse;Shadowmoor;Shadowmoor;Páramo Sombrío;;;;;;;;;x
+PROV25;Last Hearth;Âtre-les-Confins;Last Hearth;Last Hearth;Último Hogar;;;;;;;;;x
+PROV26;Seal Shore;Baie des Phoques;Seal Shore;Seal Shore;Costa de las Focas;;;;;;;;;x
+PROV27;Highpoint;Hautpoint;;;Punto Álgido;;;;;;;;;x
+PROV28;Last River;Ultime;Last River;Last River;Río Último;;;;;;;;;x
+PROV29;Karhold;Karhold;Karhold;Karhold;Bastión Kar;;;;;;;;;x
+PROV30;Deepdown;Fonprofond;Deepdown;Deepdown;Profundidades;;;;;;;;;x
+PROV31;Kingshouse;Maisonroy;Kingshouse;Kingshouse;Casarreal;;;;;;;;;x
+PROV32;Driftwood Hall;Bois-Flotté;Driftwood Hall;Driftwood Hall;Madera de Deriva;;;;;;;;;x
+PROV33;Bear Island;Île-aux-Ours;Bear Island;Bear Island;Isla del Oso;;;;;;;;;x
+PROV34;Sea Dragon Point;Presqu'île de Merdragon;Sea Dragon Point;Sea Dragon Point;Punta Dragón Marino;;;;;;;;;x
+PROV35;Deepwood;Motte-la-Forêt;Deepwood;Deepwood;Bosquespeso;;;;;;;;;x
+PROV36;Blackpool;Noirétang;Blue Hills;Blue Hills;Pozanegra;;;;;;;;;x
+PROV37;Ironrath;Ironrath;Blackgrove;Blackgrove;Castrohierro;;;;;;;;;x
+PROV38;King's Grove;Fourré du Roi;King's Grove;King's Grove;Arboleda del Rey;;;;;;;;;x
+PROV39;Wolfswood;Bois-aux-Loups;Wolfswood;Wolfswood;Bosque de los Lobos;;;;;;;;;x
+PROV40;Stony Shore;Roches;Stony Shore;Stony Shore;Costa Pedregosa;;;;;;;;;x
+PROV41;The Rills;Les Rus;The Rills;The Rills;Los Riachuelos;;;;;;;;;x
+PROV42;Withered Heath;Bruyère Fanée;Withered Heath;Withered Heath;Brezal Marchito;;;;;;;;;x
+PROV43;Rillwater Crossing;Rillwater Crossing;Rillwater Crossing;Rillwater Crossing;Cruce del Regato;;;;;;;;;x
+PROV44;Torrhen's Square;Quart-Torrhen ;Torrhen's Square;Torrhen's Square;Ciudadela de Torrhen;;;;;;;;;x
+PROV45;Spearmouth;Cheflance;;;Gran Túmulo;;;;;;;;;x
+PROV46;Barrowton;Tertre-Bourg;Barrowton;Barrowton;Fuerte Túmulo;;;;;;;;;x
+PROV47;Winterfell;Winterfell;Winterfell;Winterfell;Invernalia;;;;;;;;;x
+PROV48;Acorn Grove;Eglantiers;Acorn Grove;Acorn Grove;Soto Bellota;;;;;;;;;x
+PROV49;Castle Cerwyn;Castel-Cerwyn;Castle Cerwyn;Castle Cerwyn;Castillo Cerwyn;;;;;;;;;x
+PROV50;Lonely Hills;Collines Solitaires;Lonely Hills;Lonely Hills;Colinas Solitarias;;;;;;;;;x
+PROV51;Eastmelt;Fontes Orientales;Eastmelt;Eastmelt;Último Deshielo;;;;;;;;;x
+PROV52;Weeping Bay;Baie-en-Pleurs;Weeping Bay;Weeping Bay;Bahía Llorosa;;;;;;;;;x
+PROV53;The Dreadfort;Fort-Terreur;The Dreadfort;The Dreadfort;Fuerte Terror;;;;;;;;;x
+PROV54;Dawnforest;Forêt de l'Aube;Dawnforest;Dawnforest;Bosque del Alba;;;;;;;;;x
+PROV55;Sheepshead Hills;Collines des Toisonnées;Sheepshead Hills;Sheepshead Hills;Colina Cabeza de Oveja;;;;;;;;;x
+PROV56;Overton;Overton;Overton;Overton;Las Lágrimas;;;;;;;;;x
+PROV57;King's Course;Voie Royale;King's Course;King's Course;Curso Real;;;;;;;;;x
+PROV58;White Knife;Blanchedague;White Knife;White Knife;Cuchillo Blanco;;;;;;;;;x
+PROV59;Ethering;Ether;Ethering;Ethering;Cinturón de Musgo;;;;;;;;;x
+PROV60;Hornwood;Corbois;Hornwood;Hornwood;Bosque del Cuerno;;;;;;;;;x
+PROV61;Whitford;Blangué;Whitford;Whitford;Vadoblanco;;;;;;;;;x
+PROV62;White Harbor;Blancport;White Harbor;White Harbor;Puerto Blanco;;;;;;;;;x
+PROV63;Ramsgate;Porte-Béline;Ramsgate;Ramsgate;Puerta del Carnero;;;;;;;;;x
+PROV64;Widow's Watch;Veuve;Widow's Watch;Widow's Watch;Atalaya de la Viuda;;;;;;;;;x
+PROV65;Oldcastle;Châteauvieux;Oldcastle;Oldcastle;Castillo Viejo;;;;;;;;;x
+PROV66;Moat Cailin;Moat Cailin;Moat Cailin;Moat Cailin;Foso Cailin;;;;;;;;;x
+PROV67;Fever;Fièvre;Fever;Fever;Fiebre;;;;;;;;;x
+PROV68;Greycrann;Butte Grise;Greycrann;Greycrann;Ciénaga Gris;;;;;;;;;x
+PROV69;Churwell;Churwell;Churwell;Churwell;Marjal;;;;;;;;;x
+PROV70;Silvereed;Roseaux d'Argent;Silvereed;Silvereed;Cañas Plateadas;;;;;;;;;x
+PROV71;Greywater Watch;Fort-Griseaux;Greywater Watch;Greywater Watch;Atalaya de Aguasgrises;;;;;;;;;x
+PROV72;Cape Kraken;Cap Kraken;Cape Kraken;Cape Kraken;Cabo Kraken;;;;;;;;;x
+PROV73;Flint's Finger;Pource-Flint;Flint's Finger;Flint's Finger;Dedo de Pedernal;;;;;;;;;x
+PROV74;Flint Cliffs;Falaises de Flint;Flint Cliffs;Flint Cliffs;Acantilados de Pedernal;;;;;;;;;x
+PROV75;Mistlewood;Boigui;Mistlewood;Mistlewood;Acebeda;;;;;;;;;x
+PROV76;Cape of Eagles;Cap des Aigles;Cape of Eagles;Cape of Eagles;Cabo de Águilas;;;;;;;;;x
+PROV77;The Twins;Les Jumeaux;The Twins;The Twins;Los Gemelos;;;;;;;;;x
+PROV78;Freylands;Terres Frey;Freylands;Freylands;Sietecauces;;;;;;;;;x
+PROV79;Seagard;Salvemer;Seagard;Seagard;Varamar;;;;;;;;;x
+PROV80;Rushmoor;Landejonc;Rushmoor;Rushmoor;Pantano de la Bruja;;;;;;;;;x
+PROV81;Oldstones;Vieilles-Pierres;Oldstones;Oldstones;Piedrasviejas;;;;;;;;;x
+PROV82;Stillfen;Marais;Stillfen;Stillfen;Marjal Tranquila;;;;;;;;;x
+PROV83;Erenford;Erongué;Erenford;Erenford;Vado de la Garza;;;;;;;;;x
+PROV84;Wycombe;Vylcombe;Wycombe;Wycombe;Valdehalcón;;;;;;;;;x
+PROV85;Martlet Bay;Baie Martlet;Martlet Bay;Martlet Bay;Loma del Vencejo;;;;;;;;;x
+PROV86;Gravesham;Feinte;Gravesham;Gravesham;Sepulturas;;;;;;;;;x
+PROV87;Maidstone;Viergepierre;Maidstone;Maidstone;Árbol de la Moneda;;;;;;;;;x
+PROV88;Blackrush;Torrent Noir;Blackrush;Blackrush;Árbol de la Miel;;;;;;;;;x
+PROV89;Fairmarket;Beaumarché;Fairmarket;Fairmarket;Buenabasto;;;;;;;;;x
+PROV90;Blackwood Vale;Vallée de Nerbosc;Blackwood Vale;Blackwood Vale;Árbol de los Cuervos;;;;;;;;;x
+PROV91;Stone Hedge;Haye Pierre;Stone Hedge;Stone Hedge;Seto de Piedra;;;;;;;;;x
+PROV92;Blue Fork;Bleufurque;Blue Fork;Blue Fork;Forca Azul;;;;;;;;;x
+PROV93;Red Fork;Ruffurque;Red Fork;Red Fork;Forca Roja;;;;;;;;;x
+PROV94;Deddington;Verfurque;Green Fork;Green Fork;Forca Verde;;;;;;;;;x
+PROV95;Chiltern;Chiltern;Chiltern;Chiltern;Bosque Blanco;;;;;;;;;x
+PROV96;Lychester;Lychester;Medway;Medway;Danza de Sally;;;;;;;;;x
+PROV97;Harroway's Town;Lord Herpivoie-Ville;Lord Harroway's Town;Lord Harroway's Town;Aldea de Lord Harroway;;;;;;;;;x
+PROV98;Saltpans;Salins;Saltpans;Saltpans;Salinas;;;;;;;;;x
+PROV99;Kanet;Canet;Kanet;Kanet;Charca Cenagosa;;;;;;;;;x
+PROV100;Turnbridge;Tournepont;Turnbridge;Turnbridge;Bosque Susurrante;;;;;;;;;x
+PROV101;Riverrun;Vivesaigues;Riverrun;Riverrun;Aguasdulces;;;;;;;;;x
+PROV102;Branstone;Branpier;Branstone;Branstone;Colina Hueca;;;;;;;;;x
+PROV103;Lolliston;Lolliston;Lolliston;Lolliston;Molino Quemado;;;;;;;;;x
+PROV104;High Heart;Noblecoeur;High Heart;High Heart;Alto Corazón;;;;;;;;;x
+PROV105;Wayfarer's Rest;Bel Accueil;Wayfarer's Rest;Wayfarer's Rest;Descanso del Caminante;;;;;;;;;x
+PROV106;Goodbrook;Bonru;Goodbrook;Goodbrook;Buenarroyo;;;;;;;;;x
+PROV107;Harrenhal;Harrenhal;Harrenhal;Harrenhal;Harrenhal;;;;;;;;;x
+PROV108;Darry;Darry;Darry;Darry;Darry;;;;;;;;;x
+PROV109;Maidenpool;Viergétang;Maidenpool;Maidenpool;Poza de la Doncella;;;;;;;;;x
+PROV110;Pinkmaiden;Château-Rosières;Pinkmaiden;Pinkmaiden;Princesa Rosada;;;;;;;;;x
+PROV111;Acorn Hall;La Glandée;Acorn Hall;Acorn Hall;Torreón Bellota;;;;;;;;;x
+PROV112;Stoney Sept;Pierremoûtier;Stoney Sept;Stoney Sept;Septo de Piedra;;;;;;;;;x
+PROV113;Willow Wood;Bois de Saule;Willow Wood;Willow Wood;Bosque de Sauces;;;;;;;;;x
+PROV114;Atranta;Atranta;Atranta;Atranta;Atranta;;;;;;;;;x
+PROV115;Shoreham;Rivechair;Shoreham;Shoreham;Cascadas Bravas;;;;;;;;;x
+PROV116;Esgaroth;Esgaroth;Esgaroth;Esgaroth;Murosblancos;;;;;;;;;x
+PROV117;Isle of Faces;Île-aux-Faces;Isle of Faces;Isle of Faces;Isla de los Rostros;;;;;;;;;x
+PROV118;Longsister;Longuesoeur;Longsister;Longsister;Hermana Larga;;;;;;;;;x
+PROV119;Sweetsister;Dolcesoeur;Sweetsister;Sweetsister;Hermana Dulce;;;;;;;;;x
+PROV120;Littlesister;Petitesoeur;Littlesister;Littlesister;Hermana Pequeña;;;;;;;;;x
+PROV121;Pebble;Galet;Pebble;Pebble;Guijarro;;;;;;;;;x
+PROV122;The Paps;Les Piz;The Paps;The Paps;Los Senos;;;;;;;;;x
+PROV123;Crow's Barrens;Désert des Freux;Crow's Barrens;Crow's Barrens;Yermos del Cuervo;;;;;;;;;x
+PROV124;Scorched Vale;Vallée Roussie;Scorched Vale;Scorched Vale;Valle Quemado;;;;;;;;;x
+PROV125;Hardvale;Durval;Bite Coast;Bite Coast;Diamante;;;;;;;;;x
+PROV126;Coldwater Burn;Froideseaux;Coldwater Burn;Coldwater Burn;Comezón de Aguasfrías;;;;;;;;;x
+PROV127;Wycliffe;Escarpée;Wycliffe;Wycliffe;Escarpia;;;;;;;;;x
+PROV128;Midlor Point;Doigt Médian;Midlor Point;Midlor Point;Punta Mediana;;;;;;;;;x
+PROV129;Moonsgrey;Lunegris;Moonsgrey;Moonsgrey;Lunagrís;;;;;;;;;x
+PROV130;Newkeep;Neufcastel;Newkeep;Newkeep;Torrenueva;;;;;;;;;x
+PROV131;Snakewood;Guivrebois;Snakewood;Snakewood;Bosque de la Serpiente;;;;;;;;;x
+PROV132;Sunrise Keep;Tour Eté;Sunrise Keep;Sunrise Keep;Torreón del Alba;;;;;;;;;x
+PROV133;Strongsong;Forchant;Strongsong;Strongsong;Rapsodia;;;;;;;;;x
+PROV134;Darkmoor;Sombrelande;Darkmoor;Darkmoor;Páramo Oscuro;;;;;;;;;x
+PROV135;Crown Crag;Rocouronne;Crown Crag;Crown Crag;Peña de la Corona;;;;;;;;;x
+PROV136;The Eyrie;Les Eyrié;The Eyrie;The Eyrie;Nido de Águilas;;;;;;;;;x
+PROV137;Heart's Home;Cordial;Heart's Home;Heart's Home;Hogar;;;;;;;;;x
+PROV138;Upcliff;Hautecrête;Upcliff;Upcliff;Acantilado Alto;;;;;;;;;x
+PROV139;Longbow Hall;Longarc;Longbow Hall;Longbow Hall;Arcolargo;;;;;;;;;x
+PROV140;The Bloody Gate;La Porte Sanglante;Bloody Gate;Bloody Gate;Puerta de la Sangre;;;;;;;;;x
+PROV141;Grey Glen;Gris-Vallon;Grey Glen;Grey Glen;Soto Gris;;;;;;;;;x
+PROV142;Ironoaks;Chênes-en-fer;Ironoaks;Ironoaks;Roble de Hierro;;;;;;;;;x
+PROV143;Old Anchor;Vieux-Havre;Old Anchor;Old Anchor;Varadero Viejo;;;;;;;;;x
+PROV144;Redfort;Rougefort;Redfort;Redfort;Fuerterrojo;;;;;;;;;x
+PROV145;Ninestars;Neufétoiles;Ninestars;Ninestars;Nuevestrellas;;;;;;;;;x
+PROV146;Crab's Shore;Côtes des Crabes;Crab's Shore;Crab's Shore;Costa de los Cangrejos;;;;;;;;;x
+PROV147;Wickenden;Combemèche;Wickenden;Wickenden;Serbaledo ;;;;;;;;;x
+PROV148;Ruthermont;Ruthremont;Ruthermont;Ruthermont;Estrella de Mar;;;;;;;;;x
+PROV149;Gulltown;Goëville;Gulltown;Gulltown;Puerto Gaviota;;;;;;;;;x
+PROV150;Runestone;Roches-aux-runes;Runestone;Runestone;Piedra de las Runas;;;;;;;;;x
+PROV151;Sealskin Point;Pointe-Loutre;Sealskin Point;Sealskin Point;Punta Piel de Foca;;;;;;;;;x
+PROV152;Hammerhorn;Cormartel;Hammerhorn;Hammerhorn;Cuernomartillo;;;;;;;;;x
+PROV153;Pebbleton;Pebbleton;Pebbleton;Pebbleton;Guijarra;;;;;;;;;x
+PROV154;Old Wyk;Vieux Wyk;Old Wyk;Old Wyk;Viejo Wyk;;;;;;;;;x
+PROV155;Blacktyde;Noirmarées;Blacktyde;Blacktyde;Marea Negra;;;;;;;;;x
+PROV156;Orkmont;Orkmont;Orkmont;Orkmont;Monteorca;;;;;;;;;x
+PROV157;Volmark;Volmark;Volmark;Volmark;Volmark;;;;;;;;;x
+PROV158;Harlaw Hill;Colline Harloi;;;Diez Torres;;;;;;;;;x
+PROV159;Stonetree;Pindepierre;Stonetree;Stonetree;Árbol de Piedra;;;;;;;;;x
+PROV160;Saltcliffe;Salfalaise;Saltcliffe;Saltcliffe;Acantilado de Sal;;;;;;;;;x
+PROV161;Lordsport;Lordsport;Lordsport;Lordsport;Puerto Noble;;;;;;;;;x
+PROV162;Pyke;Pyk;Pyke;Pyke;Pyke;;;;;;;;;x
+PROV163;Banefort;Fléaufort;Banefort;Banefort;Fuerte Desolación;;;;;;;;;x
+PROV164;The Crag;Falaise;The Crag;The Crag;El Risco;;;;;;;;;x
+PROV165;Glitterdell;Valscintille;Glitterdell;Glitterdell;Valdorado;;;;;;;;;x
+PROV166;Wyndhall;Bysecastel;Wyndhall;Wyndhall;Refugio del Viento;;;;;;;;;x
+PROV167;Fair Isle;Belle Île;Fair Isle;Fair Isle;Isla Bella;;;;;;;;;x
+PROV168;Feastfires;Feux-de-Joie;Feastfires;Feastfires;Las Hogueras;;;;;;;;;x
+PROV169;Kayce;Kayce;Kayce;Kayce;Kayce;;;;;;;;;x
+PROV170;Maunhill;Colline de Maun;Maunhill;Maunhill;Collado Ciruelo;;;;;;;;;x
+PROV171;Tarbeck Hall;Tour Tarbeck;Tarbeck Hall;Tarbeck Hall;Torre Tarbeck;;;;;;;;;x
+PROV172;Thurrock;Thurroc;Thurrock;Thurrock;Piedra Caída;;;;;;;;;x
+PROV173;Ashemark;Cendremarc;Ashemark;Ashemark;Marcaceniza;;;;;;;;;x
+PROV174;Golden Tooth;La Dent d'Or;Golden Tooth;Golden Tooth;Colmillo Dorado;;;;;;;;;x
+PROV175;Nunn's Deep;Trounonnain;Nunn's Deep;Nunn's Deep;Sima de Nunn;;;;;;;;;x
+PROV176;Oxcross;Croixboeuf;Oxcross;Oxcross;Cruce de Bueyes;;;;;;;;;x
+PROV177;Pendric Hills;Collines de Pendric;Pendric Hills;Pendric Hills;Colinas Pendric;;;;;;;;;x
+PROV178;Sarsfield;Sarschamps;Sarsfield;Sarsfield;Sarsfield;;;;;;;;;x
+PROV179;Goldshire;Terres de l'Or;Goldshire;Goldshire;Cerros del Búho;;;;;;;;;x
+PROV180;Hornvale;Corval;Hornvale;Hornvale;Valdecuerno;;;;;;;;;x
+PROV181;Brent Brook;Rusbrent;Brent Brook;Brent Brook;Monte del Jabalí;;;;;;;;;x
+PROV182;Casterly Rock;Castral Roc;Casterly Rock;Casterly Rock;Roca Casterly;;;;;;;;;x
+PROV183;Lannisport;Port Lannis;Lannisport;Lannisport;Lannisport;;;;;;;;;x
+PROV184;Tendring;Joyaux;Tendring;Tendring;El Retamar;;;;;;;;;x
+PROV185;Hawthorne;Epinois;Hawthorne;Hawthorne;Espino;;;;;;;;;x
+PROV186;Greenmont;Vermont;Greenmont;Greenmont;Arco Dorado;;;;;;;;;x
+PROV187;Castamere;Castamere;Castamere;Castamere;Castamere;;;;;;;;;x
+PROV188;Fang Tower;Tour Canine;Fang Tower;Fang Tower;Torre Colmillo;;;;;;;;;x
+PROV189;Myatt;Myatt;Myatt;Myatt;Gato Moteado;;;;;;;;;x
+PROV190;Lonmont;Lonmont;Lonmont;Lonmont;Montelargo;;;;;;;;;x
+PROV191;Deep Den;Antrecombe;Deep Den;Deep Den;Cuevahonda;;;;;;;;;x
+PROV192;Drox Castle;Fort-Drox;Drox Castle;Drox Castle;Ballestar;;;;;;;;;x
+PROV193;Peckledon;Dombecq;Peckledon;Peckledon;Picotazo;;;;;;;;;x
+PROV194;Payne Hall;Payne;Payne Hall;Payne Hall;Buendolor;;;;;;;;;x
+PROV195;Silverhill;L'Argenterie;Silverhill;Silverhill;Refugio de Plata ;;;;;;;;;x
+PROV196;Redbramble;Rougemûre;Redbramble;Redbramble;Zarzarroja;;;;;;;;;x
+PROV197;Crakehall;Crakehall;Crakehall;Crakehall;Refugio Quebrado;;;;;;;;;x
+PROV198;Falwell;Falwell;Falwell;Falwell;Malabar;;;;;;;;;x
+PROV199;Cornfield;Champmoisson;Cornfield;Cornfield;Maizal;;;;;;;;;x
+PROV200;Greenfield;Verchamps;Greenfield;Greenfield;Pradal;;;;;;;;;x
+PROV201;Mosborough;Mosbourg;Mosborough;Mosborough;Yelmo de Plata;;;;;;;;;x
+PROV202;Byford;Passgué;Byford;Byford;Vadeado;;;;;;;;;x
+PROV203;Chyttering Brook;Chyttering;Chyttering Brook;Chyttering Brook;Los Lazos;;;;;;;;;x
+PROV204;Rayonet;Rayonet;Rayonet;Rayonet;Espinal;;;;;;;;;x
+PROV205;Sow's Horn;Cornetruie;Sow's Horn;Sow's Horn;Cuerno de la Puerca;;;;;;;;;x
+PROV206;Byrch Hall;Boulleau;Byrch Hall;Byrch Hall;Cuartel Real;;;;;;;;;x
+PROV207;Antlers;Les Epois;Antlers;Antlers;Astas;;;;;;;;;x
+PROV208;Brindlewood;Bois-Mouchy;Brindlewood;Brindlewood;Bosquepinto;;;;;;;;;x
+PROV209;Edgerton;Edgerton;Edgerton;Edgerton;La Ribera;;;;;;;;;x
+PROV210;Rollingford;Guéroulan;Rollingford;Rollingford;Vadondulado;;;;;;;;;x
+PROV211;Rosby;Rosby;Rosby;Rosby;Rosby;;;;;;;;;x
+PROV212;Duskendale;Sombreval;Duskendale;Duskendale;Valle Oscuro;;;;;;;;;x
+PROV213;Hollard Hall;Hollard;Hollard Hall;Hollard Hall;Rosas Rojas;;;;;;;;;x
+PROV214;Rook's Rest;Repos-des-Freux;Rook's Rest;Rook's Rest;Reposo del Grajo;;;;;;;;;x
+PROV215;Crackclaw Barren;Presqu'île de Claquepince Méridionale;;;Zarpa Rota;;;;;;;;;x
+PROV216;Dyre Den;Repayre Patybulayre;Dyre Den;Dyre Den;Refugio de Malacosta;;;;;;;;;x
+PROV217;The Whispers;Les Murmures;Sweetport Sound;Sweetport Sound;Los Susurros;;;;;;;;;x
+PROV218;North Crackclaw;Presqu'île de Claquepince Septentrionale;Crackclaw Point;Crackclaw Point;Punta Zarpa Rota;;;;;;;;;x
+PROV219;Claw Isle;Pince Isle;Claw Isle;Claw Isle;Isla Zarpa;;;;;;;;;x
+PROV220;Driftmark;Lamarck;Driftmark;Driftmark;Marcaderiva;;;;;;;;;x
+PROV221;Dragonstone;Peyredragon;Dragonstone;Dragonstone;Rocadragón;;;;;;;;;x
+PROV222;Bramsfort;Fort-Bram;Bramsfort;Bramsfort;Fuerte Maza;;;;;;;;;x
+PROV223;Farring Cross;Croix-de-Farring;Farring Cross;Farring Cross;Cruce del Caballero;;;;;;;;;x
+PROV224;Hayford;Fengué;Hayford;Hayford;Henares;;;;;;;;;x
+PROV225;Stokeworth;Castelfoyer;Stokeworth;Stokeworth;Stokeworth;;;;;;;;;x
+PROV226;King's Landing;Port-Réal;King's Landing;King's Landing;Desembarco del Rey;;;;;;;;;x
+PROV227;Dalston Keep;Fort-Dalston;Dalston Keep;Dalston Keep;Torreadusta;;;;;;;;;x
+PROV228;Greensward;Gardeverte;Greensward;Greensward;Guardaverde;;;;;;;;;x
+PROV229;Attadale;Valnoir;Attadale;Attadale;El Realengo;;;;;;;;;x
+PROV230;Woodmere;Bois du Simplet;Woodmere;Woodmere;Ciénaga del Bosque;;;;;;;;;x
+PROV231;Bywater;Prédeaux;Bywater;Bywater;Aguasbajas;;;;;;;;;x
+PROV232;Wendwater;Wend;Wendwater;Wendwater;Aguasaltas;;;;;;;;;x
+PROV233;Stonedance;La Danse-des-Pierres;Stonedance;Stonedance;Ballarroca;;;;;;;;;x
+PROV234;Sharp Point;Pointe-Vive;Sharp Point;Sharp Point;Punta Aguda;;;;;;;;;x
+PROV235;Old Oak;Vieux Rouvre;Old Oak;Old Oak;Roble Viejo;;;;;;;;;x
+PROV236;Red Lake;Lac Rouge;Redwater Keep;Redwater Keep;Lago Rojo;;;;;;;;;x
+PROV237;Redding;Rougy;Redding;Redding;El Pichel;;;;;;;;;x
+PROV238;Coldmoat;Froide-Douve;Coldmoat;Coldmoat;Fosafría;;;;;;;;;x
+PROV239;Dosk;Dosk;Dosk;Dosk;Dosk;;;;;;;;;x
+PROV240;Catswold;Chatière;Catswold;Catswold;Aguardiente;;;;;;;;;x
+PROV241;Standfast;Piéferme;Standfast;Standfast;Tiesa;;;;;;;;;x
+PROV242;Derring Downs;Bas-Derring;Derring Downs;Derring Downs;Colinas de la Gesta;;;;;;;;;x
+PROV243;Goldengrove;Boisdoré;Goldengrove;Goldengrove;Sotodeoro;;;;;;;;;x
+PROV244;Wythers;Wythers;Wythers;Wythers;Bosque Ardilla;;;;;;;;;x
+PROV245;Smithyton;Bourg-les-Forges;Smithyton;Smithyton;Herrera;;;;;;;;;x
+PROV246;Ivy Hall;Sallierre;Ivy Hall;Ivy Hall;Salón de Hiedra;;;;;;;;;x
+PROV247;Alden Keep;Tour d'Alden;Alden Keep;Alden Keep;Almenar;;;;;;;;;x
+PROV248;Harpshire;Harpes;Harpshire;Harpshire;Tierras del Arpa;;;;;;;;;x
+PROV249;Tumbleton;Chutebourg;Tumbleton;Tumbleton;Ladera;;;;;;;;;x
+PROV250;The Ring;L'Anneau;The Ring;The Ring;El Anillo;;;;;;;;;x
+PROV251;Leygood Keep;Tour Bonleu;Leygood Keep;Leygood Keep;Centellas;;;;;;;;;x
+PROV252;Hammerhal;Martelerie;Hammerhal;Hammerhal;Martillán;;;;;;;;;x
+PROV253;Bitterbridge;Pont l'Amer;Bitterbridge;Bitterbridge;Puenteamargo;;;;;;;;;x
+PROV254;Longtable;Longuetable;Longtable;Longtable;Granmesa;;;;;;;;;x
+PROV255;Roseford;Roncières;Roseford;Roseford;Valdehurón;;;;;;;;;x
+PROV256;Inchfield;Milopin;Inchfield;Inchfield;Piedemonte;;;;;;;;;x
+PROV257;Holyhall;Sacristie;Holyhall;Holyhall;Sacramento;;;;;;;;;x
+PROV258;Appleton;Pommebourg;Appleton;Appleton;Manzanares;;;;;;;;;x
+PROV259;Grassy Vale;Herbeval;Grassy Vale;Grassy Vale;Valdehierba;;;;;;;;;x
+PROV260;Hastwyck;Hastwyck;Hastwyck;Hastwyck;Vaquería;;;;;;;;;x
+PROV261;Oakenshield;Bouclier de Chêne;Oakenshield;Oakenshield;Escudo de Roble;;;;;;;;;x
+PROV262;Greyshield;Bouclier Gris;Greyshield;Greyshield;Escudo Gris;;;;;;;;;x
+PROV263;Greenshield;Bouclier Vert;Greenshield;Greenshield;Escudo Verde;;;;;;;;;x
+PROV264;Southshield;Bouclier du Sud;Southshield;Southshield;Escudo del Sur;;;;;;;;;x
+PROV265;Westbrook;Ouestrus;Westbrook;Westbrook;Arroyo del Oeste;;;;;;;;;x
+PROV266;Smallwood;Petibois;Smallwood;Smallwood;Jaquel;;;;;;;;;x
+PROV267;Highgarden;Hautjardin;Highgarden;Highgarden;Altojardín;;;;;;;;;x
+PROV268;Cider Hall;Cidre;Cider Hall;Cider Hall;La Sidra;;;;;;;;;x
+PROV269;New Barrel;La Tonnelle;New Barrel;New Barrel;Nuevo Barril;;;;;;;;;x
+PROV270;Ashford;Cendregué;Ashford;Ashford;Vado Ceniza;;;;;;;;;x
+PROV271;Manderford;Mandergué;Manderford;Manderford;Vega del Mander;;;;;;;;;x
+PROV272;Norcross;Norcroix;Norcross;Norcross;Cruz del Norte;;;;;;;;;x
+PROV273;Dunnsbridge;Pont Dunn;Dunnsbridge;Dunnsbridge;Pontones;;;;;;;;;x
+PROV274;Brightwater Keep;Eauclaire;Brightwater Keep;Brightwater Keep;Aguasclaras;;;;;;;;;x
+PROV275;Darkdell;Noirvallon;Darkdell;Darkdell;Vallesombrío;;;;;;;;;x
+PROV276;Middlebury;Mitombe;Middlebury;Middlebury;Villamediana;;;;;;;;;x
+PROV277;Bardshome;Bardelieu;Bardshome;Bardshome;Tres Cantores;;;;;;;;;x
+PROV278;Yelshire;Yelshire;Yelshire;Yelshire;Sotoblanco;;;;;;;;;x
+PROV279;Starpike;Stellepique;Starpike;Starpike;Picaestrella;;;;;;;;;x
+PROV280;Horn Hill;Corcolline;Horn Hill;Horn Hill;Colina Cuerno;;;;;;;;;x
+PROV281;Fawn Crag;Rocher du Faon;Fawn Crag;Fawn Crag;Cresta Llorosa;;;;;;;;;x
+PROV282;Bandallon;Bandallon;Bandallon;Bandallon;Bandallón;;;;;;;;;x
+PROV283;Honeyholt;Mielbois;Honeyholt;Honeyholt;Sotomiel;;;;;;;;;x
+PROV284;Sommerset;Eté;Sommerset;Sommerset;Floresviejas;;;;;;;;;x
+PROV285;Blackcrown;Noircouronne;Blackcrown;Blackcrown;Corona Negra;;;;;;;;;x
+PROV286;Oldtown;Villevieille;Oldtown;Oldtown;Antigua;;;;;;;;;x
+PROV287;Uplands;Hautesterres;Uplands;Uplands;Tierras Altas;;;;;;;;;x
+PROV288;Hunt Hills;Collines de la Chasse;Hunt Hills;Hunt Hills;Coto de Caza;;;;;;;;;x
+PROV289;Three Towers;Troistours;Three Towers;Three Towers;Tres Torres;;;;;;;;;x
+PROV290;Sunhouse;Tournesolaie;Sunhouse;Sunhouse;Refugio del Girasol;;;;;;;;;x
+PROV291;Torrentpeak;Pictorrent;Torrentpeak;Torrentpeak;Pico Torrentino;;;;;;;;;x
+PROV292;The Arbor;La Treille;The Arbor;The Arbor;El Rejo;;;;;;;;;x
+PROV293;Amberly;Ambre;Amberly;Amberly;Ambarino;;;;;;;;;x
+PROV294;Felwood;Felbois;Felwood;Felwood;Bosquealto;;;;;;;;;x
+PROV295;Langward Hall;Castelrive;Langward Hall;Langward Hall;Corona de Estrellas;;;;;;;;;x
+PROV296;Bronzegate;Les Bronzes;Bronzegate;Bronzegate;Puertabronce;;;;;;;;;x
+PROV297;Hadlow Keep;Tour Halbas;Hadlow Keep;Hadlow Keep;Torreón Brezal;;;;;;;;;x
+PROV298;Haystack Hall;Le Fenil;Haystack Hall;Haystack Hall;Pazo Pajar;;;;;;;;;x
+PROV299;Parchments;Les Parchemins;Parchments;Parchments;Los Pergaminos;;;;;;;;;x
+PROV300;Drakesgrave;Tombe-Dragon;Drakesgrave;Drakesgrave;Tumbadragón;;;;;;;;;x
+PROV301;Galemont;Galemont;Galemont;Galemont;Montevendaval;;;;;;;;;x
+PROV302;Grandview;Grandevue;Grandview;Grandview;Buenavista;;;;;;;;;x
+PROV303;Griffin's Roost;La Griffonnière;Griffin's Roost;Griffin's Roost;Nido del Grifo;;;;;;;;;x
+PROV304;Storm's End;Accalmie;Storm's End;Storm's End;Bastión de Tormentas;;;;;;;;;x
+PROV305;Tarth;Torth;Tarth;Tarth;Tarth;;;;;;;;;x
+PROV306;Summerhall;Lestival;Summerhall;Summerhall;Refugio Estival;;;;;;;;;x
+PROV307;Nightsong;Séréna;Nightsong;Nightsong;Nocturnia;;;;;;;;;x
+PROV308;Harvest Hall;Les Eteules;Harvest Hall;Harvest Hall;Torreón Cosecha;;;;;;;;;x
+PROV309;Poddingfield;Champoquet;Poddingfield;Poddingfield;Campoverde;;;;;;;;;x
+PROV310;Gallowsgrey;Grigibet;Gallowsgrey;Gallowsgrey;Horcagrís;;;;;;;;;x
+PROV311;Blackhaven;Havrenoir;Blackhaven;Blackhaven;Refugio Negro;;;;;;;;;x
+PROV312;Fawnton;Bourgfaon;Fawnton;Fawnton;Villacervato;;;;;;;;;x
+PROV313;Adderdell;Valvipère;Adderdell;Adderdell;Valle de la Víbora;;;;;;;;;x
+PROV314;Crow's Nest;Nid de Corbeaux;Crow's Nest;Crow's Nest;Nido de Cuervos;;;;;;;;;x
+PROV315;Lonmouth;Lonbec;Lonmouth;Lonmouth;Los Besos;;;;;;;;;x
+PROV316;Stonehelm;Pierheaume;Stonehelm;Stonehelm;Yelmo de Piedra;;;;;;;;;x
+PROV317;Lockport;Port-Loquet;Lockport;Lockport;Puerto Cerrado;;;;;;;;;x
+PROV318;Broad Arch;Grandarche;Broad Arch;Broad Arch;Arco Ancho;;;;;;;;;x
+PROV319;Tudbury Hall;Tudbury;Tudbury Hall;Tudbury Hall;Tortugal;;;;;;;;;x
+PROV320;Rainwood;Bois-la-Pluie;Rainwood;Rainwood;La Selva;;;;;;;;;x
+PROV321;Blue Grove;Bleubosquet;Blue Grove;Blue Grove;Soto Azul;;;;;;;;;x
+PROV322;Mistwood;Bois Brumeux;Mistwood;Mistwood;Bosqueumbrío;;;;;;;;;x
+PROV323;Rain House;Castelpluie;Rain House;Rain House;Aguasmil;;;;;;;;;x
+PROV324;Wrathtown;Ville-en-Pleurs;Weeping Tower;Weeping Tower;Villaira;;;;;;;;;x
+PROV325;Wrathrock;Roc-de-l'Ire;Wrathrock;Wrathrock;Rocaira;;;;;;;;;x
+PROV326;Estermont;Estremont;Estermont;Estermont;Estermont;;;;;;;;;x
+PROV327;Blackmont;Noirmont;Blackmont;Blackmont;Montenegro;;;;;;;;;x
+PROV328;Prince's Pass;Passe-du-Prince;Prince's Pass;Prince's Pass;Paso del Príncipe;;;;;;;;;x
+PROV329;Vulture's Roost;Perche-Vautour;Vulture's Roost;Vulture's Roost;Nido de Buitres;;;;;;;;;x
+PROV330;Wyl;Wyl;Wyl;Wyl;Sendahuesos;;;;;;;;;x
+PROV331;Kingsgrave;Tombe-du-Roy;Kingsgrave;Kingsgrave;Sepulcro del Rey ;;;;;;;;;x
+PROV332;High Hermitage;Haut Hermitage;High Hermitage;High Hermitage;Ermita Alta;;;;;;;;;x
+PROV333;Skyreach;Touche-au-Ciel;Skyreach;Skyreach;Dominio del Cielo;;;;;;;;;x
+PROV334;Yronwood;Ferboys;Yronwood;Yronwood;Palosanto;;;;;;;;;x
+PROV335;Starfall;Les Météores;Starfall;Starfall;Campoestrella;;;;;;;;;x
+PROV336;The Elbow;Le Coude;The Elbow;The Elbow;El Codo;;;;;;;;;x
+PROV337;Sandstone;Le Grès;Sandstone;Sandstone;Asperón;;;;;;;;;x
+PROV338;Hellholt;Denfert;Hellholt;Hellholt;Sotoinferno;;;;;;;;;x
+PROV339;Great Desert;Grand Desert;Great Desert;Great Desert;Gran Desierto;;;;;;;;;x
+PROV340;Nymerwell;Nymerwell;Nymerwell;Nymerwell;Pozo de Nymeria;;;;;;;;;x
+PROV341;Scorched Rock;Roche Roussie;Scorched Rock;Scorched Rock;Roca Quemada;;;;;;;;;x
+PROV342;Ghaston Grey;Griseffroy;Ghaston Grey;Ghaston Grey;Rocagrís;;;;;;;;;x
+PROV343;The Tor;Le Pic;The Tor;The Tor;Tor;;;;;;;;;x
+PROV344;The Scourge;Le Fléau;The Scourge;The Scourge;Azote;;;;;;;;;x
+PROV345;The Red Dunes;Les Dunes Rouges;Red Dunes;Red Dunes;Dunas Rojas;;;;;;;;;x
+PROV346;Salt Shore;Salrivage;Salt Shore;Salt Shore;Costa Salada;;;;;;;;;x
+PROV347;Ghost Hill;Spectremont;Ghost Hill;Ghost Hill;Colina Fantasma;;;;;;;;;x
+PROV348;Spottswood;Bois-Tâcheté;Spotswood;Spotswood;Bosquepinto;;;;;;;;;x
+PROV349;Godsgrace;La Gracedieu;Godsgrace;Godsgrace;Bondadivina ;;;;;;;;;x
+PROV350;Plankytown;Tablade;Plankytown;Plankytown;Los Tablones;;;;;;;;;x
+PROV351;Lemonwood;Boycitre;Lemonwood;Lemonwood;Limonar;;;;;;;;;x
+PROV352;Sunspear;Lancehélion;Sunspear;Sunspear;Lanza del Sol;;;;;;;;;x
+PROV353;Sunstone;Degrés de Pierre;Stepstone #1;Stepstone #1;Piedra del Sol;;;;;;;;;x
+PROV354;Riverspring;Puysaigues;Riverspring;Riverspring;Aguasfuentes;;;;;;;;;x
+PROV355;Castlewood;Castelbois;Castlewood;Castlewood;Castelbosque;;;;;;;;;x
+PROV356;Breakstone Hill;Colline Rompierre;Flint Keep;Flint Keep;Colina Piedrarrota;;;;;;;;;x
+PROV357;Lonely Light;Lumière Isolée;Lonely Light;Lonely Light;Luz Solitaria;;;;;;;;;x
+PROV358;Bloodstone;Peyresangues;Bloodstone;Bloodstone;Piedrasangre;;;;;;;;;x
+PROV359;Grey Gallows;Grises Potences;Grey Gallows;Grey Gallows;Horca Gris;;;;;;;;;x
+PROV360;Dark Den;Sombre Repaire;Stepstone #2;Stepstone #2;Guaridaoscura;;;;;;;;;x
+PROV361;The Skulls;Les Cranes;Stepstone #3;Stepstone #3;Los Cráneos;;;;;;;;;x
+PROV362;Torturer's Deep;Trou du Tortionnaire;Stepstone #4;Stepstone #4;Abismo del Torturador;;;;;;;;;x
+PROV363;Last Refuge;Dernier Refuge;Stepstone #5;Stepstone #5;Último Refugio;;;;;;;;;x
+PROV364;Shame Isle;Ile Honteuse;Stepstone #6;Stepstone #6;Isla de la Vergüenza;;;;;;;;;x
+PROV365;Wreckstone;Cassepierre;Stepstone #7;Stepstone #7;Piedra Ruinosa;;;;;;;;;x
+PROV366;Little Tyrosh;Petite Tyrosh;Stepstone #8;Stepstone #8;Pequeña Tyrosh;;;;;;;;;x
+PROV367;Tyrosh;Tyrosh;Tyrosh;Tyrosh;Tyrosh;;;;;;;;;x
+PROV368;Lys;Lys;Lys;Lys;Lys;;;;;;;;;x
+PROV369;Tyroshi Landing;Terres Tyroshies;;;Tierras Tyroshi;;;;;;;;;x
+PROV370;The Disputed Peninsula;La Péninsule Disputée;;;Punta de la Discordia;;;;;;;;;x
+PROV371;Kylos;Kylos;;;Kylos;;;;;;;;;x
+PROV372;Dyreno Hill;Colline de Dyreno;;;Colinas del Tapiz;;;;;;;;;x
+PROV373;Vysos Plains;Plaines de Vysos;;;Llanuras de Vysos;;;;;;;;;x
+PROV374;Morghos;Morghos;;;Morghos;;;;;;;;;x
+PROV375;Kios;Kios;;;Kios;;;;;;;;;x
+PROV376;Disputed Forest;La Forêt Disputée;;;Bosque de la Discordia;;;;;;;;;x
+PROV377;Myrwater;Myr-eaux;;;Aguas de Myr;;;;;;;;;x
+PROV378;Myr;Myr;;;Myr;;;;;;;;;x
+PROV379;Rynlos;Rynlos;;;Rynlos;;;;;;;;;x
+PROV380;Naqes Embar;Naqes Embar;;;Naqes Embar;;;;;;;;;x
+PROV381;Byloth;Byloth;;;Naranjales;;;;;;;;;x
+PROV382;Lortyr Bay;Baie de Lortyr;;;Vega Verde;;;;;;;;;x
+PROV383;Longlake;Granlac;;;Vidreras;;;;;;;;;x
+PROV384;Nontelos;Nontelos;;;Nontelos;;;;;;;;;x
+PROV385;Mylonos;Mylonos;;;Mylonos;;;;;;;;;x
+PROV386;Samal;Samal;;;Samal;;;;;;;;;x
+PROV387;Lake of Myrth;Lac de Myrth;;;Lago de la Alegría;;;;;;;;;x
+PROV388;Ar Kon;Ar Kon;;;Ar Kon;;;;;;;;;x
+PROV389;The Great Arm;Le Grand Bras;;;El Gran Brazo;;;;;;;;;x
+PROV390;Amenos;Amenos;;;Amenos;;;;;;;;;x
+PROV391;Fareyes;Oeiloin;;;Ojos Lejanos;;;;;;;;;x
+PROV392;Greenlace;Verlacet;;;El Encaje;;;;;;;;;x
+PROV393;Ny Myrelor;Ny Myrelor;;;Ny Myrelor;;;;;;;;;x
+PROV394;Vymolys;Vymolys;;;Vymolys;;;;;;;;;x
+PROV395;Latnyr;Latnyr;;;Latnyr;;;;;;;;;x
+PROV396;Drelyia;Drelyia;;;Drelyia;;;;;;;;;x
+PROV397;Mesylosh;Mesylosh;;;Mesylosh;;;;;;;;;x
+PROV398;Silkhead;Tête-Soie;;;Nube de Seda;;;;;;;;;x
+PROV399;Plains of Maegys;Plaines des Maegis;;;Llanuras de las Maegis;;;;;;;;;x
+PROV400;Anyria;Anyria;;;Anyria;;;;;;;;;x
+PROV401;Laboros;Laboros;;;Laboros;;;;;;;;;x
+PROV402;Ar Mynar;Ar Mynar;;;Ar Mynar;;;;;;;;;x
+PROV403;Dreos;Dreos;;;Dreos;;;;;;;;;x
+PROV404;Honors Port;Port Honors;;;Puerto Honores;;;;;;;;;x
+PROV405;Sar Lhorulys;Sar Lhorulys;;;Sar Lhorulys;;;;;;;;;x
+PROV406;Pentos;Pentos;;;Pentos;;;;;;;;;x
+PROV407;Prince's Shore;Rivage du Prince;;;Costa del Príncipe;;;;;;;;;x
+PROV408;Berylos;Berylos;;;Berylos;;;;;;;;;x
+PROV409;Sunrise Road;Route du Levant;;;Ruta del Amanecer;;;;;;;;;x
+PROV410;Lhorulu;Lhorulu;;;Lhorulu;;;;;;;;;x
+PROV411;Northfields;Champs du Nord;;;Campos del Norte;;;;;;;;;x
+PROV412;Goldenbridge;Pont Doré;;;Puente Dorado;;;;;;;;;x
+PROV413;Chroyane;Chroyane;;;Chroyane;;;;;;;;;x
+PROV414;Ny Sar;Ny Sar;;;Ny Sar;;;;;;;;;x
+PROV415;Olvys Mell;Olvys Mell;;;Olvys Mell;;;;;;;;;x
+PROV416;Vedys Lands;Terre de Vedys;;;Tierras de Vedys;;;;;;;;;x
+PROV417;Volantis;Volantis;;;Volantis;;;;;;;;;x
+PROV418;The Great Plaza;Temple du Maître de la Lumière;;;La Gran Plaza;;;;;;;;;x
+PROV419;Old Volantis;Antique Volantis;;;Antigua Volantis;;;;;;;;;x
+PROV420;Volon Therys;Volon Therys;;;Volon Therys;;;;;;;;;x
+PROV421;Sar Mell;Sar Mell;;;Sar Mell;;;;;;;;;x
+PROV422;Valysar;Valysar;;;Valysar;;;;;;;;;x
+PROV423;Selhorys;Selhorys;;;Selhorys;;;;;;;;;x
+PROV424;Mavlys;Mavlys;;;Mavlys;;;;;;;;;x
+PROV425;Valon Sar;Valon Sar;;;Valon Sar;;;;;;;;;x
+PROV426;Rhoyne Vale;Vallée de la Rhoyne;;;Valle del Rhoyne;;;;;;;;;x
+PROV427;Nor Salis;Nor Salis;;;Nor Salis;;;;;;;;;x
+PROV428;Dagger Lake;Lac de la Dague;;;Lago Daga;;;;;;;;;x
+PROV429;Ar Noy;Ar Noy;;;Ar Noy;;;;;;;;;x
+PROV430;Sar Rhoy;Sar Rhoy;;;Sar Rhoy;;;;;;;;;x
+PROV431;Qhoyne;Qhoyne;;;Qhoyne;;;;;;;;;x
+PROV432;Noyne;Noyne;;;Noyne;;;;;;;;;x
+PROV433;Norvos;Norvos;;;Norvos;;;;;;;;;x
+PROV434;Nyelos;Nyelos;;;Nyelos;;;;;;;;;x
+PROV435;Noomgate;Porte Noom;;;Puerta Noom;;;;;;;;;x
+PROV436;Darkbridge;Noirpont;;;Puentenegro;;;;;;;;;x
+PROV437;Deep Forest;Forêt Profonde;;;Bosque Profundo;;;;;;;;;x
+PROV438;Malhor;Malhor;;;Malhor;;;;;;;;;x
+PROV439;Watersmeet;Confluent;;;Confluencias;;;;;;;;;x
+PROV440;Palhorvos;Palhorvos;;;Palhorvos;;;;;;;;;x
+PROV441;Bear Hills;Collines des Ours;;;Colinas del Oso;;;;;;;;;x
+PROV442;Ghoyan Pass;Passe de Ghoyan;;;Paso de Ghoyan;;;;;;;;;x
+PROV443;Narros;Narros;;;Narros;;;;;;;;;x
+PROV444;Mount Norvo;Mont Norvo;;;Montenorvo;;;;;;;;;x
+PROV445;Shalorath;Shalorath;;;Shalorath;;;;;;;;;x
+PROV446;Fisher Point;Rivage Lorathi;;;Costa Lorathi;;;;;;;;;x
+PROV447;Elbateros;Elbateros;;;Elbateros;;;;;;;;;x
+PROV448;White Cliffs;Falaises Blanches;;;Acantilados Blancos;;;;;;;;;x
+PROV449;Ny Rhon Valley;Vallée de Ny Rhon;;;Valle de Ny Rhon;;;;;;;;;x
+PROV450;Ghoyan Drohe;Ghoyan Drohe;;;Ghoyan Drohe;;;;;;;;;x
+PROV451;Velvet March;Marche de Velours;;;Marca de Terciopelo;;;;;;;;;x
+PROV452;Velvetpeak;Pic de Velours;;;Pico de Terciopelo;;;;;;;;;x
+PROV453;Little Rhoyne;Petite Rhoyne;;;Pequeño Rhoyne;;;;;;;;;x
+PROV454;Seven Stars;Sept Etoiles;;;Siete Estrellas;;;;;;;;;x
+PROV455;Hugorvale;Val d'Hugor;;;Valle de Hugor;;;;;;;;;x
+PROV456;East Andalos;Andalos Oriental;;;Andalia Oriental;;;;;;;;;x
+PROV457;Father's Hill;Colline du Père;;;Colina del Padre;;;;;;;;;x
+PROV458;Andal Coast;Côte Andale;;;Costa Ándala;;;;;;;;;x
+PROV459;Mother's Valley;Vallée de la Mère;;;Valle de la Madre;;;;;;;;;x
+PROV460;Willowsreach;Les Saules;;;Los Sauces;;;;;;;;;x
+PROV461;Malaqovos;Malaqovos;;;Malaqovos;;;;;;;;;x
+PROV462;Freneros;Freneros;;;Freneros;;;;;;;;;x
+PROV463;Daerves Hills;Collines Braaviennes;;;Colinas Braavosi;;;;;;;;;x
+PROV464;Prestaynos;Prestaynos;;;Prestaynos;;;;;;;;;x
+PROV465;Moroggos;Moroggos;;;Morrogos;;;;;;;;;x
+PROV466;Antaryonos;Antaryonos;;;Antaryonos;;;;;;;;;x
+PROV467;Ironport;Champs Braaviens;;;Campos Braavosi;;;;;;;;;x
+PROV468;Moonsbridge;Côte Braavienne;;;Canal Largo;;;;;;;;;x
+PROV469;The Marshes;Les Marais;;;La Laguna;;;;;;;;;x
+PROV470;Braavos;Braavos;;;Braavos;;;;;;;;;x
+PROV471;Lorath;Lorath;;;Lorath;;;;;;;;;x
+PROV472;Dark Hills;Collines Sombres;;;Colinas Sombrías;;;;;;;;;x
+PROV473;Dolronhor;Dolronhor;;;Dolronhor;;;;;;;;;x
+PROV474;The Axe;La Hache;;;El Hacha;;;;;;;;;x
+PROV475;Axe Mountains;Montagnes de la Hache;;;Montañas del Hacha;;;;;;;;;x
+PROV476;Qohor;Qohor;;;Qohor;;;;;;;;;x
+PROV477;Qovosar;Qovosar;;;Qovosar;;;;;;;;;x
+PROV478;Goatwood;Forêt de la Chèvre;;;Bosque de la Cabra;;;;;;;;;x
+PROV479;Hobreth;Côte Qohorienne;;;Costa de Qohor;;;;;;;;;x
+PROV480;Satholik;Satholik;;;Satholik;;;;;;;;;x
+PROV481;Sungrove;Solpinède;;;Soto Soleado;;;;;;;;;x
+PROV482;Ar Selrys;Ar Selrys;;;Ar Selrys;;;;;;;;;x
+PROV483;Arlior Geron;Arlior Geron;;;Arlior Geron;;;;;;;;;x
+PROV484;Little Valyria;Petite Valyria;;;Pequeña Valyria;;;;;;;;;x
+PROV485;Vasyugys;Vasyugys;;;Vasyugys;;;;;;;;;x
+PROV486;Death Swamps;Mormarais;;;Pantanos de la Muerte;;;;;;;;;x
+PROV487;Selhoru;Selhoru;;;Selhoru;;;;;;;;;x
+PROV488;Volaena;Volaena;;;Volaena;;;;;;;;;x
+PROV489;Vysyria;Vysyria;;;Vysyria;;;;;;;;;x
+PROV490;Painted March;Marche Peinte;;;Marcas Pintadas;;;;;;;;;x
+PROV491;Stone Head;Chef-en-Pierre;;;Cabeza de Piedra;;;;;;;;;x
+PROV492;Isle of Women;Ile des Femmes;;;Isla de las Mujeres;;;;;;;;;x
+PROV493;Last Lament;Dernière Plainte;;;Último Lamento;;;;;;;;;x
+PROV494;Lotus Valley;Val aux Lotus;;;Valle del Loto;;;;;;;;;x
+PROV495;Jhahar;Jhahar;;;Colinas del Loto;;;;;;;;;x
+PROV496;Lotus Point;Pointe-Lotus;;;Puerto del Loto;;;;;;;;;x
+PROV497;Ambershore;Ambrerive;;;Costa del Ámbar;;;;;;;;;x
+PROV498;Jalabuxon;Jalabuxon;;;Selva de la Canela;;;;;;;;;x
+PROV499;Kone Forest;Forêt de Kone;;;Árboles Parlantes;;;;;;;;;x
+PROV500;Tall Trees Town;Grand Banian;;;Árboles Altos;;;;;;;;;x
+PROV501;The Citrus Coves;Les Criques d'Agrumes;;;Huerto de Cítricos;;;;;;;;;x
+PROV502;Koj;Koj;;;Koj;;;;;;;;;x
+PROV503;Isle of Birds;Ile-aux-Oiseaux;;;Isla de los Pájaros;;;;;;;;;x
+PROV504;Qetzalu;Qetzalu;;;Puerto Quetzal;;;;;;;;;x
+PROV505;Heartvale;Valcoeur;;;Costa Rica;;;;;;;;;x
+PROV506;Naked Forest;Forêt Nue;;;Bosque Fértil;;;;;;;;;x
+PROV507;Smiling Cliffs;Falaises Souriantes;;;Costa Alegre;;;;;;;;;x
+PROV508;Xhala;Xhala;;;Amaranto;;;;;;;;;x
+PROV509;Cape Omburu;Cap Omburu;;;Madreperla;;;;;;;;;x
+PROV510;The Singing Stones;Les Pierres qui Chantent;;;Rocas Cantarinas;;;;;;;;;x
+PROV511;Golden Exile;Exil Doré;;;Exilio Dorado;;;;;;;;;x
+PROV512;Little Exile;Petit Exil;;;Pequeño Exilio;;;;;;;;;x
+PROV513;Orange Exile;Exil Orange;;;Exilio Naranja;;;;;;;;;x
+PROV514;Isle of Love;Ile d'Amour;;;Isla del Amor;;;;;;;;;x
+PROV515;Moluu;Moluu;;;Moluu;;;;;;;;;x
+PROV516;Fragrant Isle;Ile Parfumée;;;Isla Fragancia;;;;;;;;;x
+PROV517;Ebonhead;Tête d'Ebène;;;Cabo de Ébano;;;;;;;;;x
+PROV518;Sweetwater;Eaudouce;;;Loto Dulce;;;;;;;;;x
+PROV519;Golden Mountains;Montagnes Dorées;;;Montañas Doradas;;;;;;;;;x
+PROV520;Lotus Hills;Collines du Lotus;;;Flecha de Jhahar;;;;;;;;;x
+PROV521;Ebonhills;Collines Ebènes;;;Colinas de Ébano;;;;;;;;;x
+PROV522;Bloodwood;Boisang;;;Palos de Sangre;;;;;;;;;x
+PROV523;Kalalula;Kalalula;;;Costa de la Pimienta;;;;;;;;;x
+PROV524;Jhalavale;Jhalavale;;;Hoya de Jhala;;;;;;;;;x
+PROV525;Highgrove;Grande-Crique;;;Pieles de Plata;;;;;;;;;x
+PROV526;Red Flower Bay;Baie Pivoine;;;Flor Roja;;;;;;;;;x
+PROV527;Indigoshore;Rivindigo;;;Playas del Índigo;;;;;;;;;x
+PROV528;Scarlethead;Tête-Ecarlate;;;Costa Esmeralda;;;;;;;;;x
+PROV529;Parrotshore;Rivage du Péroquet;;;Pico del Loro;;;;;;;;;x
+PROV530;Rotu Forest;Forêt de Rotu;;;Bosque Áureo;;;;;;;;;x
+PROV531;Goldenheart;Coeur-Dorée;;;Aurocorazón;;;;;;;;;x
+PROV532;Tamarinu;Tamarinu;;;Nuez Moscada;;;;;;;;;x
+PROV533;Lizard Head;Tête de Lézard;;;Cabeza de Lagarto;;;;;;;;;x
+PROV534;Xon;Xon;;;Xon;;;;;;;;;x
+PROV535;The Bones;Les Os;;;Los Huesos;;;;;;;;;x
+PROV536;Doquu;Doquu;;;Doquu;;;;;;;;;x
+PROV537;Hathasia;Hathasia;;;Hathasia;;;;;;;;;x
+PROV538;Persaria;Persaria;;;Persaria;;;;;;;;;x
+PROV539;Herys;Herys;;;Herys;;;;;;;;;x
+PROV540;Forest Road;Route Forestière;;;Ruta del Bosque;;;;;;;;;x
+PROV541;Bajys;Bajys;;;Bajys;;;;;;;;;x
+PROV542;Essaria;Essaria;;;Essaria;;;;;;;;;x
+PROV543;Mikath;Mikath;;;Mikath;;;;;;;;;x
+PROV544;Saath;Saath;;;Saath;;;;;;;;;x
+PROV545;Morosh;Morosh;;;Morosh;;;;;;;;;x
+PROV546;Sarys;Sarys;;;Sarys;;;;;;;;;x
+PROV547;Protosh;Protosh;;;Protosh;;;;;;;;;x
+PROV548;High Athosh;Haute Athosh;;;Alto Athosh;;;;;;;;;x
+PROV549;Rathylar;Vallée de Sarne;;;Rathylar;;;;;;;;;x
+PROV550;Kyth;Kyth;;;Kyth;;;;;;;;;x
+PROV551;Mardosh;Baie d'Omber;;;Mardosh;;;;;;;;;x
+PROV552;Hornoth;Mintosh;;;Hornoth;;;;;;;;;x
+PROV553;Sarnath;Sarnath;;;Sarnath;;;;;;;;;x
+PROV554;King's Hills;Collines Royales;;;Colinas Reales;;;;;;;;;x
+PROV555;Kasath;Kasath;;;Kasath;;;;;;;;;x
+PROV556;Dathar;Dathar;;;Dathar;;;;;;;;;x
+PROV557;Barkarth;Barkarth;;;Barkarth;;;;;;;;;x
+PROV558;Faath;Faath;;;Faath;;;;;;;;;x
+PROV559;Bartosh;Bartosh;;;Bartosh;;;;;;;;;x
+PROV560;Bay of Tusks;Baie des Défenses;;;Bahía de los Colmillos;;;;;;;;;x
+PROV561;Sallosh;Sallosh;;;Sallosh;;;;;;;;;x
+PROV562;Malath;Malath;;;Malath;;;;;;;;;x
+PROV563;Beccane;Beccane;;;Beccane;;;;;;;;;x
+PROV564;Gornath;Gornath;;;Gornath;;;;;;;;;x
+PROV565;Sathar;Sathar;;;Sathar;;;;;;;;;x
+PROV566;Walrus Point;Pointe Morse;;;Punta Morsa;;;;;;;;;x
+PROV567;Chev'rak;Chev'rak;;;Chevrak;;;;;;;;;x
+PROV568;Dofahkar;Dofahkar;;;Dofahkar;;;;;;;;;x
+PROV569;Maerakar;Maerakar;;;Maerakar;;;;;;;;;x
+PROV570;Vaes Evronee;Vaes Evronee;;;Vaes Evrone;;;;;;;;;x
+PROV571;Vaes Leisi;Vaes Leisi;;;Vaes Leisi;;;;;;;;;x
+PROV572;Arfahkar;Arfahkar;;;Arfahkar;;;;;;;;;x
+PROV573;Qerr;Qerr;;;Qerr;;;;;;;;;x
+PROV574;Vaes Lotar;Vaes Lotar;;;Vaes Lotar;;;;;;;;;x
+PROV575;Qev'rak;Qev'rak;;;Qevrak;;;;;;;;;x
+PROV576;New Ibbish;Neuve-Ibbish;;;Nueva Íbica;;;;;;;;;x
+PROV577;Ibbish;Ibbish;;;Íbica;;;;;;;;;x
+PROV578;Vaerakar;Vaerakar;;;Vaerakar;;;;;;;;;x
+PROV579;Ibbone;Ibbos;;;Ibbone;;;;;;;;;x
+PROV580;Ib Oss;Ib Oss;;;Ib Oss;;;;;;;;;x
+PROV581;Geysert;Geysert;;;Géiseres;;;;;;;;;x
+PROV582;Ib Nor;Ib Nor;;;Ib Nor;;;;;;;;;x
+PROV583;Tuskbay;Tuskbaie;;;Bosquemorsa;;;;;;;;;x
+PROV584;Ib Ess;Ib Ess;;;Ib Ess;;;;;;;;;x
+PROV585;Port of Ibben;Port d'Ibben;;;Puerto de Ibben;;;;;;;;;x
+PROV586;Spearhold;Portelance;;;Lago Mamut;;;;;;;;;x
+PROV587;Ib Lok;Ib Lok;;;Ib Lok;;;;;;;;;x
+PROV588;Herse;Herse;;;Arpones;;;;;;;;;x
+PROV589;Melten;Melten;;;Rorcual;;;;;;;;;x
+PROV590;Ibben Thrak;Ibben Thrak;;;Ibben Thrak;;;;;;;;;x
+PROV591;Ibben Dol;Ibben Dol;;;Ibben Dol;;;;;;;;;x
+PROV592;Ibben Zok;Ibben Zok;;;Ibben Zok;;;;;;;;;x
+PROV593;Ibben Hran;Ibben Hran;;;Ibben Hran;;;;;;;;;x
+PROV594;Far Ib;Ib-de-Loin;;;Lejano Ib;;;;;;;;;x
+PROV595;Ib Sar;Ib Sar;;;Ib Sar;;;;;;;;;x
+PROV596;Lands of the Long Summer;Contrées de l'Eté Constant;;;Tierras del Largo Verano;;;;;;;;;x
+PROV597;Valyria;Valyria;;;Valyria;;;;;;;;;x
+PROV598;Draconys;Draconys;;;Draconys;;;;;;;;;x
+PROV599;Mantarys;Mantarys;;;Mantarys;;;;;;;;;x
+PROV600;The Demon Pass;La Passe des Démons;;;Paso de los Demonios;;;;;;;;;x
+PROV601;Tolos;Tolos;;;Tolos;;;;;;;;;x
+PROV602;Elyria;Elyria;;;Elyria;;;;;;;;;x
+PROV603;The Black Cliffs;Les Falaises Noires;;;Acantilados Negros;;;;;;;;;x
+PROV604;Bhorash;Bhorash;;;Bhorash;;;;;;;;;x
+PROV605;The Demon Road;La Route des Démons;;;Ruta de los Demonios;;;;;;;;;x
+PROV606;Meereen;Meereen;;;Meereen;;;;;;;;;x
+PROV607;Khyzai Pass;Col du Khyzai;;;Paso de Khyzai;;;;;;;;;x
+PROV608;No Man's Land;Terres Inhabitées;;;Tierra de Nadie;;;;;;;;;x
+PROV609;Vadhadhan;Vadhadhan;;;Vadhadhan;;;;;;;;;x
+PROV610;Yunkai;Yunkai;;;Yunkai;;;;;;;;;x
+PROV611;Maelk;Maelk;;;Maelk;;;;;;;;;x
+PROV612;Slaver's Road;Route des Esclavagistes;;;Camino de los Esclavos;;;;;;;;;x
+PROV613;Astapor;Astapor;;;Astapor;;;;;;;;;x
+PROV614;Dhozai;Dhozai;;;Dhozai;;;;;;;;;x
+PROV615;Yaros;Yaros;;;Yaros;;;;;;;;;x
+PROV616;Ghiscar Point;Pointe Ghiscare;;;Punta Ghiscaria;;;;;;;;;x
+PROV617;Baked Shore;Rivages Cuits;;;Costa Asada;;;;;;;;;x
+PROV618;Atruskai;Atruskai;;;Atruskai;;;;;;;;;x
+PROV619;Ghis;Ghis;;;Ghis;;;;;;;;;x
+PROV620;Qimbreen;Qimbreen;;;Qimbreen;;;;;;;;;x
+PROV621;Ghozai;Ghozai;;;Ghozai;;;;;;;;;x
+PROV622;Velos;Velos;;;Velos;;;;;;;;;x
+PROV623;Elos;Elos;;;Elos;;;;;;;;;x
+PROV624;Ghaen;Ghaen;;;Ghaen;;;;;;;;;x
+PROV625;New Ghis;Nouvelle-Ghis;;;Nuevo Ghis;;;;;;;;;x
+PROV626;Naath;Naath;;;Naath;;;;;;;;;x
+PROV627;Gadhis;Gadhis;;;Gadhis;;;;;;;;;x
+PROV628;Horns of Hazzat;Cornes d'Hazzat;;;Cuernos de Hazzat;;;;;;;;;x
+PROV629;Kaldeen;Kaldeen;;;Kaldeen;;;;;;;;;x
+PROV630;Selchar;Selchar;;;Selchar;;;;;;;;;x
+PROV631;Jagor;Jagor;;;Jagor;;;;;;;;;x
+PROV632;Kalot;Kalot;;;Kalot;;;;;;;;;x
+PROV633;Puki;Puki;;;Puki;;;;;;;;;x
+PROV634;Olta Drogaki;Olta Drogaki;;;Olta Drogaki;;;;;;;;;x
+PROV635;Bone Coast;Côte des Os;;;Costa de los Huesos;;;;;;;;;x
+PROV636;Sumbyar;Sumbyar;;;Sumbyar;;;;;;;;;x
+PROV637;Malkai;Malkai;;;Malkai;;;;;;;;;x
+PROV638;Hesh;Hesh;;;Hesh;;;;;;;;;x
+PROV639;Lhazosh;Lhazosh;;;Lhazosh;;;;;;;;;x
+PROV640;Hoshorak;Hoshorak;;;Hoshorak;;;;;;;;;x
+PROV641;Makhrosh;Makhrosh;;;Makhrosh;;;;;;;;;x
+PROV642;Port Yhos;Port Yhos;;;Puerto Yhos;;;;;;;;;x
+PROV643;Ghardaq;Ghardaq;;;Ghardaq;;;;;;;;;x
+PROV644;Wurzkai;Wurzkai;;;Wurzkai;;;;;;;;;x
+PROV645;Gohleen;Gohleen;;;Gohleen;;;;;;;;;x
+PROV646;Atakosh;Atakosh;;;Atakosh;;;;;;;;;x
+PROV647;Geledhan;Geledhan;;;Geledhan;;;;;;;;;x
+PROV648;Kosrak;Kosrak;;;Kosrak;;;;;;;;;x
+PROV649;Virzosh;Virzosh;;;Virzosh;;;;;;;;;x
+PROV650;Nekhos;Nekhos;;;Nekosh;;;;;;;;;x
+PROV651;Western Red Waste;Désert Rouge Occidental;;;Desierto Rojo Occidental;;;;;;;;;x
+PROV652;The Old Waste Road;Vielle Route Désertique;;;El Viejo Camino del Desierto;;;;;;;;;x
+PROV653;Toqolarth;Toqolarth;;;Toqolarth;;;;;;;;;x
+PROV654;Qarkash;Qarkash;;;Qarkash;;;;;;;;;x
+PROV655;Cape of Skulls;Cap des Crânes;;;Cabo Calavera;;;;;;;;;x
+PROV656;Qolahn;Qolahn;;;Qolahn;;;;;;;;;x
+PROV657;Eastern Red Waste;Désert Rouge Oriental;;;Desierto Rojo Oriental;;;;;;;;;x
+PROV658;Hubreq;Hubreq;;;Hubreq;;;;;;;;;x
+PROV659;Adakhakileki;Adakhakileki;;;Adakhakileki;;;;;;;;;x
+PROV660;Yinishar;Yinishar;;;Yinishar;;;;;;;;;x
+PROV661;Stonefort;Stonefort;;;Caravasar;;;;;;;;;x
+PROV662;Lehqron;Lehqron;;;Lehqron;;;;;;;;;x
+PROV663;Qarth;Qarth;;;Qarth;;;;;;;;;x
+PROV664;Matsar;Matsar;;;Matsar;;;;;;;;;x
+PROV665;Saaleq;Saaleq;;;Saaleq;;;;;;;;;x
+PROV666;Jade Point;Pointe de Jade;;;Punta de Jade;;;;;;;;;x
+PROV667;Qal;Qal;;;Qal;;;;;;;;;x
+PROV668;Karavana;Karavana;;;Karavana;;;;;;;;;x
+PROV669;Asabhad;Asabhad;;;Asabhad;;;;;;;;;x
+PROV670;Abaj;Abaj;;;Abaj;;;;;;;;;x
+PROV671;Sand Road;La route des Sables;;;Camino de la Arena;;;;;;;;;x
+PROV672;Southern Bone Mountains;Les Os Secs;;;Montañas de los Huesos Meridionales;;;;;;;;;x
+PROV673;Hyrnaya;Hyrnaya;;;Hyrnaya;;;;;;;;;x
+PROV674;Bayasabhad;Bayasabhad;;;Bayasabhad;;;;;;;;;x
+PROV675;Central Bone Mountains;Montagnes des Os;;;Montañas de los Huesos Centrales;;;;;;;;;x
+PROV676;Tashbhad;Tashbhad;;;Tashbhad;;;;;;;;;x
+PROV677;Stone Road;Route de Pierre;;;Camino de la Piedra;;;;;;;;;x
+PROV678;Samyriana;Samyriana;;;Samyriana;;;;;;;;;x
+PROV679;Zarafana;Zarafana;;;Zarafana;;;;;;;;;x
+PROV680;Kayakayanaya;Kayakayanaya;;;Kayakayanaya;;;;;;;;;x
+PROV681;Northern Bone Mountains;Montagnes des Os Septentrionales;;;Montañas de los Huesos Septentrionales;;;;;;;;;x
+PROV682;Steel Road;Route d'Acier;;;Camino del Acero;;;;;;;;;x
+PROV683;Matakur;Matakur;;;Matakur;;;;;;;;;x
+PROV684;Asthaor;Asthaor;;;Asthaor;;;;;;;;;x
+PROV685;Gunur;Gunur;;;Gunur;;;;;;;;;x
+PROV686;Krazaaj;Krazaaj;;;Krazaaj;;;;;;;;;x
+PROV687;Thallur;Thallur;;;Zhallur;;;;;;;;;x
+PROV688;Jhogur;Jhogur;;;Jhogur;;;;;;;;;x
+PROV689;Zobria;Zobria;;;Zobria;;;;;;;;;x
+PROV690;Anogaria;Anogaria;;;Anogaria;;;;;;;;;x
+PROV691;The Painted Valleys;Les Vallées Peintes;;;Valles Pintados;;;;;;;;;x
+PROV692;Vezenkria;Vezenkria;;;Vezenkria;;;;;;;;;x
+PROV693;Eglia;Eglia;;;Eglia;;;;;;;;;x
+PROV694;Kalyos;Kalyos;;;Kalyos;;;;;;;;;x
+PROV695;Tarhor;Tarhor;;;Tarhor;;;;;;;;;x
+PROV696;Porbath;Porbath;;;Porbath;;;;;;;;;x
+PROV697;Kesher;Kesher;;;Kesher;;;;;;;;;x
+PROV698;Yanghis;Vaes Athdrivar;;;Yanghis;;;;;;;;;x
+PROV699;Ghonazdhan;Rhaesh Qoy;;;Ghonazdhan;;;;;;;;;x
+PROV700;Hazdahn No;Vaes Diaf;;;Hazdahn No;;;;;;;;;x
+PROV701;Khydhan;Rhaesh Nhomi;;;Khydhan;;;;;;;;;x
+PROV702;Rhaesh Jim;Rhaesh Jim;;;Rhaesh Jim;;;;;;;;;x
+PROV703;Rhaesh Os;Rhaesh Os;;;Rhaesh Os;;;;;;;;;x
+PROV704;Rhaesh Jano;Rhaesh Jano;;;Rhaesh Jano;;;;;;;;;x
+PROV705;Rhaesh Dalfe;Rhaesh Dalfe;;;Rhaesh Dalfe;;;;;;;;;x
+PROV706;Rhaesh Hranna;Rhaesh Hranna;;;Rhaesh Hranna;;;;;;;;;x
+PROV707;Rhaesh Lame;Rhaesh Lame;;;Rhaesh Lame;;;;;;;;;x
+PROV708;Rhaesh Tehin;Rhaesh Tehin;;;Rhaesh Tehin;;;;;;;;;x
+PROV709;Vaes Dothrak;Vaes Dothrak;;;Vaes Dothrak;;;;;;;;;x
+PROV710;Rhaesh Eveth;Rhaesh Eveth;;;Rhaesh Eveth;;;;;;;;;x
+PROV711;Rhaesh Cheyao;Rhaesh Cheyao;;;Rhaesh Cheyao;;;;;;;;;x
+PROV712;Rhaesh Najaheya;Rhaesh Najaheya;;;Rhaesh Najaheya;;;;;;;;;x
+PROV713;Olta Vizhadi;Olta Vizhadi;;;Olta Vizhadi;;;;;;;;;x
+PROV714;Krazaaj Niqe;Krazaaj Niqe;;;Krazaaj Niqe;;;;;;;;;x
+PROV715;Rhaesh Karlinat;Rhaesh Karlinat;;;Rhaesh Karlinat;;;;;;;;;x
+PROV716;Rhaesh Negwin;Rhaesh Negwin;;;Rhaesh Negwin;;;;;;;;;x
+PROV717;Vaes Tawakof;Vaes Tawakof;;;Vaes Tawakof;;;;;;;;;x
+PROV718;Vaes Krazaaj;Vaes Krazaaj;;;Vaes Krazaaj;;;;;;;;;x
+PROV719;Faros;Faros;;;Faros;;;;;;;;;x
+PROV720;Jade Gate;Porte de Jade;;;Puerta de Jade;;;;;;;;;x
+PROV721;Bawrashar;Bawrashar;;;Bawrashar;;;;;;;;;x
+PROV722;Sielekar;Sielekar;;;Sielekar;;;;;;;;;x
+PROV723;Hekkon;Hekkon;;;Hekkon;;;;;;;;;x
+PROV724;Nahos;Nahos;;;Nahos;;;;;;;;;x
+PROV725;Zaffalor;Zaffalor;;;Zaffalor;;;;;;;;;x
+PROV726;Nur-Anji;Nur-Anji;;;Nur-Anji;;;;;;;;;x
+PROV727;Port Moraq;Port Moraq;;;Puerto Moraq;;;;;;;;;x
+PROV728;Isle of Elephants;Zabhad;;;Isla de los Elefantes;;;;;;;;;x
+PROV729;Vahar;Vahar;;;Vahar;;;;;;;;;x
+PROV730;Pongar;Pongar;;;Pongar;;;;;;;;;x
+PROV731;Draccar;Draccar;;;Draccar;;;;;;;;;x
+PROV732;Cinnamon Isles;Iles-aux-Citrons;;;Islas Canela;;;;;;;;;x
+PROV733;Nameless Isle;Ile Sans-Nom;;;Isla Sin Nombre;;;;;;;;;x
+PROV734;Jabeen;Jabeen;;;Jabeen;;;;;;;;;x
+PROV735;Wyvern Point;Cap de la Vouivre;;;Punta Guiverno;;;;;;;;;x
+PROV736;Gorosh;Gorosh;;;Gorosh;;;;;;;;;x
+PROV737;Eastern Sothoryos Jungle;Jungle de Sothoryos Orientale;;;Jungla Oriental de Sothoryos;;;;;;;;;x
+PROV738;Gomorosh;Gomorosh;;;Zamoyos;;;;;;;;;x
+PROV739;Vyarash;Vyarash;;;Vyarash;;;;;;;;;x
+PROV740;Yeen;Yêen;;;Yeen;;;;;;;;;x
+PROV741;Zamettar;Zamettar;;;Zamettar;;;;;;;;;x
+PROV742;Ax Isle;Ile de la Hache;;;Isla Hacha;;;;;;;;;x
+PROV743;Skull Island;Ile des Crânes;;;Isla de las Calaveras;;;;;;;;;x
+PROV744;Isle of Toads;Ile aux Crapauds;;;Isla de los Sapos;;;;;;;;;x
+PROV745;Western Sothoryos Jungle;Jungle de Sothoryos Occidentale;;;Jungla Occidental de Sothoryos;;;;;;;;;x
+PROV746;Basilisk Point;Pointe du Basilic;;;Punta Basilisco;;;;;;;;;x
+PROV747;Gogossos;Gogossos;;;Gogossos;;;;;;;;;x
+PROV748;The Lice;Le Poux;;;Los Piojos;;;;;;;;;x
+PROV749;Death Isle;Mort-Ile;;;Isla Muerte;;;;;;;;;x
+PROV750;Isle of Flies;Ile des Taons;;;Isla de las Moscas;;;;;;;;;x
+PROV751;Isle of Serpents;Ile des Serpents;;;Isla de las Serpientes;;;;;;;;;x
+PROV752;Howling Mountain;Montagne Hurlante;;;Montaña Aullante;;;;;;;;;x
+PROV753;Talon;Serre;;;Garra;;;;;;;;;x
+PROV754;Isle of Vines;Ile-aux-vignes;;;Isla de las Viñas;;;;;;;;;x
+PROV755;Gelios;Gelios;;;Gelios;;;;;;;;;x
+PROV756;Tyria;Tyria;;;Tyria;;;;;;;;;x
+PROV757;Aquos Dhaen;Aquos Dhaen;;;Aquos Dhaen;;;;;;;;;x
+PROV758;Mhysa Faer;Mhysa Faer;;;Mhysa Faer;;;;;;;;;x
+PROV759;Oros;Oros;;;Oros;;;;;;;;;x
+PROV760;Rhyos;Rhyos;;;Rhyos;;;;;;;;;x
+PROV761;Telyria;Telyria;;;Telyria;;;;;;;;;x
+PROV762;Sarhoy;Sarhoy;;;Sarhoy;;;;;;;;;x
+PROV763;The Jade Road;Route de Jade;;;Camino de Jade;;;;;;;;;x
+PROV764;Karazuishan;Karazuishan;;;Karazuishan;;;;;;;;;x
+PROV765;Yin;Yin;;;Yin;;;;;;;;;x
+PROV766;Si Qo;Si Qo;;;Si Qo;;;;;;;;;x
+PROV767;Xianqi;Xianqi;;;Xianqi;;;;;;;;;x
+PROV768;Qizuishan;Qizuishan;;;Qizuishan;;;;;;;;;x
+PROV769;Fenqui;Fenqui;;;Fenqui;;;;;;;;;x
+PROV770;Jinqi;Jinqi;;;Jinqi;;;;;;;;;x
+PROV771;Sarahai;Sarahai;;;Sarahai;;;;;;;;;x
+PROV772;Qinhi;Qinhi;;;Qinhi;;;;;;;;;x
+PROV773;Zoamen;Zoamen;;;Zoamen;;;;;;;;;x
+PROV774;Jiang Ma;Jiang Ma;;;Jiang Ma;;;;;;;;;x
+PROV775;Gayan;Gayan;;;Gayan;;;;;;;;;x
+PROV776;Henqui;Henqui;;;Henqui;;;;;;;;;x
+PROV777;Linqi;Linqi;;;Linqi;;;;;;;;;x
+PROV778;Taichen;Taichen;;;Taichen;;;;;;;;;x
+PROV779;Jinqhu;Jinqhu;;;Jinqhu;;;;;;;;;x
+PROV780;Tiqui;Tiqui;;;Tiqui;;;;;;;;;x
+PROV781;Shaogong;Shaogong;;;Shaogong;;;;;;;;;x
+PROV782;Telahai;Telahai;;;Telahai;;;;;;;;;x
+PROV783;Nanqi;Nanqi;;;Nanqi;;;;;;;;;x
+PROV784;Wan Ti;Wan Ti;;;Wan Ti;;;;;;;;;x
+PROV785;Fung Yi;Fung Yi;;;Fung Yi;;;;;;;;;x
+PROV786;Xinzihua;Xinzihua;;;Xinzihua;;;;;;;;;x
+PROV787;The Isle of Whips;L'Ile des Fouets;;;Isla de los Látigos;;;;;;;;;x
+PROV788;Marahai;Marahai;;;Marahai;;;;;;;;;x
+PROV789;The Manticore Isles;Les Iles Manticores;;;Islas de la Mantícora;;;;;;;;;x
+PROV790;Turrani;Turrani;;;Turrani;;;;;;;;;x
+PROV791;Leng Ma;Leng Ma;;;Leng Ma;;;;;;;;;x
+PROV792;Leng Yi;Leng Yi;;;Leng Yi;;;;;;;;;x
+PROV793;Jade Isle;Ile de Jade;;;Isla de Jade;;;;;;;;;x
+PROV794;Ulthos;Ulthos;;;Ulthos;;;;;;;;;x
+PROV795;Asshai;Asshai;;;Asshai;;;;;;;;;x
+PROV796;Stygai;Stygai;;;Stygai;;;;;;;;;x
+PROV797;Chaiysa;Chaiysa;;;Chaiysa;;;;;;;;;x
+PROV798;The Saffron Lands;Les Terres Safran;;;Tierras del Azafrán;;;;;;;;;x
+PROV799;Saffron Isle;Ile Safran;;;Isla Azafrán;;;;;;;;;x
+PROV800;Ulos;Ulos;;;Ulos;;;;;;;;;x
+PROV801;Taegye;Taegye;;;Taegye;;;;;;;;;x
+PROV802;Manpos;Manpos;;;Valle de Sombras;;;;;;;;;x
+PROV803;Kumirai;Kumirai;;;Kumirai;;;;;;;;;x
+PROV804;The Shadow Mountains;Les Montagnes de l'Ombre;;;Montañas Sombrías;;;;;;;;;x
+PROV805;Saraburai;Saraburai;;;Saraburai;;;;;;;;;x
+PROV806;Shadow Port;Port de l'Ombre;;;Puerto Sombrío;;;;;;;;;x
+PROV807;Southern Mountains of the Morn;Montagnes du Matin Méridionales;;;Montañas de la Alborada Meridionales;;;;;;;;;x
+PROV808;Carcosa;Carcosa;;;Carcosa;;;;;;;;;x
+PROV809;Hidden Valley;Vallée Cachée;;;Valle Oculto;;;;;;;;;x
+PROV810;Hidden Shore;Rivage Caché;;;Orilla Oculta;;;;;;;;;x
+PROV811;City of the Winged Men;Cité des Hommes Ailés;;;Ciudad de los Hombres Alados;;;;;;;;;x
+PROV812;Eastern Mountains of the Morn;Montagnes du Matin Orientales;;;Montañas de la Alborada Orientales ;;;;;;;;;x
+PROV813;Northern Mountains of the Morn;Montagnes du Matin Septentrionales;;;Montañas de la Alborada Septentrionales;;;;;;;;;x
+PROV814;Cities of the Bloodless Men;Cités des Hommes Exsangues;;;Ciudades de los Hombres Sin Sangre;;;;;;;;;x
+PROV815;The Dry Deep;Le Puits Sec;;;El Abismo Árido;;;;;;;;;x
+PROV816;Bonetown;Ville d'Os;;;Ciudad de los Huesos;;;;;;;;;x
+PROV817;Southern Cannibal Sands;Les Sables Cannibales Méridionaux;;;Arenas de los Caníbales del Sur;;;;;;;;;x
+PROV818;K'Dath;K'Dath;;;K'Dath;;;;;;;;;x
+PROV819;Land of the Shrykes;Terres des Shrykes;;;Tierra de los Shrykes;;;;;;;;;x
+PROV820;The Five Forts;Les Cinq Forts;;;Los Cinco Fuertes;;;;;;;;;x
+PROV821;The Pass of Morn;La Passe du Matin;;;Paso de la Alborada;;;;;;;;;x
+PROV822;The Blood Marsh;Les Marais Saignants;;;Marismas Sangrantes;;;;;;;;;x
+PROV823;The Grey Waste;Le Désert Gris;;;El Desierto Gris;;;;;;;;;x
+PROV824;Northern Cannibal Sands;Les Sables Cannibales Septentrionaux;;;Arenas de los Caníbales del Norte;;;;;;;;;x
+PROV825;Rosovny;Rosovny;;;Rosovny;;;;;;;;;x
+PROV826;Mosov Point;Pointe de Mosov;;;Punta de Mosov;;;;;;;;;x
+PROV827;Forest of Mosovny;Forêt de Mosovny;;;Bosque de Mossovy;;;;;;;;;x
+PROV828;Gostov;Gostov;;;Gostov;;;;;;;;;x
+PROV829;East N'Ghai;N'Ghai de l'Est;;;N'Ghai Oriental;;;;;;;;;x
+PROV830;Kosov;Kosov;;;Kosov;;;;;;;;;x
+PROV831;West N'Ghai;N'Ghai de l'Ouest;;;N'Ghai Occidental;;;;;;;;;x
+PROV832;Bay of Nefer;Baie de Nefer;;;Bahía de Nefer;;;;;;;;;x
+PROV833;Northpoint;Pointe-Nord;;;Punta Norte;;;;;;;;;x
+PROV834;Thousand Islands;Mille-Iles;;;Las Mil Islas;;;;;;;;;x
+PROV835;Nefer;Nefer;;;Nefer;;;;;;;;;x
+PROV836;Fields of Nefer;Champs du Nefer;;;Campos de Nefer;;;;;;;;;x
+PROV837;Embonor;Embonor;;;Embonor;;;;;;;;;x
+PROV838;Leviathan Sound;Chenal des Léviathans;;;Ensenada del Leviatán;;;;;;;;;x
+PROV839;Howling Point;Pointe du Hurlement;;;Punta Rugiente;;;;;;;;;x
+PROV840;Howling Bay;Baie du Hurlement;;;Bahía Rugiente;;;;;;;;;x
+PROV841;Howling Hills;Collines du Hurlement;;;Colinas Rugientes;;;;;;;;;x
+PROV842;Eastern Steel Road;Route d'Acier orientale;;;Camino del Acero Oriental;;;;;;;;;x
+PROV843;Northern Great Sand Sea;Grande Mer de Sable Septentrionale;;;Gran Mar de Arena Norte;;;;;;;;;x
+PROV844;Great Sand Road;Grande Route de Sable;;;Gran Camino de la Arena;;;;;;;;;x
+PROV845;Southern Great Sand Sea;Grande Mer de Sable Méridionale;;;Gran Mar de Arena Sur;;;;;;;;;x
+PROV846;Yueqihar;Yueqihar;;;Yueqihar;;;;;;;;;x
+PROV847;Trader Town;Ville-Foirail;;;Bazar;;;;;;;;;x
+PROV848;Furamay;Furamay;;;Furamay;;;;;;;;;x
+PROV849;The Shrinking Sea;La Mer Craintive;;;El Mar Menguante;;;;;;;;;x
+PROV850;Affazhat;Affazhat;;;Affazhat;;;;;;;;;x
+PROV851;Akkovarat;Akkovarat;;;Akkovarat;;;;;;;;;x
+PROV852;Qemosor;Qemosor;;;Qemosor;;;;;;;;;x
+PROV853;Ithkoil;Ithkoil;;;Ithkoil;;;;;;;;;x
+PROV854;Drekat;Drekat;;;Drekat;;;;;;;;;x
+PROV855;The Bleeding Shore;Le Rivage Saignant;;;Costa Sangrante;;;;;;;;;x
+PROV856;Chomokh;Chomokh;;;Chomokh;;;;;;;;;x
+PROV857;Feshith;Feshith;;;Feshith;;;;;;;;;x
+PROV858;Halashir;Halashir;;;Halashir;;;;;;;;;x
+PROV859;Kazga;Kazga;;;Kazga;;;;;;;;;x
+PROV860;Athzalar;Athzalar;;;Athzalar;;;;;;;;;x
+PROV861;Melikh;Melikh;;;Melikh;;;;;;;;;x
+PROV862;Lanqoyi;Lanqoyi;;;Lanqoyi;;;;;;;;;x
+PROV863;Moskat;Moskat;;;Moskat;;;;;;;;;x
+PROV864;Nesolat;Nesolat;;;Nesolat;;;;;;;;;x
+PROV865;Piqui;Piqui;;;Piqui;;;;;;;;;x
+PROV866;Zanisshi;Zanisshi;;;Zanisshi;;;;;;;;;x
+PROV867;Ramasar;Ramasar;;;Ramasar;;;;;;;;;x
+PROV868;Tanqui;Tanqui;;;Tanqui;;;;;;;;;x
+PROV869;Oholat;Oholat;;;Oholat;;;;;;;;;x
+PROV870;Hezyin;Hezyin;;;Hezyin;;;;;;;;;x
+PROV871;Fujin;Fujin;;;Fujin;;;;;;;;;x
+PROV872;Veltor;Veltor;;;Veltor;;;;;;;;;x
+PROV873;Athniqar;Athniqar;;;Athniqar;;;;;;;;;x
+PROV874;Baomi;Baomi;;;Baomi;;;;;;;;;x
+PROV875;Xin;Xin;;;Xin;;;;;;;;;x
+PROV876;Chafaan;Chafaan;;;Chafaan;;;;;;;;;x
+PROV877;Old Anchor Bay;Baie de Vieux Havre;;;Bahía Varadero;;;;;;;;;x
+PROV878;Central Narrow Sea;Le Détroit;;;Mar de los Escalofríos Occidental;;;;;;;;;x
+PROV879;Shivering Sea;Mer Grelotte;;;Mar de los Escalofríos Noroccidental;;;;;;;;;x
+PROV880;Frozen Lakes;Lacs Gelés;;;Lagos Helados;;;;;;;;;x
+PROV881;Long Lake;Lonlac;;;Lago Largo;;;;;;;;;x
+PROV882;Torrhen Lake;Lac Torrhen ;;;Lago Torrhen;;;;;;;;;x
+PROV883;Rills Lakes;Lac des Rus;;;Lagos de los Riachuelos;;;;;;;;;x
+PROV884;Gods Eye;Oeildieu;;;Ojo de Dioses;;;;;;;;;x
+PROV885;Red Lake;Lac Rouge;;;Lago Rojo;;;;;;;;;x
+PROV886;Eastern Sunset Sea;Mer d'Été du Nord Est;;;Mar del Verano Septentrional;;;;;;;;;x
+PROV887;Eastern Sunset Sea;Mer d'Été Septentrionale;;;Mar del Verano Noroccidental;;;;;;;;;x
+PROV888;Southern Sunset Sea;Mer d'Été du Nord Ouest;;;Mar del Verano Noroccidental;;;;;;;;;x
+PROV889;Western Dornish Coast;Côtes Dorniennes Occidentales;;;Costa del Azufre;;;;;;;;;x
+PROV890;Eastern Dornish Coast;Côtes Dorniennes Orientales;;;Costa Salada;;;;;;;;;x
+PROV891;Arbor Coast;Côte du Port;;;Costa del Rejo;;;;;;;;;x
+PROV892;Torrentine Gulf;Golfe de Torendine;;;Golfo del Torrentino;;;;;;;;;x
+PROV893;Redwyne Straits;Chenal Redwyne;;;Estrechos del Tinto;;;;;;;;;x
+PROV894;Central Sunset Sea;Mer du Crépuscule Méridionale;;;Mar del Ocaso Meridional;;;;;;;;;x
+PROV895;Whispering Sound;Murmure;;;Canal de los Susurros;;;;;;;;;x
+PROV896;Garden Coast;Côte Jardin;;;Costa de Bandallón;;;;;;;;;x
+PROV897;Shield Sea;Mer Bouclier;;;Islas Escudo;;;;;;;;;x
+PROV898;Southern Sunset Sea;Mer d'Été du Nord Ouest;;;Mar del Ocaso Meridional;;;;;;;;;x
+PROV899;Coast of the Reach;Côte du Bief;;;Costa Quebrada;;;;;;;;;x
+PROV900;Gulf of Lannisport;Golfe de Port-Lannis;;;Golfo de Lannisport;;;;;;;;;x
+PROV901;Central Sunset Sea;Mer du Crépuscule Méridionale;;;Mar del Ocaso Central;;;;;;;;;x
+PROV902;Central Sunset Sea;Mer du Crépuscule Méridionale;;;Mar del Ocaso Meridional;;;;;;;;;x
+PROV903;Cape Feast;Cap Festif;;;Costa Hoguera;;;;;;;;;x
+PROV904;Fair Sea;Belle Mer;;;Estrecho de Isla Bella;;;;;;;;;x
+PROV905;Central Sunset Sea;Mer du Crépuscule;;;Mar del Ocaso Central;;;;;;;;;x
+PROV906;Northern Sunset Sea;Mer du Crépuscule;;;Mar del Ocaso Central;;;;;;;;;x
+PROV907;Northern Sunset Sea;Mer du Crépuscule;;;Mar del Ocaso Septentrional;;;;;;;;;x
+PROV908;Northern Sunset Sea;Mer du Crépuscule Septentrionale;;;Mar del Ocaso Septentrional;;;;;;;;;x
+PROV909;Northern Sunset Sea;Mer du Crépuscule Septentrionale;;;Mar del Ocaso Septentrional;;;;;;;;;x
+PROV910;Northern Sunset Sea;Mer du Crépuscule Septentrionale;;;Mar del Ocaso Septentrional;;;;;;;;;x
+PROV911;Western Iron Islands;Îles de Fer Occidentales;;;Islas del Hierro Occidentales;;;;;;;;;x
+PROV912;Eastern Iron Islands;Îles de Fer Orientales;;;Islas del Hierro Orientales;;;;;;;;;x
+PROV913;Ironmans Bay;Baie du Fer-né;;;Bahía del Hierro;;;;;;;;;x
+PROV914;Gulf of The Neck;Golfe du Neck;;;Golfo del Cuello;;;;;;;;;x
+PROV915;Cape Kraken;Cap Kraken;;;Cabo Kraken;;;;;;;;;x
+PROV916;Blazewater Bay;Baie d'Enfer;;;Bahía Aguarresplandeciente;;;;;;;;;x
+PROV917;Stoney Coast;Côte Pierreuse;;;Costa Pedregosa;;;;;;;;;x
+PROV918;Dragon Cape;Cap Dragon;;;Punta Dragón Marino;;;;;;;;;x
+PROV919;Western Bay of Ice;Baie des Glaces Occidentale;;;Bahía de Hielo Occidental;;;;;;;;;x
+PROV920;Frozen Sea;Mer Gelée;;;Costa Helada;;;;;;;;;x
+PROV921;Northern Sunset Sea;Mer du Crépuscule Septentrionale;;;Mar del Ocaso Septentrional;;;;;;;;;x
+PROV922;Broken Sea;Mer Rompue;;;Brazo Roto;;;;;;;;;x
+PROV923;Western Stepstones;Degrés de Pierre Occidentaux;;;Peldaños de Piedra Occidentales;;;;;;;;;x
+PROV924;Sea of Estermont;Mer d'Estremont;;;Costa de Estermont;;;;;;;;;x
+PROV925;Eastern Sea of Dorne;Mer de Dorne Orientale;;;Mar de Dorne Oriental;;;;;;;;;x
+PROV926;Cape of Rains;Cap des Pluies;;;Cabo de la Ira;;;;;;;;;x
+PROV927;Shipbreaker Bay;Baie des Naufrageurs;;;Bahía de los Naufragios;;;;;;;;;x
+PROV928;Emerald Sea;Mer Emerald;;;Estrecho de Tarth;;;;;;;;;x
+PROV929;Masseys Hook;Crochet de Massey;;;Garfio de Massey;;;;;;;;;x
+PROV930;The Gullet;Le Gosier;;;Gaznate;;;;;;;;;x
+PROV931;Eastern Blackwater Bay;Baie de la Néra Orientale;;;Bahía del Aguasnegras Oriental;;;;;;;;;x
+PROV932;Western Blackwater Bay;Baie de la Néra Occidentale;;;Bahía del Aguasnegras Occidental;;;;;;;;;x
+PROV933;Dragonstone Sea;Mer de Peyredragon;;;Mar de Rocadragón;;;;;;;;;x
+PROV934;Claw Cape;Cap Griffe;;;Punta Zarpa Rota;;;;;;;;;x
+PROV935;Eastern Bay of Crabs;Baie des Crabes Orientale;;;Bahía de los Cangrejos Oriental;;;;;;;;;x
+PROV936;Western Bay of Crabs;Baie des Crabes Occidentale;;;Bahía de los Cangrejos Occidental;;;;;;;;;x
+PROV937;Cape of Runes;Cap des Runes;;;Cabo de las Runas;;;;;;;;;x
+PROV938;Coast of the Vale;Côte du Val;;;Costa del Valle;;;;;;;;;x
+PROV939;Southern Finger;Doigt Méridional;;;Dedo Sur;;;;;;;;;x
+PROV940;Central Fingers;Les Doigts;;;Dedos Centrales;;;;;;;;;x
+PROV941;Northern Finger;Doigt Septentrional;;;Dedo Norte;;;;;;;;;x
+PROV942;Eastern Bite;Morsure Orientale;;;Mordisco Oriental;;;;;;;;;x
+PROV943;Western Bite;Morsure Occidentale;;;Mordisco Occidental;;;;;;;;;x
+PROV944;White Bay;Baie Blanche;;;Bahía Blanca;;;;;;;;;x
+PROV945;Central Narrow Sea;Le Détroit;;;Mar de los Escalofríos Occidental;;;;;;;;;x
+PROV946;Northern Narrow Sea;Le Détroit Septentrional;;;Mar de los Escalofríos Occidental;;;;;;;;;x
+PROV947;Ram's Coast;Côte du Bélier;;;Costa del Carnero;;;;;;;;;x
+PROV948;Widows Cape;Cap Veuve;;;Cabo de la Viuda;;;;;;;;;x
+PROV949;Sea of Sorrow;Mer de la Peine;;;Costa de las Lágrimas;;;;;;;;;x
+PROV950;Gulf of Kar;Golfe de Kar;;;Golfo Gris;;;;;;;;;x
+PROV951;Northern Narrow Sea;Le Détroit Septentrional;;;Mar de los Escalofríos Occidental;;;;;;;;;x
+PROV952;Northern Narrow Sea;Le Détroit Septentrional;;;Mar de los Escalofríos Occidental;;;;;;;;;x
+PROV953;Southern Bay of Seals;Baie des Phoques Méridionale;;;Bahía de las Focas Meridional;;;;;;;;;x
+PROV954;Northern Bay of Seals;Baie des Phoques Septentrionale;;;Bahía de las Focas Septentrional;;;;;;;;;x
+PROV955;Shivering Sea;Mer Grelotte;;;Costa de Skagos;;;;;;;;;x
+PROV956;Shivering Sea;Mer Grelotte;;;Costa del Asta;;;;;;;;;x
+PROV957;Shivering Sea;Mer Grelotte;;;Mar de los Escalofríos Noroccidental;;;;;;;;;x
+PROV958;Mander;Mander;;;Bajo Mander;;;;;;;;;x
+PROV959;The Lower Greenblood;La Basse Sang-Vert;;;Bajo Sangreverde;;;;;;;;;x
+PROV960;Eastern Bay of Ice;Baie des Glaces Orientale;;;Bahía de Hielo Oriental;;;;;;;;;x
+PROV961;Saltspear;Fjord de Piquesel;;;Lanza de Sal;;;;;;;;;x
+PROV962;Central Sunset Sea;Mer du Crépuscule;;;Mar del Ocaso Central;;;;;;;;;x
+PROV963;Eastern Stepstones;Degrés de Pierre Orientaux;;;Peldaños de Piedra Orientales;;;;;;;;;x
+PROV964;Tyroshi Coast;Côtes Tyroshies;;;Costa de Tyrosh;;;;;;;;;x
+PROV965;Western Sea of Myrth;Mer de Myrth Occidentale;;;Mar de la Alegría Occidental;;;;;;;;;x
+PROV966;Flatlands Coast;Côtes des Basses Landes;;;Costa de las Llanuras;;;;;;;;;x
+PROV967;Bay of Pentos;Baie de Pentos;;;Bahía de Pentos;;;;;;;;;x
+PROV968;Southern Coast of Andalos;Côtes d'Andalos Méridionales;;;Costa de Andalia Meridional;;;;;;;;;x
+PROV969;Northern Coast of Andalos;Côtes d'Andalos Septentrionales;;;Costa de Andalia Septentrional;;;;;;;;;x
+PROV970;Bravoosian Coast;Côtes Braaviennes;;;Costa Braavosi;;;;;;;;;x
+PROV971;Cape of Braavos;Cap de Braavos;;;Laguna de Braavos;;;;;;;;;x
+PROV972;Northern Narrow Sea;Le Détroit Septentrional;;;Mar de los Escalofríos Occidental;;;;;;;;;x
+PROV973;Lorath Bay;Baie de Lorath;;;Bahía de Lorath;;;;;;;;;x
+PROV974;Sea of Lorath;Mer de Lorath;;;Mar de Lorath;;;;;;;;;x
+PROV975;Southwestern Shivering Sea;Mer Grelotte Sud-Occidentale;;;Mar de los Escalofríos Suroccidental;;;;;;;;;x
+PROV976;Coast of Norvos;Côtes de Norvos;;;Costa de Norvos;;;;;;;;;x
+PROV977;Eastern Bitterweed Bay;Baie d'Alguamère orientale;;;Bahía de la Ambrosía;;;;;;;;;x
+PROV978;Western Bitterweed Bay;Baie d'Alguamère occidentale;;;Costa de Qohor;;;;;;;;;x
+PROV979;Cape Morosh;Cap Morosh;;;Cabo Morosh;;;;;;;;;x
+PROV980;Gulf of Sarys;Golfe de Sarys;;;Golfo de Sarys;;;;;;;;;x
+PROV981;Omber Sea;Mer d'Omber;;;Costa de Omber;;;;;;;;;x
+PROV982;Bay of Tusks;Baie des Défenses;;;Bahía de los Colmillos;;;;;;;;;x
+PROV983;Western Ifeqevron Sea;Mer d'Ifeqevron Occidentale;;;Costa de los Ifequevron Occidental;;;;;;;;;x
+PROV984;Eastern Ifeqevron Sea;Mer d'Ifeqevron Orientale;;;Costa de los Ifequevron Oriental;;;;;;;;;x
+PROV985;Bay of Whales;Baie des Baleines;;;Bahía de las Ballenas;;;;;;;;;x
+PROV986;Coast of Jhogwin;Côtes de Jhogwin;;;Costa de Jhogwin;;;;;;;;;x
+PROV987;Southwestern Ibbenese Shore;Côtes Ibbéniennes Sud-Occidentales;;;Costa de Ib Suroccidental;;;;;;;;;x
+PROV988;Northwestern Ibbenese Shore;Côtes Ibbéniennes Nord-Occidentales;;;Costa de Ib Noroccidental;;;;;;;;;x
+PROV989;Northern Ibbenese Shore;Côtes Ibbéniennes Septentrionnales;;;Costa de Ib Septentrional;;;;;;;;;x
+PROV990;Eastern Ibbenese Shore;Côtes Ibbéniennes Orientales;;;Costa de Ib Oriental;;;;;;;;;x
+PROV991;Eastern Shivering Sea;Mer Grelotte Orientale;;;Mar de los Escalofríos Oriental;;;;;;;;;x
+PROV992;Southern Shivering Sea;Mer Grelotte Méridionale;;;Mar de los Escalofríos Meridional;;;;;;;;;x
+PROV993;Southern Shivering Sea;Mer Grelotte Méridionale;;;Mar de los Escalofríos Meridional;;;;;;;;;x
+PROV994;Southwestern Shivering Sea;Mer Grelotte Sud-Occidentale;;;Mar de los Escalofríos Suroccidental;;;;;;;;;x
+PROV995;Central Shivering Sea;Mer Grelotte;;;Mar de los Escalofríos Central;;;;;;;;;x
+PROV996;Central Shivering Sea;Mer Grelotte;;;Mar de los Escalofríos Central;;;;;;;;;x
+PROV997;Central Shivering Sea;Mer Grelotte;;;Mar de los Escalofríos Septentrional;;;;;;;;;x
+PROV998;Central Shivering Sea;Mer Grelotte;;;Mar de los Escalofríos Septentrional;;;;;;;;;x
+PROV999;Central Shivering Sea;Mer Grelotte;;;Mar de los Escalofríos Septentrional;;;;;;;;;x
+PROV1000;Eastern Shivering Sea;Mer Grelotte Orientale;;;Mar de los Escalofríos Nororiental;;;;;;;;;x
+PROV1001;Eastern Sea of Myrth;Mer de Myrth Orientale;;;Mar de la Alegría Oriental;;;;;;;;;x
+PROV1002;Central Narrow Sea;Le Détroit;;;Mar Angosto;;;;;;;;;x
+PROV1003;Lysene Coast;Côtes Lysiennes;;;Costa de Lys;;;;;;;;;x
+PROV1004;Orange Sea;Mer Orange;;;Mar Naranja;;;;;;;;;x
+PROV1005;Gulf of Volantis;Golfe de Volantis;;;Golfo de Volantis;;;;;;;;;x
+PROV1006;Rhoyne;Rhoyne;;;Rhoyne;;;;;;;;;x
+PROV1007;Western Valyrian Sea;Mer Valyrienne Occidentale;;;Mar de Valyria Occidental;;;;;;;;;x
+PROV1008;Valyrian Straits;Détroits Valyriens;;;Estrecho de Valyria;;;;;;;;;x
+PROV1009;Tyrian Straits;Détroits Tyriens;;;Estrecho de Tyria;;;;;;;;;x
+PROV1010;The Smoking Sea;La Mer Fumeuse;;;Mar Humeante;;;;;;;;;x
+PROV1011;Southern Valyrian Sea;Mer Valyrienne Méridionale;;;Mar de Valyria Meridional;;;;;;;;;x
+PROV1012;Western Gulf of Grief;Golfe de Douleur Occidental;;;Golfo de las Penas Occidental;;;;;;;;;x
+PROV1013;Eastern Gulf of Grief;Golfe de Douleur Oriental;;;Golfo de las Penas Oriental;;;;;;;;;x
+PROV1014;Western Slaver's Bay;Baie des Serfs Occidentale;;;Bahía de los Esclavos Occidental;;;;;;;;;x
+PROV1015;Eastern Slaver's Bay;Baie des Serfs Orientale;;;Bahía de los Esclavos Oriental;;;;;;;;;x
+PROV1016;Ghiscari Strait;Détroit Ghiscari;;;Estrecho de Ghiscar;;;;;;;;;x
+PROV1017;Coast of Ghiscar;Côtes de Ghiscar;;;Costa de Ghiscar;;;;;;;;;x
+PROV1018;Crimson Sea;Mer Pourpre;;;Mar Escarlata;;;;;;;;;x
+PROV1019;Jade Gates;Portes de Jade;;;Puertas de Jade;;;;;;;;;x
+PROV1020;Gulf of Asabhad;Golfe d'Asabhad;;;Golfo de Asabhad;;;;;;;;;x
+PROV1021;Northern Jade Sea;Mer de Jade Septentrionnale;;;Mar de Jade Septentrional;;;;;;;;;x
+PROV1022;Central Jade Sea;Mer de Jade;;;Mar de Jade Central;;;;;;;;;x
+PROV1023;Central Jade Sea;Mer de Jade;;;Mar de Jade Central;;;;;;;;;x
+PROV1024;Cape Moraq;Cap Moraq;;;Cabo Moraq;;;;;;;;;x
+PROV1025;Southern Cinnamon Straits;Détroits de Cannelle Méridionaux;;;Estrecho de Canela Meridional;;;;;;;;;x
+PROV1026;Western Jade Sea;Mer de Jade Occidentale;;;Mar de Jade Suroccidental;;;;;;;;;x
+PROV1027;Northern Cinnamon Straits;Détroits de Cannelle Septentionaux;;;Estrecho de Canela Septentrional;;;;;;;;;x
+PROV1028;Coast of Faros;Côtes de Faros;;;Costa de Faros;;;;;;;;;x
+PROV1029;Western Jade Sea;Mer de Jade Occidentale;;;Mar de Jade Occidental;;;;;;;;;x
+PROV1030;Western Jade Sea;Mer de Jade Occidentale;;;Mar de Jade Suroccidental;;;;;;;;;x
+PROV1031;Western Jade Sea;Mer de Jade Occidentale;;;Mar de Jade Occidental;;;;;;;;;x
+PROV1032;Cape Wyvern;Cap Wyvern;;;Cabo Guiverno;;;;;;;;;x
+PROV1033;Eastern Sothoryos Coast;Côtes de Sothoryos Orientales;;;Costa de Sothoryos Oriental;;;;;;;;;x
+PROV1034;Central Sothoryos Coast;Côtes de Sothoryos;;;Costa de Sothoryos Central;;;;;;;;;x
+PROV1035;Zamettar Delta;Delta de Zamettar;;;Delta de Zamoyos;;;;;;;;;x
+PROV1036;Gulf of Gogossos;Golfe de Gogossos;;;Golfo de Gogossos;;;;;;;;;x
+PROV1037;Basilisk Straits;Détroits des Basilics;;;Estrecho del Basilisco;;;;;;;;;x
+PROV1038;Eastern Basilisk Sea;Mer des Basilics Orientale;;;Mar del Basilisco Oriental;;;;;;;;;x
+PROV1039;Central Basilisk Sea;Mer des Basilics;;;Mar del Basilisco Central;;;;;;;;;x
+PROV1040;Western Basilisk Sea;Mer des Basilics Occidentale;;;Mar del Basilisco Occidental;;;;;;;;;x
+PROV1041;Western Sothoryos Coast;Côtes de Sothoryos Occidentales;;;Costa de Sothoryos Occidental;;;;;;;;;x
+PROV1042;Coast of Naath;Côtes de Naath;;;Costa de Naath;;;;;;;;;x
+PROV1043;Central Summer Sea;Mer d'Été;;;Mar del Verano Central;;;;;;;;;x
+PROV1044;Central Summer Sea;Mer d'Été;;;Mar del Verano Central;;;;;;;;;x
+PROV1045;Eastern Summer Sea;Mer d'Été Orientale;;;Mar del Verano Oriental;;;;;;;;;x
+PROV1046;Eastern Summer Sea;Mer d'Été Orientale;;;Mar del Verano Oriental;;;;;;;;;x
+PROV1047;Eastern Summer Sea;Mer d'Été Orientale;;;Mar del Verano Oriental;;;;;;;;;x
+PROV1048;Central Summer Sea;Mer d'Été;;;Mar del Verano Central;;;;;;;;;x
+PROV1049;Western Summer Sea;Mer d'Été Occidentale;;;Mar del Verano Central;;;;;;;;;x
+PROV1050;Western Summer Sea;Mer d'Été Occidentale;;;Mar del Verano Central;;;;;;;;;x
+PROV1051;Western Summer Sea;Mer d'Été Occidentale;;;Mar del Verano Central;;;;;;;;;x
+PROV1052;Stone Sea;Mer de Pierre;;;Mar de Piedra;;;;;;;;;x
+PROV1053;Sea of Women;Mer des Femmes;;;Mar de las Mujeres;;;;;;;;;x
+PROV1054;Lotus Coast;Côtes du Lotus;;;Costa del Loto;;;;;;;;;x
+PROV1055;The Smiling Sea;La Mer Souriante;;;Mar Sonriente;;;;;;;;;x
+PROV1056;Sea of Love;Mer d'Amour;;;Mar del Amor;;;;;;;;;x
+PROV1057;Indigo Straits;Détroits Indigo;;;Estrechos del Índigo;;;;;;;;;x
+PROV1058;Straits of Moluu;Détroits de Moluu;;;Estrecho de Moluu;;;;;;;;;x
+PROV1059;Eastern Omboru Shore;Côtes d'Ombroru Orientales;;;Costa de Omboru Oriental;;;;;;;;;x
+PROV1060;Western Coast of Jhala;Côtes de Jala Occidentales;;;Costa de Jhala Occidental;;;;;;;;;x
+PROV1061;Parrot Bay;Baie aux Perroquets;;;Bahía del Loro;;;;;;;;;x
+PROV1062;Golden Bay;Baie Dorée;;;Bahía Dorada;;;;;;;;;x
+PROV1063;Cape Lizard;Cap Lézard;;;Cabo Lagarto;;;;;;;;;x
+PROV1064;Western Summer Sea;Mer d'Été Occidentale;;;Mar del Verano Central;;;;;;;;;x
+PROV1065;Eastern Coast of Jhala;Côtes de Jala Orientales;;;Costa de Jhala Oriental;;;;;;;;;x
+PROV1066;Southern Summer Sea;Mer d'Été Méridional;;;Mar del Verano Meridional;;;;;;;;;x
+PROV1067;Eastern Sunset Sea;Mer du Crépuscule Orientale;;;Mar del Verano Noroccidental;;;;;;;;;x
+PROV1068;The Singing Sea;La Mer Chantante;;;Mar Cantarín;;;;;;;;;x
+PROV1069;Southeastern Sunset Sea;Mer du Crépuscule Sud-Orientale;;;Mar del Verano Occidental;;;;;;;;;x
+PROV1070;Southeastern Sunset Sea;Mer du Crépuscule Sud-Orientale;;;Mar del Verano Suroccidental;;;;;;;;;x
+PROV1071;Southeastern Sunset Sea;Mer du Crépuscule Sud-Orientale;;;Mar del Verano Suroccidental;;;;;;;;;x
+PROV1072;Southeastern Sunset Sea;Mer du Crépuscule Sud-Orientale;;;Mar del Verano Occidental;;;;;;;;;x
+PROV1073;Southern Sunset Sea;Mer du Crépuscule Méridionale;;;Mar del Verano Occidental;;;;;;;;;x
+PROV1074;Southern Sunset Sea;Mer du Crépuscule Méridionale;;;Mar del Verano Suroccidental;;;;;;;;;x
+PROV1075;Southern Sunset Sea;Mer du Crépuscule Méridionale;;;Mar del Verano Suroccidental;;;;;;;;;x
+PROV1076;The Sea of Sighs;Mer des Soupirs;;;Mar de los Suspiros;;;;;;;;;x
+PROV1077;Womb of the World;Nombril du Monde;;;Vientre del Mundo;;;;;;;;;x
+PROV1078;Poison Sea;Mer Vénéneuse;;;Mar del Veneno;;;;;;;;;x
+PROV1079;Dagger Lake;Lac de la Dague;;;Lago Daga;;;;;;;;;x
+PROV1080;Darkwater;Sombres Eaux;;;Torrentenegro;;;;;;;;;x
+PROV1081;Noyne;Noyne;;;Noyne;;;;;;;;;x
+PROV1082;Western Sea of Dorne;Mer de Dorne Occidentale;;;Mar de Dorne Occidental;;;;;;;;;x
+PROV1083;Mander;Mander;;;Mander;;;;;;;;;x
+PROV1084;Upper Mander;Haute-Mander;;;Alto Mander;;;;;;;;;x
+PROV1085;Blackwater Rush;Néra;;;Aguasnegras;;;;;;;;;x
+PROV1086;Upper Blackwater;Haute-Néra;;;Alto Aguasnegras;;;;;;;;;x
+PROV1087;Gods River;Fleuve des Dieux;;;Río del Ojo de Dioses;;;;;;;;;x
+PROV1088;The Trident;Le Trident;;;Tridente;;;;;;;;;x
+PROV1089;Blue Fork;Bleufurque;;;Forca Azul;;;;;;;;;x
+PROV1090;Upper Blue Fork;Haute-Bleufurque;;;Alto Forca Azul;;;;;;;;;x
+PROV1091;Green Fork;Verfurque;;;Forca Verde;;;;;;;;;x
+PROV1092;Upper Green Fork;Haute-Verfurque;;;Alto Forca Verde;;;;;;;;;x
+PROV1093;Red Fork;Ruffurque;;;Forca Roja;;;;;;;;;x
+PROV1094;Upper Red Fork;Haute-Ruffurque;;;Alto Forca Roja;;;;;;;;;x
+PROV1095;Jade Coast;Côte de Jade;;;Costa de Jade;;;;;;;;;x
+PROV1096;Sea of Whips;Mer des Fouets;;;Mar de los Látigos;;;;;;;;;x
+PROV1097;Jade Straits;Détroits de jade;;;Mar de Jade Central;;;;;;;;;x
+PROV1098;Southern Jade Sea;Mer de Jade Méridionale;;;Mar de Jade Meridional;;;;;;;;;x
+PROV1099;Marahai Coast;Côte Marahai;;;Costa de Marahai;;;;;;;;;x
+PROV1100;Central Jade Sea;Mer de Jade Centrale;;;Mar de Jade Central;;;;;;;;;x
+PROV1101;Coast of Yin;Côte de Yin;;;Costa de Yin;;;;;;;;;x
+PROV1102;Straits of Leng;Détroits de Leng;;;Estrecho de Leng;;;;;;;;;x
+PROV1103;Bay of Leng;Baie de Leng;;;Bahía de Leng;;;;;;;;;x
+PROV1104;Eastern Coast of Leng;Côte de Leng Orientale;;;Costa Este de Leng;;;;;;;;;x
+PROV1105;Coast of Jinqi;Côte de Jinqi;;;Costa de Jinqi;;;;;;;;;x
+PROV1106;Shadow Coast;Côte de l'Ombre;;;Costa Sombría;;;;;;;;;x
+PROV1107;Southern Coast of Leng;Côte de Leng Méridionale;;;Costa Sur de Leng;;;;;;;;;x
+PROV1108;Central Jade Sea;Mer de Jade Centrale;;;Mar de Jade Central;;;;;;;;;x
+PROV1109;Manticore Sea;Mer Manticore;;;Mar de la Mantícora;;;;;;;;;x
+PROV1110;Central Jade Sea;Mer de Jade Centrale;;;Mar de Jade Oriental;;;;;;;;;x
+PROV1111;Asshai'i Coast;Côte d'Asshai;;;Costa de Asshai;;;;;;;;;x
+PROV1112;Southern Jade Sea;Mer de Jade Septentrionnale;;;Mar de Jade Suroriental;;;;;;;;;x
+PROV1113;Saffron Straits;Détroits de Safran;;;Estrecho del Azafrán;;;;;;;;;x
+PROV1114;Saffron Sea;Mer de Safran;;;Mar del Azafrán;;;;;;;;;x
+PROV1115;Bay of Ulos;Baie d'Ulos;;;Bahía de Ulos;;;;;;;;;x
+PROV1116;Howling Coast;Côte des Hurlements;;;Costa Aullante;;;;;;;;;x
+PROV1117;Leviathan Sound;Le Chenal des Léviathans;;;Ensenada del Leviatán;;;;;;;;;x
+PROV1118;Western Thousand Islands;Mille-Iles Occidentales;;;Las Mil Islas Occidentales;;;;;;;;;x
+PROV1119;Eastern Thousand Islands;Mille-Iles Orientales;;;Las Mil Islas Orientales;;;;;;;;;x
+PROV1120;Bay of Nefer;Baie du Nefer;;;Bahía de Nefer;;;;;;;;;x
+PROV1121;Mosovy Coast;Côte de Mosovy;;;Costa de Mossovy;;;;;;;;;x
+PROV1122;Eastern Shivering Sea;Mer Grelotte Orientale;;;Mar de los Escalofríos Oriental;;;;;;;;;x
+PROV1123;Eastern Shivering Sea;Mer Grelotte Orientale;;;Mar de los Escalofríos Oriental;;;;;;;;;x
+PROV1124;Eastern Shivering Sea;Mer Grelotte Orientale;;;Mar de los Escalofríos Oriental;;;;;;;;;x
+PROV1125;Eastern Shivering Sea;Mer Grelotte Orientale;;;Mar de los Escalofríos Nororiental;;;;;;;;;x
+PROV1126;Eastern Shivering Sea;Mer Grelotte Orientale;;;Mar de los Escalofríos Nororiental;;;;;;;;;x
+PROV1127;Hidden Sea;Mer Cachée;;;Mar Oculto;;;;;;;;;x
+PROV1128;Bleeding Sea;Mer Saignante;;;Mar Sangrante;;;;;;;;;x
+PROV1129;Shrinking Sea;Mer Craintive;;;Mar Menguante;;;;;;;;;x
+PROV1130;Silver Sea;Mer d'Argent;;;Mar de Plata;;;;;;;;;x
+PROV1131;Sunderland;Sunderland;;;Villahermana;;;;;;;;;x
+PROV1132;Moreland;Moreland;;;Labrador;;;;;;;;;x
+PROV1133;Lorassyon;Lorassyon;;;Lorassyon;;;;;;;;;x
+PROV1134;Sarne Delta;Delta de la Sarne;;;Delta del Sarne;;;;;;;;;x
+PROV1135;West Sarne Delta;Delta de la Sarne occidental;;;Delta del Sarne Occidental;;;;;;;;;x
+PROV1136;East Sarne Delta;Delta de la Sarne oriental;;;Delta del Sarne Oriental;;;;;;;;;x
+PROV1137;The Lower Sarne;La Basse-Sarne;;;Bajo Sarne;;;;;;;;;x
+PROV1138;The Sarne;La Sarne;;;Sarne;;;;;;;;;x
+PROV1139;Lower Little Rhoyne;Basse Petite Rhoyne;;;Alto Rhoyne;;;;;;;;;x
+PROV1140;Upper Little Rhoyne;Haute Petite Rhoyne;;;Pequeño Rhoyne;;;;;;;;;x
+PROV1141;The Greenblood;La Sang-vert;;;Sangreverde;;;;;;;;;x
+PROV1142;The Vaith;Le Voi;;;Vaith;;;;;;;;;x
+PROV1143;The Scourge;Le Fléau;;;Azote;;;;;;;;;x
+PROV1144;Seagard Bay;Baie de Salvemer;;;Bahía de Varamar;;;;;;;;;x
+PROV1145;Sweetport Sound;Dulceport-le-pas ;;;Puertoplácido;;;;;;;;;x
+PROV1146;Berg;Berg;;;Berg;;;;;;;;;x

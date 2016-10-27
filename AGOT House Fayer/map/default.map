@@ -1,0 +1,38 @@
+max_provinces = 1147
+definitions = "definition.csv"
+provinces = "provinces.bmp"
+positions = "positions.txt"
+terrain = "terrain.bmp"
+rivers = "rivers.bmp"
+terrain_definition = "terrain.txt"
+heightmap = "topology.bmp"
+tree_definition = "trees.bmp"
+continent = "continent.txt"
+adjacencies = "adjacencies.csv"
+climate = "climate.txt"
+region = "island_region.txt"
+geographical_region = "geographical_region.txt"
+static = "statics"
+seasons = "seasons.txt"
+
+sea_zones = { 877 1130 }
+sea_zones = { 1134 1135 1136 1137 1138  1139  1140  1141  1142 1143 1144 }
+
+ocean_region = {	
+	sea_zones = { 1 2 }
+}
+
+# Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
+tree = { 3 4 7 10 }
+
+major_rivers = 
+{
+	1083 1084 #Mander
+	959 1141 1142 1143 #Greenblood
+	1085 1086 1087 #Blackwater
+	1088 1089 1090 1091 1092 1093 1094 884 #the Trident
+	1134 1135 1136 1137 1138 #the Sarne
+	1144 #Seagard Bay
+}
+
+externals = {  } 

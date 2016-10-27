@@ -10,11 +10,167 @@ on_startup = {
 		CM.10002 #Check chroncile event target
 		maintenance.50 # Dragon fake education
 		dothraki.203 #Dosh Khaleen Maintenance
+		maintenance.53 #Rainwood de jure maintenance
+		maintenance.54 # triggered modifiers
+		maintenance.59 #Find active player regions for cull
 	}
 }
 
 #character
 on_yearly_pulse = {
+	events = {
+		HL.1030 # Wolf Child growing older, rumors of real mother being a wolf
+		63106 # (Safety flag clearance check event)
+		ZE.1100 # Disobedient daughter is unhappy
+		ZE.9000 # Ally not contributing in war
+		ZE.10000 # Mercenary event tombula
+		RIP.10012 # Check for plague notifications
+		RIP.11700 # Prosperity system
+		RIP.5050 # Scurvy event
+		RIP.30316 # clean up immortal crisis 
+		RIP.30317 # immortal crisis spreads
+		
+		#Maintenance
+		maintenance.5 #General Maintenance				
+		maintenance.31 #Human auto-assigns minor titles
+		maintenance.32 #House Yronwood Bloodroyal title
+		maintenance.40 #AI gender law check		
+		maintenance.49 ##AI job action control		
+		maintenance.51 # Empire crown law maintenance
+		maintenance.54 # triggered modifiers
+		maintenance.39 # House Forrester names a Sentinel
+				
+		#Misc Maintenance		
+		old_races.600 #giant merc flag cleanup
+		warden.1 # New warden needed	
+		ironborn_events.61 #Lose salt wife trait	
+		dragon.8 #yearly dragon growth event
+		knight.35 #House Manderly Knight of Greenhand title
+		diplomatic.50 #King loses spare King titles
+		diplomatic.51 #Has titular kingdom, liege will decide what to do
+		dynasty.100  #Defunct title grants claim on new title
+		251300 #Manderly Stark love	
+		CM.10002 #Check chroncile event target
+		council_plot.52 #You Support A Friend On Your Liege's Council
+		45364 #Check for overrule of council tyranny
+		SoA.30399 #Demon child event generator
+		harrenhal.199 #Harrenhal rebuilding event generator
+		
+		#Maesters
+		#maester.7 #new maester decides
+		#maester.10 #archmaester counter
+		maester.1 #Archmaester maintenance
+		maester.2 #Maester mainetance
+		maester.11 #new archmaester needed
+		maester.30 #Citadel Archmaester Maintenance
+		
+		#Nightswatch
+		nightswatch.4 #Lord Commander surrenders titles
+		nightswatch.5 #Give title back to the watch
+		nightswatch.6 #Black brother maintenance
+		nightswatch.7 #watch is open elective
+		nightswatch.11 #no women/children in night's watch
+		nightswatch.12 #Night's Watch must stay independent
+		#nightswatch.24 #AI decides what to do with child on wall
+		wildling.102 # Check Night's Watch prisoners of Wildlings
+		nightswatch.51 #LC breaks vow by raiding
+		nightswatch.91 #Men unhappy with common personal steward
+		nightswatch.899 #Black brother assigned role
+		nightswatch.103 #deserter management
+		
+		#Slavery
+		slavery.12 #Character owns slaves but does not have slave owner trait
+		slavery.13 #Character who owns no slaves has slave owner trait
+		slavery.15 # Bookkeeping - Slave Traders
+		slavery.20 # Dealing with out-of-place slaves
+		slavery.299 #AI slavery action even
+		slavery.1010 # Slave pit in a non-capital holding!
+		slavery.259 #Yearly AI slave management
+		slavery.701 #unsullied training finished
+		
+		#Kingsguard
+		kingsguard.16 #KG Maintenance
+		#kingsguard.15   #no women in the kingsguard
+		kingsguard.76 #Loan Kingsguard?
+		kingsguard.24 #Kingsguard family at war with the king.
+		
+		#Religion
+		religious.6 #Most Devout Counter
+		#religious.1.2 #Converting away from religion removes religion specific traits
+		
+		#Piracy
+		pirate.10 #Sisterman piracy?
+		pirate.13 #Tyroshi/Lysene Patrician decides to go pirate
+			
+		# Dynastic Claim Checks
+		traditional_claims.2 		#Gain claim on King's Landing
+		traditional_claims.3		# House Targaryen
+		traditional_claims.4		# House Stark
+		traditional_claims.5		# House Greyjoy
+		traditional_claims.6		# House Tully
+		traditional_claims.7		# House Arryn
+		traditional_claims.8		# House Lannister
+		traditional_claims.9		# House Baratheon
+		traditional_claims.10		# House Tyrell
+		traditional_claims.11		# House Martell
+		traditional_claims.12		# House Florent
+		traditional_claims.13		# House Frey
+		traditional_claims.14		# Blackwood/Bracken
+		traditional_claims.15		# Blackfyre
+		traditional_claims.16		# Volmark
+		
+		unoccupied.201 #Ruin maintenance
+		
+		#White Walkers
+		cold_winds.201  #White Walker/Winter wasteland maintainence
+		cold_winds.203 #Cull excess White Walkers/Winter Wastelands
+		
+		#Essos
+		volantis.1 #Triarch election
+		free_cities.6 #golden company flag clearup
+		free_cities.8 #Braavos Unloacking feat		
+		free_cities.1027
+		free_cities.1028
+		free_cities.1029 #Prince of Pentos deflowers maids
+		free_cities.9 #courtesan gains trait at 16
+		free_cities.10 #courtesan loses trait at 43 when daughter recieves trait
+		free_cities.11 #courtesan automatically has daughter to continue the line
+		free_cities.12 #courtesan automatically move to Braavos
+		free_cities.11027 #Princes of Lorath
+		
+		essos.1 #brindlemen pygmies
+		essos.449 #lengi courtier maintenance
+		essos.47 #hyrkooni son is of age, potential gelding
+		essos.52 #hyrkooni courtier maintenance
+		
+		#Education		
+		knight.18 #Squire Knighted
+		reeducation.199 #Choose education path
+		reeducation.7 #Courtier Education Trait
+		reeducation.8 #Steward Education Trait
+		reeducation.9 #Martial Education Trait
+		reeducation.10 #No Education Trait
+		
+		#Dothraki/Jogos Nhai
+		dothraki.203 #Dosh Khaleen Maintenance
+		dothraki.700 # Dothraki child is now old enough for their first horse	#
+		dothraki.820 #Force the AI to consider using raids 
+		jogos_nhai.1 # AI looks for clan annexation targets
+		
+		#Mega Wars
+		mega_wars.21 #AI vassal control
+		mega_wars.2191 #AI dragon rider control
+		mega_wars.60 #Courtier is related to an enemy
+		mega_wars.96 #Vassal is harbouring exiled pretender
+		mega_wars.105 # Check player actually sends help in the war
+		
+		#Childhood Development
+		ZE.13999 # Conclave Random list event (NOTE: also checked non-randomly at on_adulthood)
+		1999 #Non-conclave childhood traits master event
+		
+		#Scenario Events
+		game_of_thrones.1 #Viserys and Daenerys go to Pentos
+	}
 	random_events = {
 		#Lifestyles
 		40 = 200000
@@ -179,7 +335,7 @@ on_yearly_pulse = {
 		100 = 78005
 		100 = 78010
 		100 = 78015
-		100 = 78020
+		100 = 78018
 		100 = 78025
 		100 = 78030
 		100 = HL.10610
@@ -261,42 +417,21 @@ on_yearly_pulse = {
 		100 = CM.6130
 		100 = CM.6132
 		
-		# Way of Life Theology focus
-		1000 = WoL.7000
-		1000 = WoL.7010
-		1000 = WoL.7020
-		1000 = WoL.7030
-		1000 = WoL.7040
-		1000 = WoL.7050
-		#1000 = WoL.7060
-		1000 = WoL.7070
-	
-		#Way of Life Hunting focus
-		2000 = WoL.5000 # Epic Hunt chain start
-		2000 = WoL.5200 # Receive hunting dog
-		1000 = WoL.5210 # Dog makes you happy
-		1000 = WoL.5211 # Dog makes you popular
-		1000 = WoL.5220 # Train your dog?
-		1000 = WoL.5230 # Bad dog kills other dog
-		1000 = WoL.5231 # Bad dog kills or wounds courtier
-		25 = WoL.5550 #AGOT Cruel huntsman event
-
 		# Horse Lords Mercenary Events
-		300 = HL.10100
-		300 = HL.10200
-		300 = HL.10210
-		300 = HL.10220
-		300 = HL.10230
-		300 = HL.10240
-		300 = HL.10250
-		300 = HL.10260
-		300 = HL.10270
-		300 = HL.10400
-		100 = HL.10410
-		300 = HL.10500
-		300 = HL.10510
-		300 = HL.10530
-		300 = HL.10600
+		150 = HL.10100
+		150 = HL.10200
+		150 = HL.10210
+		150 = HL.10220
+		150 = HL.10230
+		150 = HL.10240
+		150 = HL.10250
+		150 = HL.10260
+		150 = HL.10270
+		50 = HL.10400
+		25 = HL.10410
+		25 = HL.10500
+		150 = HL.10510
+		150 = HL.10600
 		
 		# Wolf's Blood events
 		100 = HL.1010 # Wolf Child found in woods
@@ -378,13 +513,75 @@ on_yearly_pulse = {
 		#Dynamic mercenary events
 		40 = ZE.23150 # Band Leader Speaks Highly of Employer
 		
+		#Female councillors
+		100 = 77777 # Visit from talented woman
+		#100 = 77790 # Female relative wants to get on council
+		#150 = 77760 # Female vassal wants to get on council
+
+		#End of days events
+		50 = RIP.14000
 		
-		#AGOT events
+		#Chess with death
+		25 = RIP.30220
+		
+		#Immortal vassal crisis
+		25 = RIP.30300
+		25 = RIP.30315
+		50 = RIP.30318
+		#Immortal rival
+		25 = RIP.30300
+		
+		#Gamebook
+		100 = GBC.1 # Making a friend in mourning
+		
+		#Physician Flavor events
+		100 = RIP.4010 # Court Physician recommends that you "Take it Easy"
+		100 = RIP.4011 # Court Physician gifts you a guide dog
+		200 = RIP.4013 # Court Physician suggests fertility treatment
+		100 = RIP.4020 # Court Physician Friend teaches you medicine
+		100 = RIP.4022 # Court Physician suggests you implement provincial apothecaries (prosperity boost)
+		100 = RIP.4030 # Court Physician asks for patronage
+		200 = RIP.4040 # Court Physician training event
+		200 = RIP.4100 # A Physician-Missionary arrives in a Tribal or Nomadic Court
+		
+		#Random Prosperity Increasing Events
+		125 = RIP.4300 # Steward suggests building new roads
+		125 = RIP.4301 # Lord Spiritual suggests building shrines
+		125 = RIP.4302 # Marshal suggests building outposts
+		125 = RIP.4303 # Spymaster suggests setting up local messenger stations
+		125 = RIP.4304 # Chancellor suggests sponsoring local harvest festivals
+		125 = RIP.4305 # You decide upon personally visiting a province
+		
+		#Maimed Flavor events
+		100 = RIP.29100 # Disfigured events
+		100 = RIP.29200 # One-eyed events
+		100 = RIP.29300 # One-handed events
+		100 = RIP.29400	# One-legged events
+		100 = RIP.29511 # Close relation taking care of you
+		
+		#Hospital events
+		100 = RIP.4501 # Pilgrim physician arrives
+		100 = RIP.4504 # Perform charity
+		100 = RIP.4512 # Religious heads demand money for hospital presence
+		75 = RIP.4514 # Leper arrives at court
+		100 = RIP.4520 # Soup kitchen is damaged
+		100 = RIP.4530 # Court physician seek learning at hospital
+		
+		#Pet events
+		100 = 77850 # Cat event tombula
+		150 = 77860 # Cat makes you happy
+		
+		# Former MTTH Events
+		50 = SoA.5219 # Donate to local monastery - Formerly 2000 month MTTH
+		
+		#################
+		####AGOT events####
+		#################
 		
 		#CK2+ Events
 		250 = 450 #courtier initiates romance with their liege
 		125 = 371 # A courtier initiates romance with another courtier
-		2500 = maintenance.6 #Courtier gets married
+		2500 = maintenance.6 #AI marriage maintenance
 		#250 = 190083  #Fall in love with concubine
 		#150 = dishonorable.1 #assassin excomm
 		150 = dishonorable.2 #Assassin goes nuts
@@ -402,9 +599,9 @@ on_yearly_pulse = {
 		#100 = 150195 #wife is old, looking for lover (oga - modified from Vanilla.)
 		100 = 3726 #Jorah Mormont inpsired event
 		10 = nightswatch.16 #Ranger finds wildling infant
-		100 = dynastic_rivalry.1 #Dynastic Feud start
+		100 = dynastic_rivalry.199 #Dynastic Feud start
 		100 = dynastic_rivalry.100 #Dynastic Feud start (independent rulers)
-		100 = dynastic_rivalry.9 #Dynastic Feud reconcile
+		100 = dynastic_rivalry.990 #Dynastic Feud reconcile
 		50 = pirate.21 #Corsair visits Skull island
 		20 = dynasty.47 #Rich commoner offers marriage in exchange for large dowry
 		100 = fire_obsessed.5 #Drive off winter with wildfire!
@@ -413,6 +610,8 @@ on_yearly_pulse = {
 		5 = old_races.12 #unicorns
 		70 = TOG.1299 # AGOT Landless Adventurer Master Event
 		100 = WoL.10649 #Setup a brothel
+		100 = court.54 #wife asks for handmaiden
+		100 = court.63 #wife asks for handmaiden
 		
 		#Ironborn events
 		50 = ironborn_events.1 #Drowned man offers to bless ship
@@ -431,15 +630,16 @@ on_yearly_pulse = {
 		50 = essos.51 #Hyrkooni adopt a son?
 		50 = essos.100 #Northern Lights
 		2 = essos.103 #Ice Dragon
+		5 = essos.115 #Thousand Islanders
 		
 		#AGOT religious events
-		100 = 39300 #Icon Mother
-		100 = 39301 #Icon Father
-		100 = 39302 #Icon Warrior
-		50 = 39303 #Icon Maiden
-		100 = 39304 #Icon Smith
-		100 = 39305 #Icon Crone
-		50 = 39306 #Icon Stranger
+		40 = 39300 #Icon Mother
+		40 = 39301 #Icon Father
+		40 = 39302 #Icon Warrior
+		20 = 39303 #Icon Maiden
+		40 = 39304 #Icon Smith
+		40 = 39305 #Icon Crone
+		10 = 39306 #Icon Stranger
 		5 = religious.50 #Outlaw Prostitution?
 		5 = religious.54 #Donate bread to the poor?
 		5 = religious.55 #Take a Septon's vows?
@@ -450,144 +650,8 @@ on_yearly_pulse = {
 		#Life at court events
 		100 = lifeatcourt.1 #Fake Valerian Sword Saga - Teen Life (Ages 14-22)
 		100 = lifeatcourt.8 #Bully Saga - Growing up (Ages 8-17)
-		
+			
 		6000 = 0 # Chance of no yearly event
-	}
-	events = {
-		HL.1030 # Wolf Child growing older, rumors of real mother being a wolf
-		63106 # (Safety flag clearance check event)
-		ZE.1100 # Disobedient daughter is unhappy
-		ZE.9000 # Ally not contributing in war
-		ZE.10000 # Mercenary event tombula
-
-		#Maesters
-		#maester.7 #new maester decides
-		#maester.10 #archmaester counter
-		maester.1 #Archmaester maintenance
-		maester.2 #Maester mainetance
-		maester.11 #new archmaester needed
-		maester.30 #HEAD ARCHMAESTER MUST BE AN ARCHMAESTER
-		maester.32 #Non Maesters expelled from citadel
-		
-		#Nightswatch
-		nightswatch.4 #Lord Commander surrenders titles
-		nightswatch.5 #Give title back to the watch
-		nightswatch.6 #Black brother maintenance
-		nightswatch.7 #watch is open elective
-		nightswatch.11 #no women/children in night's watch
-		nightswatch.12 #Night's Watch must stay independent
-		#nightswatch.24 #AI decides what to do with child on wall
-		wildling.102 # Check Night's Watch prisoners of Wildlings
-		nightswatch.51 #LC breaks vow by raiding
-		nightswatch.91 #Men unhappy with common personal steward
-		nightswatch.899 #Black brother assigned role
-		nightswatch.103 #deserter management
-		
-		#Slavery
-		slavery.12 #Character owns slaves but does not have slave owner trait
-		slavery.13 #Character who owns no slaves has slave owner trait
-		slavery.15 # Bookkeeping - Slave Traders
-		slavery.20 # Dealing with out-of-place slaves
-		slavery.299 #AI slavery action even
-		slavery.1010 # Slave pit in a non-capital holding!
-		slavery.259 #Yearly AI slave management
-		
-		#Kingsguard
-		kingsguard.16 #KG Counter
-		kingsguard.63 #Non KG characters expelled from KG
-		#kingsguard.15   #no women in the kingsguard
-		kingsguard.76 #Loan Kingsguard?
-		
-		#Religion
-		religious.6 #Most Devout Counter
-		#religious.1.2 #Converting away from religion removes religion specific traits
-		
-		#Misc Maintenance
-		maintenance.5 #General Maintenance
-		#999901000 #Populate Free Cities with courtiers
-		#5553101	# Mother of secret bastard discovers investigation	
-		free_cities.6 #golden company flag clearup
-		old_races.600 #giant merc flag cleanup
-		warden.1 # New warden needed	
-		traditional_claims.2 #Gain claim on King's Landing
-		ironborn_events.61 #Lose salt wife trait	
-		dragon.8 #yearly dragon growth event
-		maintenance.31 #Human auto-assigns minor titles
-		maintenance.32 #House Yronwood Bloodroyal title
-		maintenance.40 #AI gender law check
-		knight.35 #House Manderly Knight of Greenhand title
-		high_valyrian.10 #Check Targ betorthal
-		diplomatic.50 #King loses spare King titles
-		diplomatic.51 #Has titular kingdom, liege will decide what to do
-		dynasty.100  #Defunct title grants claim on new title
-		251300 #Manderly Stark love
-		jogos_nhai.1 # AI looks for clan annexation targets
-		CM.10002 #Check chroncile event target
-		council_plot.52 #You Support A Friend On Your Liege's Council
-		maintenance.49 ##AI job action control
-		45364 #Check for overrule of council tyranny
-		maintenance.51 # Empire crown law maintenance
-		
-		# Dynastic Claim Checks
-		traditional_claims.3		# House Targaryen
-		traditional_claims.4		# House Stark
-		traditional_claims.5		# House Greyjoy
-		traditional_claims.6		# House Tully
-		traditional_claims.7		# House Arryn
-		traditional_claims.8		# House Lannister
-		traditional_claims.9		# House Baratheon
-		traditional_claims.10		# House Tyrell
-		traditional_claims.11		# House Martell
-		traditional_claims.12		# House Florent
-		traditional_claims.13		# House Frey
-		traditional_claims.14		# Blackwood/Bracken
-		traditional_claims.15		# Blackfyre
-		traditional_claims.16		# Volmark
-		
-		unoccupied.201 #Ruin maintenance
-		
-		cold_winds.201  #White Walker/Winter wasteland maintainence
-		cold_winds.203 #Cull excess White Walkers/Winter Wastelands
-		
-		#Essos
-		volantis.1 #Triarch election
-		free_cities.8 #Braavos Unloacking feat		
-		free_cities.1027
-		free_cities.1028
-		free_cities.1029 #Prince of Pentos deflowers maids
-		free_cities.9 #courtesan gains trait at 16
-		free_cities.10 #courtesan loses trait at 43 when daughter recieves trait
-		free_cities.11 #courtesan automatically has daughter to continue the line
-		free_cities.12 #courtesan automatically move to Braavos
-		
-		essos.1 #brindlemen pygmies
-		essos.449 #lengi courtier maintenance
-		essos.47 #hyrkooni son is of age, potential gelding
-		essos.52 #hyrkooni courtier maintenance
-		
-		#Education		
-		knight.18 #Squire Knighted
-		reeducation.199 #Choose education path
-		reeducation.7 #Courtier Education Trait
-		reeducation.8 #Steward Education Trait
-		reeducation.9 #Martial Education Trait
-		reeducation.10 #No Education Trait
-		
-		#Dothraki
-		dothraki.203 #Dosh Khaleen Maintenance
-		dothraki.700 # Dothraki child is now old enough for their first horse	#
-		dothraki.820 #Force the AI to consider using raids 
-		
-		#Mega Wars
-		mega_wars.21 #AI vassal control
-		mega_wars.2191 #AI dragon rider control
-		mega_wars.60 #Courtier is related to an enemy
-		mega_wars.96 #Vassal is harbouring exiled pretender
-		mega_wars.105 # Check player actually sends help in the war
-		
-		#Childhood Development
-		ZE.13999 # Conclave Random list event (NOTE: also checked non-randomly at on_adulthood)
-		1999 #Non-conclave childhood traits master event
 	}
 }
 
@@ -595,6 +659,14 @@ on_yearly_pulse = {
 #character
 on_bi_yearly_pulse = {
 	events = {
+		TOG.3005 # Lose Berserker Trait when too old
+		SoA.5300 # Christian becoming a wicked priest
+		#SoA.5301 # Muslim becoming a wicked caliph
+		SoA.5302 # Norse becoming an unworthy priest
+		#SoA.5303 # Tengri becoming an unworthy priest
+		SoA.5304 # Zoroastrian becoming an immoral priest
+		#SoA.5305 # Aztec becoming an unworthy priest
+		
 		###Low prio maintenance###
 		#AI objective management
 		maintenance.12 #plot_check
@@ -650,7 +722,7 @@ on_bi_yearly_pulse = {
 		10 = 65030
 		10 = 65031
 		10 = 65032
-		10 = 65033
+		1 = 65033
 		10 = 65034
 		10 = 65035
 		10 = 65036
@@ -702,9 +774,9 @@ on_bi_yearly_pulse = {
 		10 = 65160
 		
 		#Character Improves Steward/Diplomat/intrigue Education
-		10 = 65161
-		10 = 65162
-		10 = 65163
+		20 = 65161
+		20 = 65162
+		20 = 65163
 
 		#Seven Virtues
 		10 = 3020
@@ -887,13 +959,19 @@ on_bi_yearly_pulse = {
 		20 = 6239
 		20 = 6240
 		
-		#Holy Relic events
+		#SoA events
 		10 = SoA.5203 # Misplaced relic
 		200 = SoA.5204 # Relic is stolen by raider
 		10 = SoA.5205 # Relic mixed up with other bones
 		250 = SoA.5206 # Use relic to heal sickness?
 		25 = SoA.5207 # Bring relic out to bless the fields
 		10 = SoA.5209 # Donate owned relic to church?
+		200 = SoA.5410 # Tolerant character making friend
+		200 = SoA.5411 # Tolerant character making friend
+		200 = SoA.5412 # Tolerant character making friend
+		200 = SoA.5413 # Tolerant character making friend
+		200 = SoA.5414 # Tolerant character making friend
+		200 = SoA.5420 # Zealous character insults other religions
 		
 		#Friends/Rivals events
 		20 = friends_rivals.232
@@ -922,6 +1000,8 @@ on_bi_yearly_pulse = {
 		50 = REP.410 # Young family member marries older woman 
 		50 = REP.412 # Family member marries foreign woman
 		
+		20 = TOG.3009
+		
 		#AGOT events
 		10= flavour_events.210 #Dead men walking 1
 		5 = flavour_events.211 #Dead men walking 2
@@ -930,6 +1010,8 @@ on_bi_yearly_pulse = {
 		6 = wikid.250  #Character decides to go abroad on adventure
 		34 = TOG.3109  # Son wants to join the Varangians (Son) #AGOT: adapted for merc company adventures
 		25 = slavery.3000 # A character becomes a liberator
+		10 = iron_throne.30 #Cut on the Iron Throne
+		25 = nightswatch.120 # Donate New Gift to Night's Watch?
 		
 		2000 = 0 # Chance of no bi-yearly event
 	}
@@ -938,6 +1020,8 @@ on_bi_yearly_pulse = {
 #character
 on_five_year_pulse = {
 	events = {
+		GR.1
+		
 		slavery.2500 #force the AI to consider using slave raids
 		unoccupied.18 #AI colonisation prompt
 		faceless.12 #Faceless men pay tax
@@ -1037,12 +1121,21 @@ on_five_year_pulse = {
 		#10 = 3730
 		#10 = 3735
 		
+		#SoA events
+		2 = SoA.5210 # Monks make fantastic beer
+		2 = SoA.5211 # Monks make great wine
+		4 = SoA.5212 # Monks have healing herbs
+		1 = SoA.5213 # Monk is fantastic painter
+		1 = SoA.5214 # Monks produce beautiful books
+		1 = SoA.5215 # Local monks come to visit often
+		2 = SoA.5219 # Donate to local monastery
+		1 = SoA.5241 # I saw the Virgin
+		2 = SoA.5341 # Donate to Quiet Isle
+		
 		#Polished new trait events;
 		10 = misc_traits.33 #Mid-life Fashion Event
 		10 = misc_traits.34 #Mid-life Authoritative Event
-		
-		40 = 0
-		
+			
 		100 = knight.1 #Becoming a knight event (oga)
 		
 		#Nicknames for landless
@@ -1101,12 +1194,15 @@ on_five_year_pulse = {
 		
 		#Dragon Nicknames
 		4 = dragon.90
+		
+		40 = 0
 	}
 }
 
 #character
 on_decade_pulse = {
 	events = {
+		RIP.10031 # clear global flags from bubonic plague
 		religious.63 #Weirwood Growth
 	}
 }
@@ -1130,8 +1226,44 @@ on_yearly_childhood_pulse = {
 }
 
 # Yearly pulse (six months from on_yearly_pulse) intended for Focus events (only fires for characters with a Focus)
-# DISABLED FOR NOW
-on_focus_pulse = {
+on_focus_pulse = {	
+	random_events = {
+		1000 = 0
+		
+		# Family Focus
+		1500 = WoL.3019 #event generator
+		
+		# Theology Focus
+		500 = WoL.7000 # Study religious myths?
+		200 = WoL.7010 # Befriend priest through your religious interest
+		200 = WoL.7020 # Visit holy site and speak with priests there (not Muslims, Christians, Jews or Indians)
+		200 = WoL.7030 # Reflect on own life and how it relates to the gods.
+		200 = WoL.7040 # Theologian's view of other religions - can gain Sympathy for other faiths
+		200 = WoL.7050 # Question own faith - can gain Cynical or Zealous
+		#50 = WoL.7060 # Embrace heresy? Zealous characters only. Can lose the trait or become heretic.
+		400 = WoL.7070 # Embrace theologian lifestyle?
+		200 = WoL.7080 # Mystical experience - lose Depressed and Stressed
+		200 = WoL.7090 # Meditation/Prayer in Seclusion - Go into hiding for a week. Lose Drunkard, Gluttonous and Lustful and possible gain Temperate and Chaste (depending on religion). Tiny Chance of restored eyesight or cured illness.
+	
+		# Hunting focus
+		200 = WoL.5000 # Epic Hunt chain start
+		200 = WoL.5200 # Receive hunting dog
+		200 = WoL.5210 # Dog makes you happy
+		200 = WoL.5211 # Dog makes you popular
+		200 = WoL.5220 # Train your dog?
+		200 = WoL.5230 # Bad dog kills other dog
+		200 = WoL.5231 # Bad dog kills or wounds courtier
+		25 = WoL.5550 #AGOT Cruel huntsman event
+		
+		# War Focus
+		120 = WoL.11300 # Improved martial education
+		120 = WoL.11301 # Leader Trait gained: Troop type specialist
+		120 = WoL.11302 # Leader Trait gained: Terrain/climate specialist
+		120 = WoL.11303 # Leader Trait gained: Battle tactics
+		120 = WoL.11304 # Leader Trait gained: Inspiration, logistics and sieges
+		120 = WoL.11305 # Leader Trait gained: Offense vs Defense
+		120 = WoL.11310 # Teach a commander one of my leader traits
+	}
 }
 
 #on combat pulse
@@ -1156,7 +1288,7 @@ on_combat_pulse = {
 		25 = 270 # Gain Brave
 		25 = 271 # Gain Craven
 		25 = HL.10200 # Lose Craven
-		25 = HL.10300 # Gain Brave
+		25 = HL.10300 #Fighting a great commander
 		20 = 272 # Gain Wroth
 		20 = 273 # Gain Patient
 		
@@ -1187,6 +1319,8 @@ on_combat_pulse = {
 		20 = TOG.3002 # Berserker Wounded
 		15 = TOG.3003 # Berserker Killed
 		25 = TOG.3004 # Berserker Kills Many
+		#15 = 79009 # Shieldmaiden can save liege on battlefield
+		#15 = 79001 # Shieldmaiden saves liege, but she is injured (small chain)
 		
 		15 = cold_winds.60 #Ice Spider
 		15 = cold_winds.62 #ice Spider attacks
@@ -1271,6 +1405,9 @@ on_major_battle_won_leader = {
 
 # Winning army owner is ROOT - opponent army owner is FROM
 on_battle_won_owner = {
+	events = {
+		RIP.15115 #EoD prophet loses
+	}
 }
 
 # Any leader in battle on losing side is ROOT - opponent army leader is FROM
@@ -1355,6 +1492,9 @@ on_siege_over_winner = {
 		TOG.1065 # Religious rebels take county capital
 		CM.10035 # Chronicle for certain major locations
 		HL.2005 # Minor Nomad Clan rebels take county capital
+		RIP.11702 # Prosperity lost when sieged
+		RIP.11713 # Monument to Glory teardown
+		HL.4813 # Nomads may pillage holdings on siege
 		cold_winds.703 #others kill everyone
 	}
 	#random_events = {
@@ -1376,25 +1516,25 @@ on_siege_over_loc_chars = {
 #character
 on_failed_assassination = {
 	random_events = {
- 		#85 = 156 # No harm done
- 		#10 = 157 # Wounded
- 		#5 = 158 # Maimed
+ 		85 = 156 # No harm done
+ 		10 = 157 # Wounded
+ 		5 = 158 # Maimed
  	}
 }
 
 #character
 on_failed_assassination_disc = {
 	random_events = {
- 		#85 = 159 # No harm done
- 		#10 = 160 # Wounded
- 		#5 = 161 # Maimed
+ 		85 = 159 # No harm done
+ 		10 = 160 # Wounded
+ 		5 = 161 # Maimed
  	}
 }
 
 #character
 on_assassination = {
 	events = {
- 		#162
+ 		162
  	}
 }
 
@@ -1402,7 +1542,7 @@ on_assassination = {
 on_assassination_disc = {
 	events = {
 		#vengeance.2
- 		#163
+ 		163
  	}
 }
 
@@ -1413,12 +1553,17 @@ on_birth = {
 	
 		essos.4 #mantarys deformities
 	}
+	random_events = {
+		200 = 0
+		25 = RIP.29600 # Firstborn/first son reaction 
+	}
 }
 
 # character
 on_adulthood = {
 	events = {
 		SoA.3020 # Demon child's true nature asserts itself
+		TOG.3260 #demon child reaches adulthood
 		ZE.13998 # Clear adolescence trait event chain flags on adulthood
 		
 		# Childhood Traits mature if they haven't yet
@@ -1494,6 +1639,7 @@ on_marriage = {
 		#CM.10036 # Chronicle entry - primary heir
 		ZE.1015 # Disobedient daughter is unhappy with marriage
 		ironborn_events.75 #salt child starts new dynasty
+		GBC.199 # Game book event, falling in love with someone else at marriage feast
  	}
 	random_events = {
 		10 = ZE.1010 # Daughter becomes disobedient - undesired marriage
@@ -1506,6 +1652,7 @@ on_become_imprisoned_any_reason = {
 	events = {
 		HL.190
 		ZE.14600 # Being thrown in prison affects education negatively
+		RIP.12097 # Being thrown in prison removes seclusion modifier
 		45400 #Workaround for AI trying to execute vassals who they are heir to
 	}
 }
@@ -1542,7 +1689,7 @@ on_released_from_prison = {
  	}
 }
 
-#character. Triggers if someone is executed
+#character. Triggers if someone is executed, character not dead yet
 on_executed = {
 	events = {
 		#vengeance.3
@@ -1621,11 +1768,15 @@ on_death = {
 		HL.8001 # Sky Burial
 		HL.12
 		ZE.1030 # Daughter becomes disobedient - killed lover- merged with ZE.1040
+		HL.4998
+		RIP.4400 #Nicknames for executions
 	}
 	random_events = {
-		1 = volantis.573 #Triarch Statue defaced
+		1 = RIP.29800 #reincarnation investigation
+		5 = volantis.573 #Triarch Statue defaced
 		10 = 24505
 		10 = 24510
+		25 = RIP.29000 #Lovers/rivals/friends react
 		100 = 0
 	}
 }
@@ -1675,11 +1826,6 @@ on_character_event_message = {
 }
 
 on_loot_settlement = {
-	events = {
-		raid_events.665 #Take Salt Wife
-		raid_events.675 #Take Sword
-		jogos_nhai.5 #Jogos Camp 'sacked', flavour
-	}
 	random_events = {
 		5 = TOG.3300
 		5 = TOG.3301
@@ -1688,6 +1834,16 @@ on_loot_settlement = {
 		35 = TOG.3320
 		100 = slavery.4000 #Take slaves
 		250 = 0
+	}
+	events = {
+		TOG.3321
+		TOG.3322
+		TOG.3323
+		RIP.11720
+		
+		raid_events.665 #Take Salt Wife
+		raid_events.675 #Take Sword
+		jogos_nhai.5 #Jogos Camp 'sacked', flavour
 	}
 }
 
@@ -2020,6 +2176,7 @@ RETRACT_VASSAL_INTERACTION_DECLINE_EVENT = {
 INVITE_TO_COURT_INTERACTION_ACCEPT_EVENT = {
 	events = {
 		280
+		28099
 	}
 }
 
@@ -2322,6 +2479,12 @@ on_crusade_failure = {
 		#621
 	}
 }
+# When a mission invalidates
+on_crusade_invalid = {
+	events = {
+		#534
+	}
+}
 
 # When a pagan ruler forces a prisoner to be his consort
 on_forced_consort = {
@@ -2386,6 +2549,8 @@ on_rel_elector_chosen = {
 # Fires when a Pope is elected. SoA only! FROM is the previous Religious Head
 on_rel_head_chosen = {
 	events = {
+		SoA.5311 # Wicked High Septon
+		SoA.5319 # Immoral High Priest
 		#704
 		#religious.206
 	}
@@ -2397,6 +2562,10 @@ on_settlement_looted = {
 
 # ROOT is the navy's owner, FROM is the province
 on_navy_returns_with_loot = {
+	random_events = {
+		100 = TOG.3404 #Prosperity gain from loot
+		300 = 0
+	}
 }
 
 # ROOT is the creating character, FROM is the title
@@ -2411,13 +2580,24 @@ on_create_title = {
 # ROOT is the character, FROM is the title, FROMFROM is the old holder
 on_new_holder = {
 	events = {
+		HL.4999 #Preserve Nomad Culture
+		HL.4996 #Clear Nomad Agitation when conquered by a non-nomad
+		HL.4812 #Clear nomadic pillage holding modifiers upon succession/conquest
+		HL.4811 #Clear the 'Rampaging Nomads'-Modifier when conquered by a non-nomad
 		#HL.140 #Landless nomad gains a title.
 		#60504 #Landless status clean-up for e_mongol_empire.
 		#ZE.7000 # Check for Gain Any Title ambition.
+		RIP.12098 #check if we need to remove in_seclusion.
+		RIP.11715 #Removes crown focus on new holder
 		
-		traditional_claims.1 #traditional title maintenance	
+		##Events for all new_holder##
 		66114 #Grandchild Princes
-		
+		knight.17 #Remove ser title
+		maintenance.43 #Special titles for titular kingdoms
+		maintenance.52 # Empire AI vassal limit management (make them give kingdom titles)
+		diplomatic.56 #Royal privilege maintenance
+		cadet.10 #Cadet house opinions
+		maintenance.54 # triggered modifiers
 		#Dynamis CoAs
 		dynamic_coa.2 #Iron Throne
 		dynamic_coa.3 #New Valyria
@@ -2430,23 +2610,29 @@ on_new_holder = {
 		dynamic_coa.10 #Dorne
 		dynamic_coa.11 #iron Isles
 		dynamic_coa.12 #Fayer
-		
-		knight.17 #Remove ser title
-		dothraki.850 #New clan maintenance		
-		maintenance.43 #Special titles for titular kingdoms
+			
+		##Events for all on_new_holder only
+		traditional_claims.1 #traditional title maintenance	
+		dothraki.850 #New clan maintenance	
 		maintenance.48 #Empire grants empire maintenance
-		maintenance.52 # Empire AI vassal limit management (make them give kingdom titles)
-		family.103 #Player's family reaction
+		family.103 #Player's family reaction	
 	}
 }
 
 # ROOT is the character, FROM is the title, FROMFROM is the old holder
 on_new_holder_inheritance = {
 	events = {
-		CM.10039 # Chronicle entry	
-		66114 #Grandchild Princes
-		better_rebels.17 #Chance of general unrest
+		HL.4812 #Clear nomadic pillage holding modifiers upon succession/conquest
+		RIP.11715 #Removes crown focus on new holder
 		
+		##Events for all new_holder##
+		66114 #Grandchild Princes
+		knight.17 #Remove ser title
+		maintenance.43 #Special titles for titular kingdoms
+		maintenance.52 # Empire AI vassal limit management (make them give kingdom titles)
+		diplomatic.56 #Royal privilege maintenance
+		cadet.10 #Cadet house opinions
+		maintenance.54 # triggered modifiers
 		#Dynamis CoAs
 		dynamic_coa.2 #Iron Throne
 		dynamic_coa.3 #New Valyria
@@ -2460,22 +2646,35 @@ on_new_holder_inheritance = {
 		dynamic_coa.11 #iron Isles
 		dynamic_coa.12 #Fayer
 		
-		knight.17 #Remove ser title	
+		##Events for all on_new_holder_inheritance only
+		CM.10039 # Chronicle entry	
+		better_rebels.17 #Chance of general unrest
 		essos.106 #Yi Ti God Emperor opts to become eunuch	
-		cadet.10 #Cadet house opinions
 		maintenance.44 #Merc leader dynasty maintenance
 		imprisoned.1 #imprison enemies/foes
+		dynastic_stability.1
 	}
 }
 
 # ROOT is the character, FROM is the title, FROMFROM is the old holder
 on_new_holder_usurpation = {
 	events = {
+		HL.4999 #Preserve Nomad Culture
+		HL.4996 #Clear Nomad Agitation when conquered by a non-nomad
+		HL.4812 #Clear nomadic pillage holding modifiers upon succession/conquest
+		HL.4811 #Clear the 'Rampaging Nomads'-Modifier when conquered by a non-nomad
+		RIP.11715 #Removes crown focus on new holder
+		
 		#HL.140 #Landless nomad gains a title.
-		CM.10022
 		
+		##Events for all new_holder##
 		66114 #Grandchild Princes
-		
+		knight.17 #Remove ser title
+		maintenance.43 #Special titles for titular kingdoms
+		maintenance.52 # Empire AI vassal limit management (make them give kingdom titles)
+		diplomatic.56 #Royal privilege maintenance
+		cadet.10 #Cadet house opinions
+		maintenance.54 # triggered modifiers
 		#Dynamis CoAs
 		dynamic_coa.2 #Iron Throne
 		dynamic_coa.3 #New Valyria
@@ -2489,11 +2688,10 @@ on_new_holder_usurpation = {
 		dynamic_coa.11 #iron Isles
 		dynamic_coa.12 #Fayer
 		
-		knight.17 #Remove ser title
-		
-		cadet.10 #Cadet house opinions
-		
+		##Events for all on_new_holder_usurpation only
+		CM.10022	
 		interregnum.12 #flag reset
+		dynastic_stability.1
 	}
 }
 
@@ -2502,6 +2700,7 @@ on_unlanded = {
 		HL.130 #Landless nomad clean-up.
 		knight.179 #add ser title
 		volantis.575 #Triarch statue defaced
+		maintenance.55 #lose ruler related modifiers
 	}
 }
 
@@ -2548,6 +2747,8 @@ on_character_convert_religion = {
 		CM.10026
 		#671 #set rival conversion flag if eligible
 		#63105
+		#TOG.7101 #Removes main deity for defensive pagans
+		
 		religious.111 #remove special titles
 		SoA.5229 # Remove relic modifier if no longer Christian (Rhllor)
 		pirate.2 #remove pirate trait if no longer pirate
@@ -2558,6 +2759,7 @@ on_character_convert_religion = {
 on_character_convert_culture = {
 	events = {
 		CM.10027
+		wildling.2 #check wildling trait
 	}
 }
 
@@ -2593,6 +2795,7 @@ on_war_ended_victory = {
 	events = {
 		CM.10038
 		free_cities.102 #Pentos lost war- kill Prince?
+		volantis.1 #check for volantene election
 	}
 }
 
@@ -2600,6 +2803,7 @@ on_war_ended_victory = {
 on_war_ended_whitepeace = {
 	events = {
 		CM.10040
+		volantis.1 #check for volantene election
 	}
 }
 
@@ -2608,6 +2812,13 @@ on_war_ended_defeat = {
 	events = {
 		CM.10041
 		free_cities.1023 #Pentos lost war- kill Prince?
+		volantis.1 #check for volantene election
+	}
+}
+# From = Attacker, Root = Defender
+on_war_ended_invalid = {
+	events = {
+		volantis.1 #check for volantene election
 	}
 }
 
@@ -2622,12 +2833,53 @@ on_divorce = {
 # ROOT = Builder, FROM = Title
 on_settlement_construction_start = {
 }
+# ROOT = Builder, FROM = Province
+on_trade_post_construction_start = {
+	events = {
+	}
+}
 
+# ROOT = Builder, FROM = Province
+on_fort_construction_start = {
+	events = {
+	}
+}
+
+# ROOT = Builder, FROM = Province
+on_hospital_construction_start = {
+	events = {
+	}
+}
 # ROOT = Builder, FROM = Title
 on_settlement_construction_completed = {
 	events = {
 		44482
 		HL.4
+	}
+}
+# ROOT = Builder, FROM = Province
+on_trade_post_construction_completed = {
+	events = {
+	}
+}
+
+# ROOT = Builder, FROM = Province
+on_fort_construction_completed = {
+	events = {
+	}
+}
+
+# ROOT = Builder, FROM = Province
+on_hospital_construction_completed = {
+	events = {
+	}
+}
+# ROOT = Builder, FROM = The Holding Title
+on_holding_building_start = {
+	events = {
+		RIP.30100
+		harrenhal.21 #buildings collapse in harrenhal
+		20951 #improve holding castellan warning
 	}
 }
 
@@ -2694,5 +2946,18 @@ on_law_vote_failed = {
 
 on_player_mercenary_income = {
 	events = {
+	}
+}
+
+on_outbreak = {
+	events = {
+		RIP.10000
+		RIP.4000
+	}
+}
+
+on_province_major_modifier = {
+	events = {
+		RIP.10030
 	}
 }
