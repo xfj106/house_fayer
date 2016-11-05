@@ -1,141 +1,1143 @@
-### Old Lords ###
-
-54601001 = {
-	name = "Anthonear"
-	dynasty = 10012
-	religion = "valyrian"
-	culture = "high_valyrian"
-
-	7980.1.1 = {
-		birth="7980.1.1"
-	}
-
-	7996.1.1 = {
-		add_trait="skilled_tactician"
-		add_trait = "skilled_warrior"
-	}
-
-	8020.1.1 = {
-		death = "8020.1.1"
-	}
-
+54600001={
+name="Maelor"
+dynasty=10012
+dna="bnojhldnhaa"
+culture=high_valyrian
+religion=valyrian
+martial=6
+diplomacy=3
+stewardship=5
+intrigue=4
+learning=5
+trait="detached_priest"
+trait="celibate"
+7980.1.1={birth=yes}
+8003.6.3 = {add_spouse=54600002}
+8023.12.20={death=yes}
 }
 
-
-54600001 = {
-	name = "Roland"
-	dynasty = 10012
-	religion = "valyrian"
-	culture = "high_valyrian"
-	
-	dna="bluzjbubjfa"
-	
-	add_trait="strong"
-	add_trait="just"
-	add_trait="trusting"
-	add_trait="lustful"
-	add_trait="charitable"
-	add_trait="proud"
-	add_trait="deceitful"
-	add_trait="arbitrary"
-
-	
-	
-
-	8250.1.22 = {
-		birth="8250.1.22"
-	}
-	
-	8266.1.22 = {
-		add_trait = "skilled_tactician"
-		add_trait = "skilled_warrior"
-		#employer = 147174371
-	}
-
-	8315.1.1 = {
-		death="8315.1.1"
-	}
+54600002={
+name="Aryreos"
+female=yes
+dynasty=10013
+dna="onanbkeilcp"
+culture=high_valyrian
+religion=valyrian
+martial=5
+diplomacy=3
+stewardship=0
+intrigue=2
+learning=6
+trait="detached_priest"
+trait="diligent"
+trait="wounded"
+7983.6.9={birth=yes}
+8003.6.3 = {add_spouse=54600001}
+8039.3.10={death=yes}
 }
 
-
-
-54600003 = {
-	name = "Julien"
-	dynasty = 10012
-	religion = "valyrian"
-	culture = "high_valyrian"
-	father = 54600001
-	#employer = 147174371
-
-	add_trait = "quick"
-#	add_trait = dragonXY
-
-	8280.5.10 = {
-		birth="8070.5.10"
-	}
-	
-	8296.5.10 = {
-		add_trait = "midas_touched"
-		add_trait = "skilled_warrior"
-		
-		add_trait = "shrewd"
-		add_trait = "diligent"
-		add_trait = "patient"
-		
-		add_trait = "honorable"
-		add_trait = "just"
-		add_trait = "cynical"
-		add_trait = "authoritative"
-		
-		add_trait = "gamer"
-		
-	}
-
-	8300.1.1 = {
-		employer = 77041
-	}
-
-	8356.1.1 = {
-		death = "8356.1.1"
-	}
+54600003={
+name="Taenys"
+dynasty=10012
+dna="onajhkeflaa"
+culture=high_valyrian
+religion=valyrian
+martial=6
+diplomacy=3
+stewardship=2
+intrigue=5
+learning=1
+trait="detached_priest"
+trait="poet"
+father=54600001
+mother=54600002
+8009.5.4={birth=yes}
+8031.5.31 = {add_spouse=54600006}
+8048.1.30={death=yes}
 }
 
-54600004 = {
-	name = "Thomas"
-	dynasty = 10012
-	religion = "valyrian"
-	culture = "high_valyrian"
-	#employer = 147174371 
-	father = 54600001
-
-	add_trait = "quick"
-	add_trait = "tall"	
-#	add_trait = dragonXY
-
-	8282.3.10 = {
-		birth="8282.3.10"
-	}
-	
-	8298.3.10 = {
-		add_trait = "brilliant_strategist"
-		add_trait = "master_warrior"
-		add_trait = "robust"
-		
-		add_trait = "greedy"
-		add_trait = "diligent"
-		add_trait = "envious"
-		add_trait = "proud"
-		
-		add_trait = "brave"
-		add_trait = "ambitious"
-		add_trait = "deceitful"
-	}
-
-	8300.1.1 = {
-		employer = 77041
-	}
-
-	8361.1.1 = {
-		death = "8361.1.1"
-	}
+54600004={
+name="Ageneos"
+female=yes
+dynasty=10012
+dna="pkanhldnhaa"
+culture=high_valyrian
+religion=valyrian
+martial=5
+diplomacy=4
+stewardship=1
+intrigue=4
+learning=5
+trait="brilliant_strategist"
+trait="arbitrary"
+trait="trusting"
+trait="depressed"
+father=54600001
+mother=54600002
+8011.4.15={birth=yes}
+8060.8.11={death=yes}
 }
+
+54600005={
+name="Banna"
+female=yes
+dynasty=10012
+dna="bnajhkdnlaj"
+culture=high_valyrian
+religion=valyrian
+martial=3
+diplomacy=4
+stewardship=8
+intrigue=5
+learning=4
+trait="flamboyant_schemer"
+trait="diligent"
+father=54600001
+mother=54600002
+8012.9.10={birth=yes}
+8072.11.13={death=yes}
+}
+
+54600006={
+name="Vysehrys"
+female=yes
+dynasty=10014
+dna="henadpdchcd"
+culture=high_valyrian
+religion=valyrian
+martial=4
+diplomacy=4
+stewardship=3
+intrigue=1
+learning=6
+trait="tough_soldier"
+8013.5.5={birth=yes}
+8031.5.31 = {add_spouse=54600003}
+8054.12.5={death=yes}
+}
+
+54600007={
+name="Maehagarys"
+dynasty=10012
+dna="onnjgpefhad"
+culture=high_valyrian
+religion=valyrian
+martial=4
+diplomacy=4
+stewardship=5
+intrigue=4
+learning=6
+trait="flamboyant_schemer"
+trait="scholar"
+trait="just"
+trait="chaste"
+father=54600003
+mother=54600006
+8035.6.29={birth=yes}
+8058.5.25 = {add_spouse=54600010}
+8095.11.6={death=yes}
+}
+
+54600008={
+name="Taelraenos"
+dynasty=10012
+dna="heafnpechad"
+culture=high_valyrian
+religion=valyrian
+martial=6
+diplomacy=7
+stewardship=2
+intrigue=6
+learning=7
+trait="tough_soldier"
+father=54600003
+mother=54600006
+8036.8.19={birth=yes}
+8092.10.9={death=yes}
+}
+
+54600009={
+name="Tarareon"
+female=yes
+dynasty=10012
+dna="heajhkdclad"
+culture=high_valyrian
+religion=valyrian
+martial=8
+diplomacy=3
+stewardship=0
+intrigue=8
+learning=5
+trait="naive_appeaser"
+trait="arbitrary"
+father=54600003
+mother=54600006
+8040.11.5={birth=yes}
+8087.2.23={death=yes}
+}
+
+54600010={
+name="Taeniar"
+female=yes
+dynasty=10015
+dna="kbdifbghmol"
+culture=high_valyrian
+religion=valyrian
+martial=4
+diplomacy=0
+stewardship=7
+intrigue=3
+learning=5
+trait="misguided_warrior"
+trait="hunter"
+trait="shy"
+trait="content"
+trait="paranoid"
+trait="lustful"
+8039.12.31={birth=yes}
+8058.5.25 = {add_spouse=54600007}
+8090.3.30={death=yes}
+}
+
+54600011={
+name="Taeltheon"
+dynasty=10012
+dna="ondifbgfhad"
+culture=high_valyrian
+religion=valyrian
+martial=6
+diplomacy=3
+stewardship=5
+intrigue=1
+learning=4
+trait="brilliant_strategist"
+father=54600007
+mother=54600010
+8061.7.16={birth=yes}
+8079.11.2 = {add_spouse=54600014}
+8116.11.22={death=yes}
+}
+
+54600012={
+name="Laeraleos"
+dynasty=10012
+dna="obdjgbehmal"
+culture=high_valyrian
+religion=valyrian
+martial=3
+diplomacy=4
+stewardship=2
+intrigue=4
+learning=5
+trait="fortune_builder"
+trait="poet"
+trait="charitable"
+trait="wroth"
+father=54600007
+mother=54600010
+8065.7.6={birth=yes}
+8145.8.4={death=yes}
+}
+
+54600013={
+name="Vhaehnae"
+female=yes
+dynasty=10012
+dna="obdjfbgfmal"
+culture=high_valyrian
+religion=valyrian
+martial=4
+diplomacy=6
+stewardship=3
+intrigue=5
+learning=4
+trait="detached_priest"
+trait="slothful"
+trait="deceitful"
+trait="wroth"
+trait="cynical"
+father=54600007
+mother=54600010
+8068.6.14={birth=yes}
+8109.9.8={death=yes}
+}
+
+54600014={
+name="Caennareon"
+female=yes
+dynasty=10016
+dna="bdlfoanndaj"
+culture=high_valyrian
+religion=valyrian
+martial=3
+diplomacy=3
+stewardship=2
+intrigue=5
+learning=3
+trait="tough_soldier"
+trait="poet"
+trait="arbitrary"
+8062.2.5={birth=yes}
+8079.11.2 = {add_spouse=54600011}
+8117.7.25={death=yes}
+}
+
+54600015={
+name="Taenaelor"
+dynasty=10012
+dna="bddfoanfhpd"
+culture=high_valyrian
+religion=valyrian
+martial=4
+diplomacy=2
+stewardship=7
+intrigue=2
+learning=3
+trait="charismatic_negotiator"
+trait="wroth"
+father=54600011
+mother=54600014
+8083.11.18={birth=yes}
+8107.1.30 = {add_spouse=54600020}
+8137.6.17={death=yes}
+}
+
+54600016={
+name="Daemavar"
+dynasty=10012
+dna="bndffbnfdaj"
+culture=high_valyrian
+religion=valyrian
+martial=4
+diplomacy=0
+stewardship=7
+intrigue=7
+learning=7
+trait="fortune_builder"
+trait="deceitful"
+trait="cruel"
+father=54600011
+mother=54600014
+8087.9.27={birth=yes}
+8130.10.20={death=yes}
+}
+
+54600017={
+name="Aglaeron"
+female=yes
+dynasty=10012
+dna="bddioagncag"
+culture=high_valyrian
+religion=valyrian
+martial=3
+diplomacy=7
+stewardship=5
+intrigue=3
+learning=4
+trait="flamboyant_schemer"
+trait="diligent"
+father=54600011
+mother=54600014
+8091.7.4={birth=yes}
+8131.1.23={death=yes}
+}
+
+54600018={
+name="Maemarr"
+dynasty=10012
+dna="odlifaafdaj"
+culture=high_valyrian
+religion=valyrian
+martial=4
+diplomacy=7
+stewardship=3
+intrigue=2
+learning=4
+trait="misguided_warrior"
+trait="craven"
+trait="slothful"
+trait="paranoid"
+trait="charitable"
+father=54600011
+mother=54600014
+8097.2.3={birth=yes}
+8165.7.23={death=yes}
+}
+
+54600019={
+name="Alaela"
+female=yes
+dynasty=10012
+dna="oddfhanfdaj"
+culture=high_valyrian
+religion=valyrian
+martial=7
+diplomacy=4
+stewardship=3
+intrigue=5
+learning=2
+trait="midas_touched"
+trait="cynical"
+trait="slothful"
+trait="patient"
+father=54600011
+mother=54600014
+8099.8.31={birth=yes}
+8164.3.5={death=yes}
+}
+
+54600020={
+name="Relaelyra"
+female=yes
+dynasty=10017
+dna="hbcoopopdbp"
+culture=high_valyrian
+religion=valyrian
+martial=6
+diplomacy=2
+stewardship=2
+intrigue=4
+learning=3
+trait="thrifty_clerk"
+trait="drunkard"
+8095.6.28={birth=yes}
+8107.1.30 = {add_spouse=54600015}
+8148.1.28={death=yes}
+}
+
+54600021={
+name="Vyserion"
+dynasty=10012
+dna="bddooanpgbd"
+culture=high_valyrian
+religion=valyrian
+martial=5
+diplomacy=8
+stewardship=5
+intrigue=3
+learning=2
+trait="flamboyant_schemer"
+trait="trusting"
+trait="cynical"
+trait="gregarious"
+trait="zealous"
+father=54600015
+mother=54600020
+8124.10.5={birth=yes}
+8196.8.7={death=yes}
+}
+
+54600022={
+name="Vysehrys"
+female=yes
+dynasty=10012
+dna="bddomaofhpd"
+culture=high_valyrian
+religion=valyrian
+martial=6
+diplomacy=4
+stewardship=8
+intrigue=4
+learning=2
+trait="underhanded_rogue"
+trait="trusting"
+trait="zealous"
+trait="arbitrary"
+father=54600015
+mother=54600020
+8122.11.12={birth=yes}
+8202.1.31={death=yes}
+}
+
+54600023={
+name="Saenesanne"
+female=yes
+dynasty=10012
+dna="hbcfopbpcpp"
+culture=high_valyrian
+religion=valyrian
+martial=6
+diplomacy=7
+stewardship=6
+intrigue=3
+learning=5
+trait="tough_soldier"
+trait="paranoid"
+trait="brave"
+father=54600015
+mother=54600020
+8119.9.2={birth=yes}
+8176.4.5={death=yes}
+}
+
+54600024={
+name="Maenmaeris"
+female=yes
+dynasty=10012
+dna="bgbbb0kh000"
+culture=high_valyrian
+religion=valyrian
+martial=2
+diplomacy=6
+stewardship=3
+intrigue=4
+learning=2
+trait="fortune_builder"
+trait="gregarious"
+trait="ambitious"
+father=54600015
+mother=54600020
+8118.6.8={birth=yes}
+8138.10.18 = {add_spouse=54600026}
+8173.4.4={death=yes}
+}
+
+54600025={
+name="Arnareon"
+female=yes
+dynasty=10012
+dna="bddfaanfhpd"
+culture=high_valyrian
+religion=valyrian
+martial=2
+diplomacy=5
+stewardship=5
+intrigue=4
+learning=0
+trait="underhanded_rogue"
+trait="craven"
+trait="content"
+trait="chaste"
+trait="patient"
+father=54600015
+mother=54600020
+8126.2.8={birth=yes}
+8187.10.15={death=yes}
+}
+
+54600026={
+name="Haena"
+dynasty=10018
+dna="eegajhkfgjj"
+culture=high_valyrian
+religion=valyrian
+martial=4
+diplomacy=6
+stewardship=7
+intrigue=6
+learning=4
+trait="underhanded_rogue"
+trait="content"
+8120.3.22={birth=yes}
+8138.10.18 = {add_spouse=54600024}
+8193.7.19={death=yes}
+}
+
+54600027={
+name="Laelon"
+dynasty=10012
+dna="bbghcpnmdja"
+culture=high_valyrian
+religion=valyrian
+martial=8
+diplomacy=7
+stewardship=8
+intrigue=7
+learning=5
+trait="brilliant_strategist"
+trait="impaler"
+trait="cruel"
+trait="patient"
+trait="ambitious"
+father=54600024
+mother=54600026
+8143.4.27={birth=yes}
+8164.9.12 = {add_spouse=54600030}
+8195.2.8={death=yes}
+}
+
+54600028={
+name="Naellaeron"
+dynasty=10012
+dna="ebgkjhkfdjp"
+culture=high_valyrian
+religion=valyrian
+martial=3
+diplomacy=1
+stewardship=2
+intrigue=2
+learning=7
+trait="midas_touched"
+trait="wroth"
+trait="proud"
+trait="drunkard"
+father=54600024
+mother=54600026
+8145.2.16={birth=yes}
+8199.7.6={death=yes}
+}
+
+54600029={
+name="Visemorys"
+dynasty=10012
+dna="eemaohkpdpp"
+culture=high_valyrian
+religion=valyrian
+martial=1
+diplomacy=2
+stewardship=4
+intrigue=4
+learning=2
+trait="tough_soldier"
+trait="chaste"
+trait="gregarious"
+father=54600024
+mother=54600026
+8150.12.22={birth=yes}
+8203.6.2={death=yes}
+}
+
+54600030={
+name="Selaela"
+female=yes
+dynasty=10019
+dna="idcaboibcdp"
+culture=high_valyrian
+religion=valyrian
+martial=4
+diplomacy=1
+stewardship=3
+intrigue=2
+learning=5
+trait="indulgent_wastrel"
+trait="impaler"
+trait="cruel"
+trait="patient"
+8146.6.23={birth=yes}
+8164.9.12 = {add_spouse=54600027}
+8188.11.29={death=yes}
+}
+
+54600031={
+name="Aglaeron"
+dynasty=10012
+dna="ibghfoibdfp"
+culture=high_valyrian
+religion=valyrian
+martial=6
+diplomacy=1
+stewardship=6
+intrigue=3
+learning=1
+trait="thrifty_clerk"
+trait="proud"
+trait="ambitious"
+father=54600027
+mother=54600030
+8168.1.5={birth=yes}
+8225.12.19={death=yes}
+}
+
+54600032={
+name="Lenareys"
+female=yes
+dynasty=10012
+dna="addia0ig0b0"
+culture=high_valyrian
+religion=valyrian
+martial=5
+diplomacy=3
+stewardship=1
+intrigue=4
+learning=3
+trait="thrifty_clerk"
+trait="shy"
+trait="honest"
+trait="gregarious"
+father=54600027
+mother=54600030
+8166.2.18={birth=yes}
+8191.7.24 = {add_spouse=54600037}
+8224.3.9={death=yes}
+}
+
+54600033={
+name="Maelor"
+dynasty=10012
+dna="idchfpnbdda"
+culture=high_valyrian
+religion=valyrian
+martial=5
+diplomacy=1
+stewardship=7
+intrigue=0
+learning=4
+trait="skilled_tactician"
+trait="gardener"
+trait="slothful"
+trait="humble"
+trait="trusting"
+father=54600027
+mother=54600030
+8175.2.13={birth=yes}
+8234.8.28={death=yes}
+}
+
+54600034={
+name="Caennalys"
+female=yes
+dynasty=10012
+dna="jbcacpipcda"
+culture=high_valyrian
+religion=valyrian
+martial=4
+diplomacy=4
+stewardship=1
+intrigue=2
+learning=3
+trait="skilled_tactician"
+trait="wroth"
+trait="brave"
+trait="zealous"
+trait="ill"
+father=54600027
+mother=54600030
+8179.7.27={birth=yes}
+8243.5.15={death=yes}
+}
+
+54600035={
+name="Garaemion"
+dynasty=10012
+dna="bbghconmddp"
+culture=high_valyrian
+religion=valyrian
+martial=5
+diplomacy=7
+stewardship=3
+intrigue=7
+learning=2
+trait="flamboyant_schemer"
+trait="hunter"
+trait="blinded"
+father=54600027
+mother=54600030
+8180.12.22={birth=yes}
+8253.7.28={death=yes}
+}
+
+54600036={
+name="Agtalos"
+dynasty=10012
+dna="bdghcpnbcji"
+culture=high_valyrian
+religion=valyrian
+martial=6
+diplomacy=0
+stewardship=2
+intrigue=3
+learning=8
+trait="fortune_builder"
+trait="proud"
+trait="greedy"
+trait="humble"
+trait="stressed"
+father=54600027
+mother=54600030
+8183.12.8={birth=yes}
+8228.6.24={death=yes}
+}
+
+54600037={
+name="Renaera"
+dynasty=10020
+dna="mgccjjiofjo"
+culture=high_valyrian
+religion=valyrian
+martial=6
+diplomacy=7
+stewardship=4
+intrigue=4
+learning=1
+trait="elusive_shadow"
+trait="ambitious"
+8175.2.16={birth=yes}
+8191.7.24 = {add_spouse=54600032}
+8219.5.16={death=yes}
+}
+
+54600038={
+name="Maenmaereon"
+dynasty=10012
+dna="mdnajjiofja"
+culture=high_valyrian
+religion=valyrian
+martial=2
+diplomacy=1
+stewardship=4
+intrigue=6
+learning=2
+trait="tough_soldier"
+trait="gregarious"
+trait="patient"
+father=54600032
+mother=54600037
+8197.6.16={birth=yes}
+8216.3.4 = {add_spouse=54600042}
+8226.11.15={death=yes}
+}
+
+54600039={
+name="Maehagarys"
+dynasty=10012
+dna="gdnadohojja"
+culture=high_valyrian
+religion=valyrian
+martial=6
+diplomacy=4
+stewardship=2
+intrigue=6
+learning=3
+trait="flamboyant_schemer"
+trait="deceitful"
+trait="envious"
+trait="temperate"
+father=54600032
+mother=54600037
+8201.4.25={birth=yes}
+8276.3.8={death=yes}
+}
+
+54600040={
+name="Taenaelor"
+dynasty=10012
+dna="mgcccoibfjo"
+culture=high_valyrian
+religion=valyrian
+martial=4
+diplomacy=2
+stewardship=4
+intrigue=6
+learning=1
+trait="underhanded_rogue"
+father=54600032
+mother=54600037
+8202.8.11={birth=yes}
+8260.10.22={death=yes}
+}
+
+54600041={
+name="Relaelyra"
+female=yes
+dynasty=10012
+dna="mgnicoiofjo"
+culture=high_valyrian
+religion=valyrian
+martial=3
+diplomacy=1
+stewardship=7
+intrigue=4
+learning=4
+trait="thrifty_clerk"
+trait="kind"
+trait="temperate"
+trait="trusting"
+trait="pneumonic"
+father=54600032
+mother=54600037
+8204.9.17={birth=yes}
+8263.8.10={death=yes}
+}
+
+54600042={
+name="Qohinarys"
+female=yes
+dynasty=10021
+dna="minnipkbjdj"
+culture=high_valyrian
+religion=valyrian
+martial=2
+diplomacy=5
+stewardship=4
+intrigue=1
+learning=0
+trait="tough_soldier"
+trait="scholar"
+8199.1.9={birth=yes}
+8216.3.4 = {add_spouse=54600038}
+8243.7.9={death=yes}
+}
+
+54600043={
+name="Laelon"
+dynasty=10012
+dna="mdnnijkofda"
+culture=high_valyrian
+religion=valyrian
+martial=2
+diplomacy=5
+stewardship=7
+intrigue=4
+learning=8
+trait="brilliant_strategist"
+trait="gluttonous"
+trait="just"
+trait="lustful"
+trait="temperate"
+father=54600038
+mother=54600042
+8222.4.4={birth=yes}
+8271.1.7={death=yes}
+}
+
+54600044={
+name="Vysehrys"
+female=yes
+dynasty=10012
+dna="a0bcb0ie0c0"
+culture=high_valyrian
+religion=valyrian
+martial=0
+diplomacy=2
+stewardship=5
+intrigue=3
+learning=6
+trait="tough_soldier"
+trait="deceitful"
+trait="lustful"
+trait="ill"
+father=54600038
+mother=54600042
+8219.12.13={birth=yes}
+8248.1.27 = {add_spouse=54600045}
+8276.3.5={death=yes}
+}
+
+54600045={
+name="Selaela"
+dynasty=10022
+dna="ilfjmjopbec"
+culture=high_valyrian
+religion=valyrian
+martial=3
+diplomacy=6
+stewardship=4
+intrigue=6
+learning=0
+trait="thrifty_clerk"
+trait="gardener"
+8229.10.20={birth=yes}
+8248.1.27 = {add_spouse=54600044}
+8270.11.6={death=yes}
+}
+
+54600046={
+name="Selaerys"
+female=yes
+dynasty=10012
+dna="mlnaikoobec"
+culture=high_valyrian
+religion=valyrian
+martial=6
+diplomacy=3
+stewardship=2
+intrigue=6
+learning=4
+trait="thrifty_clerk"
+trait="honest"
+trait="cruel"
+father=54600044
+mother=54600045
+8250.10.15={birth=yes}
+8272.9.25 = {add_spouse=54600049}
+8318.12.11={death=yes}
+}
+
+54600047={
+name="Laenmaereon"
+female=yes
+dynasty=10012
+dna="ilnamjoobdc"
+culture=high_valyrian
+religion=valyrian
+martial=7
+diplomacy=6
+stewardship=4
+intrigue=5
+learning=5
+trait="grey_eminence"
+trait="cynical"
+trait="craven"
+trait="cruel"
+trait="wroth"
+father=54600044
+mother=54600045
+8253.11.21={birth=yes}
+8309.9.12={death=yes}
+}
+
+54600048={
+name="Renaera"
+female=yes
+dynasty=10012
+dna="iliamjoabec"
+culture=high_valyrian
+religion=valyrian
+martial=5
+diplomacy=7
+stewardship=6
+intrigue=2
+learning=3
+trait="underhanded_rogue"
+trait="gregarious"
+trait="honest"
+trait="chaste"
+trait="slothful"
+father=54600044
+mother=54600045
+8258.8.1={birth=yes}
+8307.6.4={death=yes}
+}
+
+54600049={
+name="Vaelreos"
+dynasty=10023
+dna="madmciadgal"
+culture=high_valyrian
+religion=valyrian
+martial=6
+diplomacy=2
+stewardship=5
+intrigue=3
+learning=0
+trait="elusive_shadow"
+trait="arbitrary"
+trait="deceitful"
+trait="ambitious"
+8252.7.26={birth=yes}
+8272.9.25 = {add_spouse=54600046}
+8294.1.20={death=yes}
+}
+
+54600050={
+name="Maelehra"
+female=yes
+dynasty=10012
+dna="madmikoogec"
+culture=high_valyrian
+religion=valyrian
+martial=3
+diplomacy=2
+stewardship=7
+intrigue=1
+learning=4
+trait="skilled_tactician"
+trait="gluttonous"
+father=54600049
+mother=54600046
+8275.4.3={birth=yes}
+8356.3.24={death=yes}
+}
+
+54600051={
+name="Aeradar"
+dynasty=10012
+dna="maeackaogoc"
+culture=high_valyrian
+religion=valyrian
+martial=2
+diplomacy=6
+stewardship=6
+intrigue=4
+learning=4
+trait="indulgent_wastrel"
+trait="diligent"
+father=54600049
+mother=54600046
+8279.12.15={birth=yes}
+8303.3.14 = {add_spouse=54600053}
+8351.8.27={death=yes}
+}
+
+54600052={
+name="Vaelarys"
+dynasty=10012
+dna="jadmikdpkal"
+culture=high_valyrian
+religion=valyrian
+martial=0
+diplomacy=4
+stewardship=4
+intrigue=5
+learning=4
+trait="naive_appeaser"
+trait="kind"
+father=54600049
+mother=54600046
+8282.4.17={birth=yes}
+8329.5.28={death=yes}
+}
+
+54600053={
+name="Vysehrys"
+female=yes
+dynasty=10024
+dna="jlmojbghfcl"
+culture=high_valyrian
+religion=valyrian
+martial=0
+diplomacy=2
+stewardship=2
+intrigue=7
+learning=5
+trait="fortune_builder"
+trait="cruel"
+trait="greedy"
+trait="gluttonous"
+8284.2.4={birth=yes}
+8303.3.14 = {add_spouse=54600051}
+8336.9.19={death=yes}
+}
+
+54600054={
+name="Galeneos"
+dynasty=10012
+dna="oaeacbgogoc"
+culture=high_valyrian
+religion=valyrian
+martial=0
+diplomacy=1
+stewardship=4
+intrigue=7
+learning=1
+trait="skilled_tactician"
+trait="envious"
+trait="ambitious"
+trait="charitable"
+father=54600051
+mother=54600053
+8307.10.1={birth=yes}
+8355.3.12={death=yes}
+}
+
+54600055={
+name="Relaelyra"
+female=yes
+dynasty=10012
+dna="jlmojnghgcl"
+culture=high_valyrian
+religion=valyrian
+martial=0
+diplomacy=6
+stewardship=4
+intrigue=4
+learning=8
+trait="thrifty_clerk"
+trait="gluttonous"
+trait="wroth"
+father=54600051
+mother=54600053
+8311.7.22={birth=yes}
+8367.7.2={death=yes}
+}
+

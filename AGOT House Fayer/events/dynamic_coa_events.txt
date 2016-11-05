@@ -864,14 +864,14 @@ character_event = {
 				set_coa = c_hoare
 			}
 		}
-		c_harrenhal = {
+		c_velos = {
 			reset_coa = THIS
 			if = {
 				limit = { holder_scope = { dynasty = 10012 } }
 				set_coa = c_fayer
 			}
 		}
-		d_harrenhal = {
+		d_isle_of_cedars = {
 			reset_coa = THIS
 			if = {
 				limit = { holder_scope = { dynasty = 10012 } }
@@ -1360,8 +1360,8 @@ character_event = {
 		FROM = { 
 			NOT = { tier = BARON }
 			OR = {
-				title = c_harrenhal
-				title = d_harrenhal
+				title = c_velos
+				title = d_isle_of_cedars
 			}	
 		}
 	}

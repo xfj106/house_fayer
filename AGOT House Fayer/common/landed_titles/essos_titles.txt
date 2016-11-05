@@ -4761,7 +4761,7 @@ e_ghiscar = {
 				
 				b_velos = {
 				}
-				b_velos_castle = {
+				b_velos_city = {
 				}
 				b_velos_temple = {
 				}
@@ -8069,6 +8069,11 @@ b_volentin = {
 	religion = bakkalon
 }
 
+b_fayer = {
+	culture = high_valyrian
+	religion = valyrian
+}
+
 # VOLANTIS:
 
 b_maegyr = {
@@ -8101,10 +8106,7 @@ b_staegone = {
 	religion = valyrian
 }
 
-#b_fayer = {
-#	culture = high_valyrian
-#	religion = valyrian
-#}
+
 
 # LYS:
 
