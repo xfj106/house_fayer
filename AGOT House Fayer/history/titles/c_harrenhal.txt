@@ -1,0 +1,28 @@
+6000.1.1={
+	liege="d_harrenhal"
+	law = succ_primogeniture
+}
+7933.1.1 = { holder=11366 } # Harwyn (C)
+7956.1.1 = { holder=11466 } # Harrock (nc)
+7960.1.1 = { holder=11566 } # Harren (C)
+#House Fayer
+7998.2.1   = { 
+	holder=54600001 
+	law = true_cognatic_succession
+}
+8023.12.20 = { holder=54600003 } 
+8048.1.30  = { holder=54600007 }
+8095.11.6  = { holder=54600011 } 
+8116.11.22 = { holder=54600015 }
+8137.6.17  = { holder=54600024 }
+8173.4.4   = { holder=54600027 }
+8195.2.8   = { holder=54600032 }
+8224.3.9   = { holder=54600038 } 
+8226.11.15 = { holder=54600044 }
+8276.3.5   = { holder=54600046 }
+8299.1.1={
+	holder = 190 #Tywin
+}
+8299.11.5 = {
+	holder=94043 #Littlefinger
+}

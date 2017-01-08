@@ -10,8 +10,12 @@ stewardship=5
 intrigue=4
 learning=5
 trait="detached_priest"
-trait="celibate"
+trait="lustful"
+employer=77000
+
+
 7980.1.1={birth=yes}
+8000.1.1 = { effect = { religion=the_seven } }
 8003.6.3 = {add_spouse=54600002}
 8023.12.20={death=yes}
 }
@@ -32,6 +36,7 @@ trait="detached_priest"
 trait="diligent"
 trait="wounded"
 7983.6.9={birth=yes}
+8000.1.1 = { effect = { religion=the_seven } }
 8003.6.3 = {add_spouse=54600001}
 8039.3.10={death=yes}
 }
@@ -41,7 +46,7 @@ name="Taenys"
 dynasty=10012
 dna="onajhkeflaa"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=6
 diplomacy=3
 stewardship=2
@@ -62,7 +67,7 @@ female=yes
 dynasty=10012
 dna="pkanhldnhaa"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=5
 diplomacy=4
 stewardship=1
@@ -84,7 +89,7 @@ female=yes
 dynasty=10012
 dna="bnajhkdnlaj"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=3
 diplomacy=4
 stewardship=8
@@ -104,7 +109,7 @@ female=yes
 dynasty=10014
 dna="henadpdchcd"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=4
 diplomacy=4
 stewardship=3
@@ -121,7 +126,7 @@ name="Maehagarys"
 dynasty=10012
 dna="onnjgpefhad"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=4
 diplomacy=4
 stewardship=5
@@ -143,7 +148,7 @@ name="Taelraenos"
 dynasty=10012
 dna="heafnpechad"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=6
 diplomacy=7
 stewardship=2
@@ -162,7 +167,7 @@ female=yes
 dynasty=10012
 dna="heajhkdclad"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=8
 diplomacy=3
 stewardship=0
@@ -182,7 +187,7 @@ female=yes
 dynasty=10015
 dna="kbdifbghmol"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=4
 diplomacy=0
 stewardship=7
@@ -204,7 +209,7 @@ name="Taeltheon"
 dynasty=10012
 dna="ondifbgfhad"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=6
 diplomacy=3
 stewardship=5
@@ -223,7 +228,7 @@ name="Laeraleos"
 dynasty=10012
 dna="obdjgbehmal"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=3
 diplomacy=4
 stewardship=2
@@ -245,7 +250,7 @@ female=yes
 dynasty=10012
 dna="obdjfbgfmal"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=4
 diplomacy=6
 stewardship=3
@@ -268,7 +273,7 @@ female=yes
 dynasty=10016
 dna="bdlfoanndaj"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=3
 diplomacy=3
 stewardship=2
@@ -287,7 +292,7 @@ name="Taenaelor"
 dynasty=10012
 dna="bddfoanfhpd"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=4
 diplomacy=2
 stewardship=7
@@ -298,7 +303,7 @@ trait="wroth"
 father=54600011
 mother=54600014
 8083.11.18={birth=yes}
-8107.1.30 = {add_spouse=54600020}
+8109.1.30 = {add_spouse=54600020}
 8137.6.17={death=yes}
 }
 
@@ -307,7 +312,7 @@ name="Daemavar"
 dynasty=10012
 dna="bndffbnfdaj"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=4
 diplomacy=0
 stewardship=7
@@ -328,7 +333,7 @@ female=yes
 dynasty=10012
 dna="bddioagncag"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=3
 diplomacy=7
 stewardship=5
@@ -347,7 +352,7 @@ name="Maemarr"
 dynasty=10012
 dna="odlifaafdaj"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=4
 diplomacy=7
 stewardship=3
@@ -370,7 +375,7 @@ female=yes
 dynasty=10012
 dna="oddfhanfdaj"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=7
 diplomacy=4
 stewardship=3
@@ -392,7 +397,7 @@ female=yes
 dynasty=10017
 dna="hbcoopopdbp"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=6
 diplomacy=2
 stewardship=2
@@ -400,8 +405,7 @@ intrigue=4
 learning=3
 trait="thrifty_clerk"
 trait="drunkard"
-8095.6.28={birth=yes}
-8107.1.30 = {add_spouse=54600015}
+8092.6.28={birth=yes}
 8148.1.28={death=yes}
 }
 
@@ -410,7 +414,7 @@ name="Vyserion"
 dynasty=10012
 dna="bddooanpgbd"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=5
 diplomacy=8
 stewardship=5
@@ -433,7 +437,7 @@ female=yes
 dynasty=10012
 dna="bddomaofhpd"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=6
 diplomacy=4
 stewardship=8
@@ -455,7 +459,7 @@ female=yes
 dynasty=10012
 dna="hbcfopbpcpp"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=6
 diplomacy=7
 stewardship=6
@@ -471,12 +475,12 @@ mother=54600020
 }
 
 54600024={
-name="Maenmaeris"
+name="Haena"
 female=yes
 dynasty=10012
 dna="bgbbb0kh000"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=2
 diplomacy=6
 stewardship=3
@@ -498,7 +502,7 @@ female=yes
 dynasty=10012
 dna="bddfaanfhpd"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=2
 diplomacy=5
 stewardship=5
@@ -516,11 +520,11 @@ mother=54600020
 }
 
 54600026={
-name="Haena"
+name="Maenmaeris"
 dynasty=10018
 dna="eegajhkfgjj"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=4
 diplomacy=6
 stewardship=7
@@ -529,7 +533,6 @@ learning=4
 trait="underhanded_rogue"
 trait="content"
 8120.3.22={birth=yes}
-8138.10.18 = {add_spouse=54600024}
 8193.7.19={death=yes}
 }
 
@@ -538,7 +541,7 @@ name="Laelon"
 dynasty=10012
 dna="bbghcpnmdja"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=8
 diplomacy=7
 stewardship=8
@@ -549,8 +552,8 @@ trait="impaler"
 trait="cruel"
 trait="patient"
 trait="ambitious"
-father=54600024
-mother=54600026
+father=54600026
+mother=54600024
 8143.4.27={birth=yes}
 8164.9.12 = {add_spouse=54600030}
 8195.2.8={death=yes}
@@ -561,7 +564,7 @@ name="Naellaeron"
 dynasty=10012
 dna="ebgkjhkfdjp"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=3
 diplomacy=1
 stewardship=2
@@ -571,8 +574,8 @@ trait="midas_touched"
 trait="wroth"
 trait="proud"
 trait="drunkard"
-father=54600024
-mother=54600026
+father=54600026
+mother=54600024
 8145.2.16={birth=yes}
 8199.7.6={death=yes}
 }
@@ -582,7 +585,7 @@ name="Visemorys"
 dynasty=10012
 dna="eemaohkpdpp"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=1
 diplomacy=2
 stewardship=4
@@ -591,8 +594,8 @@ learning=2
 trait="tough_soldier"
 trait="chaste"
 trait="gregarious"
-father=54600024
-mother=54600026
+father=54600026
+mother=54600024
 8150.12.22={birth=yes}
 8203.6.2={death=yes}
 }
@@ -603,7 +606,7 @@ female=yes
 dynasty=10019
 dna="idcaboibcdp"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=4
 diplomacy=1
 stewardship=3
@@ -623,7 +626,7 @@ name="Aglaeron"
 dynasty=10012
 dna="ibghfoibdfp"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=6
 diplomacy=1
 stewardship=6
@@ -639,12 +642,12 @@ mother=54600030
 }
 
 54600032={
-name="Lenareys"
+name="Renaera"
 female=yes
 dynasty=10012
 dna="addia0ig0b0"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=5
 diplomacy=3
 stewardship=1
@@ -666,7 +669,7 @@ name="Maelor"
 dynasty=10012
 dna="idchfpnbdda"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=5
 diplomacy=1
 stewardship=7
@@ -689,7 +692,7 @@ female=yes
 dynasty=10012
 dna="jbcacpipcda"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=4
 diplomacy=4
 stewardship=1
@@ -711,7 +714,7 @@ name="Garaemion"
 dynasty=10012
 dna="bbghconmddp"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=5
 diplomacy=7
 stewardship=3
@@ -731,7 +734,7 @@ name="Agtalos"
 dynasty=10012
 dna="bdghcpnbcji"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=6
 diplomacy=0
 stewardship=2
@@ -749,11 +752,11 @@ mother=54600030
 }
 
 54600037={
-name="Renaera"
+name="Lenareys"
 dynasty=10020
 dna="mgccjjiofjo"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=6
 diplomacy=7
 stewardship=4
@@ -762,7 +765,6 @@ learning=1
 trait="elusive_shadow"
 trait="ambitious"
 8175.2.16={birth=yes}
-8191.7.24 = {add_spouse=54600032}
 8219.5.16={death=yes}
 }
 
@@ -771,7 +773,7 @@ name="Maenmaereon"
 dynasty=10012
 dna="mdnajjiofja"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=2
 diplomacy=1
 stewardship=4
@@ -780,8 +782,8 @@ learning=2
 trait="tough_soldier"
 trait="gregarious"
 trait="patient"
-father=54600032
-mother=54600037
+father=54600037
+mother=54600032
 8197.6.16={birth=yes}
 8216.3.4 = {add_spouse=54600042}
 8226.11.15={death=yes}
@@ -792,7 +794,7 @@ name="Maehagarys"
 dynasty=10012
 dna="gdnadohojja"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=6
 diplomacy=4
 stewardship=2
@@ -802,8 +804,8 @@ trait="flamboyant_schemer"
 trait="deceitful"
 trait="envious"
 trait="temperate"
-father=54600032
-mother=54600037
+father=54600037
+mother=54600032
 8201.4.25={birth=yes}
 8276.3.8={death=yes}
 }
@@ -813,15 +815,15 @@ name="Taenaelor"
 dynasty=10012
 dna="mgcccoibfjo"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=4
 diplomacy=2
 stewardship=4
 intrigue=6
 learning=1
 trait="underhanded_rogue"
-father=54600032
-mother=54600037
+father=54600037
+mother=54600032
 8202.8.11={birth=yes}
 8260.10.22={death=yes}
 }
@@ -832,7 +834,7 @@ female=yes
 dynasty=10012
 dna="mgnicoiofjo"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=3
 diplomacy=1
 stewardship=7
@@ -843,8 +845,8 @@ trait="kind"
 trait="temperate"
 trait="trusting"
 trait="pneumonic"
-father=54600032
-mother=54600037
+father=54600037
+mother=54600032
 8204.9.17={birth=yes}
 8263.8.10={death=yes}
 }
@@ -855,7 +857,7 @@ female=yes
 dynasty=10021
 dna="minnipkbjdj"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=2
 diplomacy=5
 stewardship=4
@@ -873,7 +875,7 @@ name="Laelon"
 dynasty=10012
 dna="mdnnijkofda"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=2
 diplomacy=5
 stewardship=7
@@ -891,12 +893,12 @@ mother=54600042
 }
 
 54600044={
-name="Vysehrys"
+name="Selaela"
 female=yes
 dynasty=10012
 dna="a0bcb0ie0c0"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=0
 diplomacy=2
 stewardship=5
@@ -914,11 +916,11 @@ mother=54600042
 }
 
 54600045={
-name="Selaela"
+name="Vysehrys"
 dynasty=10022
 dna="ilfjmjopbec"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=3
 diplomacy=6
 stewardship=4
@@ -927,17 +929,17 @@ learning=0
 trait="thrifty_clerk"
 trait="gardener"
 8229.10.20={birth=yes}
-8248.1.27 = {add_spouse=54600044}
 8270.11.6={death=yes}
 }
 
 54600046={
-name="Selaerys"
-female=yes
+name="Rolaerys"
+dna="0ddca0bf000"
+properties="0h000k00000000"
 dynasty=10012
-dna="mlnaikoobec"
+#dna="mlnaik00bec"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=6
 diplomacy=3
 stewardship=2
@@ -946,11 +948,17 @@ learning=4
 trait="thrifty_clerk"
 trait="honest"
 trait="cruel"
-father=54600044
-mother=54600045
+father=54600045
+mother=54600044
 8250.10.15={birth=yes}
 8272.9.25 = {add_spouse=54600049}
-8318.12.11={death=yes}
+#8318.12.11={death=yes}
+8299.1.1={
+	death = {
+		death_reason = death_murder 
+		killer = 1230
+	} 
+}
 }
 
 54600047={
@@ -959,7 +967,7 @@ female=yes
 dynasty=10012
 dna="ilnamjoobdc"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=7
 diplomacy=6
 stewardship=4
@@ -970,8 +978,8 @@ trait="cynical"
 trait="craven"
 trait="cruel"
 trait="wroth"
-father=54600044
-mother=54600045
+father=54600045
+mother=54600044
 8253.11.21={birth=yes}
 8309.9.12={death=yes}
 }
@@ -982,7 +990,7 @@ female=yes
 dynasty=10012
 dna="iliamjoabec"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=5
 diplomacy=7
 stewardship=6
@@ -993,18 +1001,19 @@ trait="gregarious"
 trait="honest"
 trait="chaste"
 trait="slothful"
-father=54600044
-mother=54600045
+father=54600045
+mother=54600044
 8258.8.1={birth=yes}
 8307.6.4={death=yes}
 }
 
 54600049={
-name="Vaelreos"
+name="Chantehra"
 dynasty=10023
+female=yes
 dna="madmciadgal"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=6
 diplomacy=2
 stewardship=5
@@ -1020,41 +1029,53 @@ trait="ambitious"
 }
 
 54600050={
-name="Maelehra"
-female=yes
+name="Jualerys"
 dynasty=10012
-dna="madmikoogec"
+dna="bhmfagmdaaj"
+properties="0h0cik"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=3
 diplomacy=2
 stewardship=7
 intrigue=1
 learning=4
-trait="skilled_tactician"
-trait="gluttonous"
-father=54600049
-mother=54600046
+trait="midas_touched"
+trait="diligent"
+trait="quick"
+trait="strong"
+trait="skilled_warrior"
+father=54600046
+mother=54600049
 8275.4.3={birth=yes}
+8299.1.1={
+	add_claim = c_harrenhal
+	add_claim = d_harrenhal
+	employer = 77041
+}
 8356.3.24={death=yes}
 }
 
 54600051={
-name="Aeradar"
+name="Thomasos"
 dynasty=10012
-dna="maeackaogoc"
+dna="adbb00be0a0"
+properties="0g0b0k"
 culture=high_valyrian
-religion=valyrian
-martial=2
-diplomacy=6
-stewardship=6
+religion="the_seven"
+martial=6
+diplomacy=4
+stewardship=4
 intrigue=4
 learning=4
-trait="indulgent_wastrel"
+trait="brilliant_strategist"
 trait="diligent"
-father=54600049
-mother=54600046
-8279.12.15={birth=yes}
+trait="quick"
+trait="tall"
+trait="master_warrior"
+father=54600046
+mother=54600049
+8277.12.15={birth=yes}
 8303.3.14 = {add_spouse=54600053}
 8351.8.27={death=yes}
 }
@@ -1064,7 +1085,7 @@ name="Vaelarys"
 dynasty=10012
 dna="jadmikdpkal"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=0
 diplomacy=4
 stewardship=4
@@ -1084,7 +1105,7 @@ female=yes
 dynasty=10024
 dna="jlmojbghfcl"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=0
 diplomacy=2
 stewardship=2
@@ -1104,7 +1125,7 @@ name="Galeneos"
 dynasty=10012
 dna="oaeacbgogoc"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=0
 diplomacy=1
 stewardship=4
@@ -1126,7 +1147,7 @@ female=yes
 dynasty=10012
 dna="jlmojnghgcl"
 culture=high_valyrian
-religion=valyrian
+religion="the_seven"
 martial=0
 diplomacy=6
 stewardship=4
