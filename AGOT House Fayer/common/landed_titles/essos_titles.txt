@@ -122,7 +122,8 @@ k_stepstones = {
 	#capital = 358 #Bloodstone
 
 	allow = {
-		not = { tier = emperor }
+		NOT = { tier = emperor }
+		hidden_tooltip = { NOT = { culture_group = winter_group } }
 	}
 	
 	d_central_stepstones = {
@@ -259,6 +260,8 @@ e_new_valyria = {
 	
 	dignity = 50
 	
+	allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
+	
 	###Free Cities
 	k_pentos = {
 		color={ 25 129 138 }
@@ -267,6 +270,8 @@ e_new_valyria = {
 		capital = 406 #Pentos
 
 		culture = pentosi
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 		
 		d_prince_pentos = {
 			color={ 37 187 200 }
@@ -312,6 +317,7 @@ e_new_valyria = {
 				
 				holy_site = pirate
 				holy_site = rhllor
+				holy_site = trios
 				
 				b_pentos = {
 				}
@@ -571,6 +577,8 @@ e_new_valyria = {
 		capital = 368 #Lys
 			
 		culture = lysene
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 		d_lys = {
 			color={ 192 192 192 }
@@ -592,6 +600,7 @@ e_new_valyria = {
 				color={ 192 192 192 }
 				color2={ 255 255 255 }
 				
+				holy_site = weeping_lady
 				holy_site = pirate
 				holy_site = rhllor
 				
@@ -627,6 +636,9 @@ e_new_valyria = {
 			c_lyseneforest = {
 				color={ 160 160 160 }
 				color2={ 255 255 255 }
+				
+				holy_site = weeping_lady
+				holy_site = trios
 				
 				b_lyseneforest = {
 				}
@@ -698,6 +710,8 @@ e_new_valyria = {
 			
 		culture = qohorik
 		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
+		
 		dothraki="Qevir Dorvi"
 		#dothraki_domain_culture="Qevir Dorvi"
 
@@ -726,6 +740,8 @@ e_new_valyria = {
 				
 				holy_site = black_goat
 				holy_site = many_faced_god
+				holy_site = bearded_priests
+				holy_site = dothraki_pagan
 				
 				dothraki="Vaes Dorvi"
 				#dothraki_domain_culture="Vaes Dorvi"
@@ -752,9 +768,7 @@ e_new_valyria = {
 			c_qhoyne = {
 				color={ 202 150 255 }
 				color2={ 255 255 255 }
-				
-				holy_site = black_goat
-				
+							
 				b_qhoyne = {
 				}
 				b_qhoyne_castle = {
@@ -912,8 +926,6 @@ e_new_valyria = {
 				color={ 115 43 188 }
 				color2={ 255 255 255 }
 				
-				holy_site = black_goat
-
 				b_watersmeet_castle = {
 				}				
 				b_watersmeet = {
@@ -932,6 +944,8 @@ e_new_valyria = {
 		capital = 433 #Norvos
 
 		culture = norvosi		
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 		d_norvos = {
 			color={ 241 170 108 }
@@ -954,6 +968,7 @@ e_new_valyria = {
 				color2={ 255 255 255 }
 				
 				holy_site = bearded_priests
+				holy_site = black_goat
 					
 				b_norvos = {
 				}
@@ -971,9 +986,7 @@ e_new_valyria = {
 			
 			c_noyne = {
 				color={ 167 122 83 }
-				color2={ 255 255 255 }
-				
-				holy_site = bearded_priests
+				color2={ 255 255 255 }		
 						
 				b_noyne = {
 				}
@@ -1012,9 +1025,7 @@ e_new_valyria = {
 			c_bearhills = {
 				color={ 85 49 17 }
 				color2={ 255 255 255 }
-				
-				holy_site = bearded_priests
-						
+										
 				b_bearhills = {
 				}
 				b_bearhillscastle = {
@@ -1100,9 +1111,7 @@ e_new_valyria = {
 
 			c_noomgate = {
 				color={ 200 124 55 }
-				color2={ 255 255 255 }
-				
-				holy_site = bearded_priests
+				color2={ 255 255 255 }		
 
 				b_noomgatecastle = {
 				}						
@@ -1135,6 +1144,8 @@ e_new_valyria = {
 		capital = 378 #Myr
 		
 		culture = myrman
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 		d_myr = {
 			color={ 47 170 40 }
@@ -1257,6 +1268,9 @@ e_new_valyria = {
 				color={ 19 243 8 }
 				color2={ 255 255 255 }
 				
+				holy_site = weeping_lady
+				holy_site = trios
+				
 				b_forestofmyr = {
 				}
 				b_forestofmyr_castle = {
@@ -1374,6 +1388,8 @@ e_new_valyria = {
 		capital = 367 #Tyrosh
 		
 		culture = tyroshi
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 		d_tyrosh = {
 			color={ 176 52 114 }
@@ -1417,9 +1433,7 @@ e_new_valyria = {
 			c_littletyrosh = {
 				color={ 111 57 83 }
 				color2={ 255 255 255 }
-				
-				holy_site = trios
-					
+									
 				b_littletyrosh = {
 				}
 				b_littletyrosh_castle = {
@@ -1431,8 +1445,6 @@ e_new_valyria = {
 			c_tyroshilanding = {
 				color={ 231 24 127 }
 				color2={ 255 255 255 }
-				
-				holy_site = trios
 					
 				b_tyroshilanding = {
 				}
@@ -1461,8 +1473,6 @@ e_new_valyria = {
 				color={ 177 103 140 }
 				color2={ 255 255 255 }
 				
-				holy_site = trios
-				
 				b_kylos = {
 				}
 				b_kylos_castle = {
@@ -1487,6 +1497,7 @@ e_new_valyria = {
 				color={ 236 129 182 }
 				color2={ 255 255 255 }
 				
+				holy_site = weeping_lady
 				holy_site = trios
 				
 				b_vysosplains = {
@@ -1507,6 +1518,8 @@ e_new_valyria = {
 		capital = 419 #Old Volantis
 			
 		culture = volantene
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 		d_volantis = {
 			color={ 230 232 54 }
@@ -1530,6 +1543,11 @@ e_new_valyria = {
 				
 				holy_site = valyrian
 				holy_site = many_faced_god
+				holy_site = weeping_lady
+				holy_site = moonsingers
+				holy_site = boash
+				holy_site = starry_wisdom
+				holy_site = shadowbinders
 				
 				b_oldvolantis = {
 				}
@@ -1601,18 +1619,6 @@ e_new_valyria = {
 				b_vasyugyscastle = {
 				}
 				b_vasyugystemple = {
-				}
-			}
-			
-			c_berg = {
-				color={ 215 40 45 }
-				color2={ 255 255 255 }
-				
-				b_berg = {
-				}
-				b_sierck = {
-				}
-				b_bergtemple = {
 				}
 			}
 			
@@ -2043,6 +2049,8 @@ e_new_valyria = {
 		capital = 471 #Lorath
 		
 		culture = lorathi
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 		d_prince_lorath = {
 			color={ 0 128 0 }
@@ -2087,7 +2095,8 @@ e_new_valyria = {
 				color2={ 255 255 255 }
 				
 				holy_site = gods_lorath
-					
+				holy_site = boash
+				
 				b_lorath = {
 				}
 				b_great_tower = {
@@ -2109,6 +2118,7 @@ e_new_valyria = {
 				color2={ 255 255 255 }
 				
 				holy_site = gods_lorath
+				holy_site = boash
 					
 				b_lorassyon = {
 				}
@@ -2174,7 +2184,8 @@ e_new_valyria = {
 				color2={ 255 255 255 }
 				
 				holy_site = gods_lorath
-				
+				holy_site = boash
+						
 				b_lorathi_shore = {
 				}
 				b_lorathi_shorecastle = {
@@ -2204,6 +2215,10 @@ e_new_valyria = {
 				color2={ 255 255 255 }
 				
 				holy_site = gods_lorath
+				holy_site = black_goat
+				holy_site = bearded_priests
+				holy_site = boash
+				holy_site = gods_ibben
 
 				b_axecastle = {
 				}				
@@ -2230,6 +2245,8 @@ e_new_valyria = {
 	k_north_valyria = {
 		color={ 167 50 50 }
 		color2={ 255 255 255 }
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 		
 		mantaryan="Mantarys"
 		tolosi="Tolos"
@@ -2804,6 +2821,7 @@ e_new_valyria = {
 				
 				holy_site = rhoynar_pagan
 				holy_site = bakkalon
+				holy_site = bearded_priests
 				
 				ruin = "The Sorrows"
 				b_palace_of_love = {
@@ -2853,7 +2871,10 @@ e_new_valyria = {
 		culture = qohorik
 		capital = 542 #Essaria
 		
-		allow = { NOT = { culture = dothraki } }
+		allow = { 
+			NOT = { culture = dothraki } 
+			hidden_tooltip = { NOT = { culture_group = winter_group } }
+		}
 		
 		d_essaria = {
 			color = { 78 81 83 }
@@ -3154,7 +3175,10 @@ k_sarnor = {
 	culture = sarnorian
 	capital = 553 #Sarnath	
 	
-	allow = { NOT = { culture = dothraki } }
+	allow = {
+		NOT = { culture = dothraki } 
+		hidden_tooltip = { NOT = { culture_group = winter_group } }
+	}
 	
 	d_saath = {
 		color = { 219 243 21 }
@@ -3299,9 +3323,7 @@ k_sarnor = {
 		c_morosh = {
 			color = { 94 100 44 }
 			color2={ 255 255 255 }
-				
-			holy_site = gods_lorath
-			
+									
 			b_morosh = {
 			}
 			b_morosh_city = {
@@ -3438,8 +3460,7 @@ k_sarnor = {
 			color = { 74 82 7 }
 			color2={ 255 255 255 }
 			
-			holy_site = gods_sarnor
-			holy_site = dothraki_pagan
+			holy_site = gods_sarnor			
 			
 			dothraki="Vojjor Samui"
 			#dothraki_domain_culture="Vojjor Samui"
@@ -3596,8 +3617,7 @@ k_sarnor = {
 			color = { 168 176 101 }
 			color2={ 255 255 255 }
 			
-			holy_site = gods_sarnor
-			holy_site = dothraki_pagan
+			holy_site = gods_sarnor		
 			
 			dothraki="Vaes Graddakh"
 			#dothraki_domain_culture="Vaes Graddakh"
@@ -3715,8 +3735,7 @@ k_sarnor = {
 			color = { 184 200 46 }
 			color2={ 255 255 255 }
 			
-			holy_site = gods_sarnor
-			holy_site = dothraki_pagan
+			holy_site = gods_sarnor			
 			
 			dothraki="Vaes Athjikhari"
 			#dothraki_domain_culture="Vaes Athjikhari"
@@ -3945,6 +3964,7 @@ e_braavos = {
 			NOT = { has_character_flag = against_king }
 			NOT = { trait = rebel_leader }					
 			NOT = { has_character_flag = no_kingship }
+			NOT = { culture_group = winter_group }
 		}
 	}
 	
@@ -3955,6 +3975,8 @@ e_braavos = {
 		capital = 470 #Braavos
 			
 		culture = braavosi
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 		
 		d_braavos = {
 			color={ 186 34 109 }
@@ -3980,6 +4002,8 @@ e_braavos = {
 				holy_site = moonsingers
 				holy_site = bakkalon
 				holy_site = many_faced_god
+				holy_site = gods_lorath
+				holy_site = starry_wisdom
 					
 				b_braavos = {
 				}
@@ -4014,9 +4038,7 @@ e_braavos = {
 			c_braavosishore = {
 				color={ 186 59 107 }
 				color2={ 255 255 255 }
-			
-				holy_site = moonsingers
-				
+						
 				b_braavosishore = {
 				}
 				b_braavosishorecastle = {
@@ -4046,8 +4068,6 @@ e_braavos = {
 				color={ 128 0 64 }
 				color2={ 255 255 255 }
 			
-				holy_site = moonsingers
-
 				b_malaqovoscastle = {
 				}				
 				b_malaqovos = {
@@ -4172,6 +4192,8 @@ e_ghiscar = {
 	
 	capital = 619 #Old Ghis
 	culture = ghiscari	
+	
+	allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 	k_yunkai = {
 		color={ 255 128 0 }
@@ -4180,6 +4202,8 @@ e_ghiscar = {
 		capital = 610 #Yunkai
 		
 		culture = yunkaii	
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 		
 		d_yunkai = {
 			color={ 176 111 48 }
@@ -4293,6 +4317,8 @@ e_ghiscar = {
 		capital = 613 #Astapor
 		
 		culture = astapori
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 		
 		d_astapor = {
 			color={ 172 71 58 }
@@ -4418,6 +4444,8 @@ e_ghiscar = {
 		capital = 606 #Meereen
 		
 		culture = meereenese
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 		d_meereen = {
 			color={ 46 176 141 }
@@ -4530,6 +4558,8 @@ e_ghiscar = {
 		
 		culture = ghiscari		
 		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
+		
 		d_new_ghis = {
 			color={ 123 95 67 }
 			color2={ 128 64 0 }
@@ -4550,8 +4580,8 @@ e_ghiscar = {
 				color={ 123 95 67 }
 				color2={ 128 64 0 }
 				
-				holy_site = harpy
-					
+				holy_site = corsair
+								
 				b_pyramidnewghis = {
 				}
 				b_newghis = {
@@ -4788,6 +4818,8 @@ e_ghiscar = {
 		capital = 639 # Lhazosh
 		
 		culture = lhazareen
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 		d_lhazosh = {
 			color={ 159 138 53 }
@@ -4962,7 +4994,10 @@ e_ghiscar = {
 		
 		culture = ghiscari
 		
-		allow = { NOT = { culture = dothraki } }
+		allow = { 
+			NOT = { culture = dothraki } 
+			hidden_tooltip = { NOT = { culture_group = winter_group } }
+		}
 
 		dothraki="Rhaesh Has"
 		#dothraki_domain_culture="Rhaesh Has"		
@@ -4989,6 +5024,9 @@ e_ghiscar = {
 			c_ghardaq = {
 				color={ 41 61 51 }
 				color2={ 128 64 0 }
+				
+				holy_site = qarth_warlocks
+				holy_site = harpy
 				
 				dothraki="Krazaaj Has"
 				#dothraki_domain_culture="Krazaaj Has"
@@ -5116,7 +5154,10 @@ e_ghiscar = {
 		
 		culture = ghiscari
 		
-		allow = { NOT = { culture = dothraki } }
+		allow = { 
+			NOT = { culture = dothraki } 
+			hidden_tooltip = { NOT = { culture_group = winter_group } }
+		}
 		
 		dothraki="Rhaesh Diaf"
 		#dothraki_domain_culture="Vaes Diaf"
@@ -5143,6 +5184,8 @@ e_ghiscar = {
 			c_hazdahn_no = {
 				color={ 85 52 87 }
 				color2={ 128 64 0 }
+				
+				holy_site = dothraki_pagan
 				
 				dothraki="Vaes Diaf"
 				#dothraki_domain_culture="Vaes Diaf"
@@ -5261,6 +5304,8 @@ k_ibben = {
 	capital = 585 #Port of Ibben
 	
 	culture = ibbenese 
+	
+	allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 	d_portofibben = {
 		color={ 116 119 139 }
@@ -5355,9 +5400,7 @@ k_ibben = {
 		c_ib_oss = {
 			color={ 151 164 237 }
 			color2={ 116 119 139 }
-				
-			holy_site = gods_ibben
-			
+						
 			b_ib_oss = {
 			}
 			b_ib_oss_city = {
@@ -5413,8 +5456,7 @@ k_ibben = {
 			color={ 116 119 139 }
 			color2={ 116 119 139 }
 				
-			holy_site = gods_ibben
-			
+		
 			b_ib_nor = {
 			}
 			b_ib_nor_city = {
@@ -5655,6 +5697,8 @@ k_asshai = {
 		
 	culture = asshai
 	
+	allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
+	
 	title_prefix = "ANCIENT_CITY_OF"
 	
 	d_asshai = {
@@ -5681,6 +5725,7 @@ k_asshai = {
 			
 			holy_site = shadowbinders
 			holy_site = rhllor
+			holy_site = starry_wisdom
 	
 			b_asshai = {
 			}	
@@ -5755,9 +5800,7 @@ k_asshai = {
 		c_east_shadowmount = { #Taegye
 			color={ 240 0 0 }
 			color2={ 6 128 0 }
-			
-			holy_site = shadowbinders
-		
+				
 			b_east_shadowmount = {
 			}	
 			b_east_shadowmount_city = {
@@ -5807,9 +5850,7 @@ k_asshai = {
 		c_shadow_coast = { #Saraburai
 			color={ 64 0 0 }
 			color2={ 6 128 0 }
-			
-			holy_site = shadowbinders
-		
+				
 			b_shadow_coast = {
 			}	
 			b_shadow_coast_city = {
@@ -5831,7 +5872,47 @@ k_asshai = {
 		}
 
 	}
-	
+	d_saffron_straits = {
+		color={ 200 21 41 }
+		color2={ 6 128 0 }
+		
+		capital = 800 #Ulos
+		
+		culture = asshai
+		
+		allow = {
+			OR = {				
+				custom_tooltip = {
+					text = TOOLTIPhl_creation_requirement
+					hidden_tooltip = { any_demesne_province = { duchy = { title = FROM } } }
+				}	
+				has_game_rule = { name = hl_creation_requirement value = off }
+			}	
+		}
+
+		c_ulos = {
+			color={ 140 21 61 }
+			color2={ 6 128 0 }
+				
+			b_ulos = {
+			}	
+			b_ulos_city = {
+			}		
+			b_ulos_temple = {
+			}				
+		}
+		c_saffron_isle = {
+			color={ 190 41 21 }
+			color2={ 6 128 0 }
+				
+			b_saffron_isle = {
+			}	
+			b_saffron_isle_city = {
+			}		
+			b_saffron_isle_temple = {
+			}				
+		}
+	}	
 }
 
 
@@ -5859,6 +5940,7 @@ e_qarth = {
 			NOT = { has_character_flag = against_king }
 			NOT = { trait = rebel_leader }					
 			NOT = { has_character_flag = no_kingship }
+			NOT = { culture_group = winter_group }
 		}
 	}
 	
@@ -5869,6 +5951,8 @@ e_qarth = {
 		capital = 663 #Qarth
 			
 		culture = qartheen
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 		
 		title_prefix = "ANCIENT_CITY_OF"
 		
@@ -6001,6 +6085,7 @@ e_qarth = {
 				
 				holy_site = qarth_warlocks
 				holy_site = bakkalon
+				holy_site = corsair
 			
 				b_hall_thrones = {
 				}	
@@ -6070,9 +6155,7 @@ e_qarth = {
 			c_jadegate = {
 				color={ 175 117 117 }
 				color2={ 6 128 0 }
-				
-				holy_site = qarth_warlocks
-						
+									
 				b_jadegate_castle = {
 				}
 				b_jadegate = {
@@ -6114,9 +6197,7 @@ e_qarth = {
 			c_qal = {
 				color={ 176 48 181 }
 				color2={ 6 128 0 }
-				
-				holy_site = qarth_warlocks
-				
+							
 				b_fort_qal = {
 				}			
 				b_west_qal = {
@@ -6158,6 +6239,8 @@ e_qarth = {
 			c_qarkash = {
 				color={ 229 14 237 }
 				color2={ 6 128 0 }
+				
+				holy_site = qarth_warlocks
 						
 				b_qarkash = {
 				}
@@ -6169,9 +6252,7 @@ e_qarth = {
 			c_cape_of_skulls = {
 				color={ 175 117 117 }
 				color2={ 6 128 0 }
-				
-				holy_site = qarth_warlocks
-						
+										
 				b_cape_of_skulls_castle = {
 				}
 				b_cape_of_skulls = {
@@ -6282,6 +6363,8 @@ e_qarth = {
 				color={ 175 117 117 }
 				color2={ 6 128 0 }
 				
+				holy_site = qarth_warlocks
+				
 				ruin = "Vaes Tolorro"
 				dothraki="Vaes Tolorro"
 				#dothraki_domain_culture="Vaes Tolorro"
@@ -6337,6 +6420,8 @@ k_hyrkoon = {
 	
 	dignity=10
 	culture = hyrkooni
+	
+	allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 	d_kayakayanaya = {
 		color={ 244 172 74 }
@@ -6596,6 +6681,8 @@ e_yi_ti = {
 	culture = yi_ti
 	
 	dignity = 30
+	
+	allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 		
 	k_yin = {
 		color={ 186 233 27 }
@@ -6604,6 +6691,8 @@ e_yi_ti = {
 		culture = yi_ti
 		
 		capital = 765 #Yin
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 		d_yin = {
 			color={ 186 233 27 }
@@ -6628,7 +6717,8 @@ e_yi_ti = {
 				holy_site = lion_night
 				holy_site = yiti_gods
 				holy_site = many_faced_god
-			
+				holy_site = starry_wisdom
+				
 				b_yin = {
 				}	
 				b_yin_city = {
@@ -6735,6 +6825,17 @@ e_yi_ti = {
 				}
 			}
 		}
+		c_isle_of_whips = {
+			color={ 100 167 58 }
+			color2={ 6 128 0 }
+			
+			b_isle_of_whips = {
+			}	
+			b_isle_of_whips_city = {
+			}	
+			b_isle_of_whips_temple = {
+			}			
+		}
 	}
 
 	k_jinqi = {
@@ -6744,6 +6845,8 @@ e_yi_ti = {
 		culture = yi_ti
 		
 		capital = 770 #Jinqi
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 		d_jinqi = {
 			color={ 49 219 40 }
@@ -6858,6 +6961,8 @@ e_yi_ti = {
 		culture = yi_ti
 		
 		capital = 780
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 		d_tiqui = {
 			color={ 98 208 51 }
@@ -6978,6 +7083,8 @@ e_yi_ti = {
 		culture = yi_ti
 		
 		capital = 777
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 		d_linqi = {
 			color={ 62 237 18 }
@@ -7096,6 +7203,8 @@ e_yi_ti = {
 		culture = yi_ti
 		
 		capital = 865
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 		d_piqui = {
 			color={ 176 225 30 }
@@ -7189,6 +7298,8 @@ e_yi_ti = {
 		
 		culture = yi_ti		
 		capital = 875
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 		d_xin = {
 			color={ 198 224 109 }
@@ -7294,6 +7405,8 @@ e_yi_ti = {
 		
 		culture = yi_ti		
 		capital = 847
+		
+		allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 		d_trader_town = {
 			color={ 237 192 165 }
@@ -7388,6 +7501,7 @@ e_yi_ti = {
 					primary_title = { NOT = { check_variable = { which = "de_facto_empire" value = 1 } } }
 				}
 			}	
+			hidden_tooltip = { NOT = { culture_group = winter_group } }
 		}
 
 		d_the_five_forts = {
@@ -7465,17 +7579,21 @@ k_leng = {
 	color2={ 6 128 0 }
 	
 	culture = lengi
+	
+	allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 		
 	title = "GOD_EMPEROR"
 	title_female = "GOD_EMPEROR_female"
 	foa = "GOD_EMPEROR_FOA"
 	title_prefix = "EMPIRE_OF"
 		
-	d_north_leng = {
+	d_north_leng = { #Leng Yi
 		color={ 64 208 156 }
 		color2={ 6 128 0 }
 		
 		culture = yi_ti
+		
+		capital = 792
 		
 		allow = {
 			OR = {				
@@ -7506,7 +7624,36 @@ k_leng = {
 			b_leng_yi_temple = {
 			}			
 		}
-
+		c_leng_xotli = {
+			color={ 121 195 168 }
+			color2={ 6 128 0 }
+						
+			b_leng_xotli = {
+			}	
+			b_leng_xotli_city = {
+			}
+			b_leng_xotli_temple = {
+			}			
+		}
+	}
+	
+	d_leng_ma = {
+		color={ 29 111 81 }
+		color2={ 6 128 0 }
+		
+		culture = yi_ti
+		
+		capital = 791
+		
+		allow = {
+			OR = {				
+				custom_tooltip = {
+					text = TOOLTIPhl_creation_requirement
+					hidden_tooltip = { any_demesne_province = { duchy = { title = FROM } } }
+				}	
+				has_game_rule = { name = hl_creation_requirement value = off }
+			}	
+		}
 		c_leng_ma = {
 			color={ 30 111 81 }
 			color2={ 6 128 0 }
@@ -7525,10 +7672,21 @@ k_leng = {
 			}		
 			b_leng_ma_temple = {
 			}
+		}	
+		c_sedmelluqi = {
+			color={ 34 251 172 }
+			color2={ 6 128 0 }
+				
+			b_sedmelluqi = {
+			}	
+			b_sedmelluqi_city = {
+			}	
+			b_sedmelluqi_temple = {
+			}
 		}		
 	}
 				
-	d_south_leng = {
+	d_south_leng = { #Turrani
 		color={ 90 159 134 }
 		color2={ 6 128 0 }
 			
@@ -7551,6 +7709,7 @@ k_leng = {
 			color2={ 6 128 0 }
 			
 			holy_site = old_ones
+			holy_site = shadowbinders
 						
 			b_turrani = {
 			}	
@@ -7563,6 +7722,40 @@ k_leng = {
 			b_turrani_temple = {
 			}
 		}
+		c_dendrrah = {
+			color={ 23 87 64 }
+			color2={ 6 128 0 }
+						
+			b_dendrrah = {
+			}	
+			b_dendrrah_city = {
+			}	
+			b_dendrrah_temple = {
+			}
+		}
+	}
+	
+	c_manticore_isles = {
+		color={ 0 100 44 }
+		color2={ 6 128 0 }
+					
+		b_manticore_isles = {
+		}	
+		b_manticore_isles_city = {
+		}	
+		b_manticore_isles_temple = {
+		}
+	}
+	c_marahai = {
+		color={ 144 193 171 }
+		color2={ 6 128 0 }
+					
+		b_marahai = {
+		}	
+		b_marahai_city = {
+		}	
+		b_marahai_temple = {
+		}
 	}
 }
 
@@ -7572,6 +7765,8 @@ k_asabhad = {
 
 	culture = asabhadi
 	capital = 669
+	
+	allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 	d_asabhad = {
 		color={ 198 188 121 }
@@ -7593,6 +7788,8 @@ k_asabhad = {
 		c_asabhad = {
 			color={ 107 100 52 }
 			color2={ 198 188 121 }
+			
+			holy_site = stone_cow
 		
 			b_asabhad = {
 			}	
@@ -7647,6 +7844,8 @@ k_moraq = {
 	color2={ 0 64 0 }
 			
 	culture = moraqi
+	
+	allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 		
 	d_faros = {
 		color={ 128 251 4 }
@@ -7686,9 +7885,7 @@ k_moraq = {
 		c_sielekar = {
 			color={ 132 159 105 }
 			color2={ 128 251 4 }
-			
-			holy_site = stone_cow
-			
+					
 			b_sielekar = {
 			}	
 			b_sielekar_city = {
@@ -7891,6 +8088,8 @@ k_nghai = {
 	color2={ 244 192 11 }
 	
 	culture = nghai
+	
+	allow = { hidden_tooltip = { NOT = { culture_group = winter_group } } }
 
 	d_nghai = {
 		color={ 73 73 71 }
@@ -8069,11 +8268,6 @@ b_volentin = {
 	religion = bakkalon
 }
 
-b_fayer = {
-	culture = high_valyrian
-	religion = valyrian
-}
-
 # VOLANTIS:
 
 b_maegyr = {
@@ -8105,8 +8299,6 @@ b_staegone = {
 	culture = eastern_valyrian
 	religion = valyrian
 }
-
-
 
 # LYS:
 
