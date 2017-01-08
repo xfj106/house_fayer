@@ -952,13 +952,7 @@ father=54600045
 mother=54600044
 8250.10.15={birth=yes}
 8272.9.25 = {add_spouse=54600049}
-#8318.12.11={death=yes}
-8299.1.1={
-	death = {
-		death_reason = death_murder 
-		killer = 1230
-	} 
-}
+8318.12.11={death=yes}
 }
 
 54600047={
@@ -1048,11 +1042,6 @@ trait="skilled_warrior"
 father=54600046
 mother=54600049
 8275.4.3={birth=yes}
-8299.1.1={
-	add_claim = c_harrenhal
-	add_claim = d_harrenhal
-	employer = 77041
-}
 8356.3.24={death=yes}
 }
 
