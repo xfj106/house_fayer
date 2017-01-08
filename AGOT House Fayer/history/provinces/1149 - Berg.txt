@@ -1,0 +1,37 @@
+# 1149 - Berg
+
+# County Title
+title = c_berg
+
+# Settlements
+max_settlements = 3
+
+b_berg = castle
+b_sierck = city
+b_bergtemple = temple
+
+# Misc
+culture = western_valyrian
+religion = old_gods
+
+# History
+
+6000.1.1 = {
+
+
+
+b_berg = ca_asoiaf_north_basevalue_1
+b_berg = ca_asoiaf_north_basevalue_2
+b_berg = ca_asoiaf_north_basevalue_3
+#b_berg = ca_town_1
+#b_berg = ca_shipyard_1
+
+
+b_sierck = ct_asoiaf_north_basevalue_1
+b_sierck = ct_asoiaf_north_basevalue_2
+b_sierck = ct_asoiaf_north_basevalue_3
+#b_sierck = ct_port_1
+
+#trade_post = b_fayer
+
+}

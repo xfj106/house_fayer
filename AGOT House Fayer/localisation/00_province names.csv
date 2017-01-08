@@ -91,7 +91,7 @@ PROV90;Blackwood Vale;Vallée de Nerbosc;Blackwood Vale;Blackwood Vale;Árbol de l
 PROV91;Stone Hedge;Haye Pierre;Stone Hedge;Stone Hedge;Seto de Piedra;;;;;;;;;x
 PROV92;Blue Fork;Bleufurque;Blue Fork;Blue Fork;Forca Azul;;;;;;;;;x
 PROV93;Red Fork;Ruffurque;Red Fork;Red Fork;Forca Roja;;;;;;;;;x
-PROV94;Deddington;Verfurque;Green Fork;Green Fork;Forca Verde;;;;;;;;;x
+PROV94;Deddington;Deddington;Green Fork;Green Fork;Forca Verde;;;;;;;;;x
 PROV95;Chiltern;Chiltern;Chiltern;Chiltern;Bosque Blanco;;;;;;;;;x
 PROV96;Lychester;Lychester;Medway;Medway;Danza de Sally;;;;;;;;;x
 PROV97;Harroway's Town;Lord Herpivoie-Ville;Lord Harroway's Town;Lord Harroway's Town;Aldea de Lord Harroway;;;;;;;;;x
@@ -286,8 +286,8 @@ PROV285;Blackcrown;Noircouronne;Blackcrown;Blackcrown;Corona Negra;;;;;;;;;x
 PROV286;Oldtown;Villevieille;Oldtown;Oldtown;Antigua;;;;;;;;;x
 PROV287;Uplands;Hautesterres;Uplands;Uplands;Tierras Altas;;;;;;;;;x
 PROV288;Hunt Hills;Collines de la Chasse;Hunt Hills;Hunt Hills;Coto de Caza;;;;;;;;;x
-PROV289;Three Towers;Troistours;Three Towers;Three Towers;Tres Torres;;;;;;;;;x
-PROV290;Sunhouse;Tournesolaie;Sunhouse;Sunhouse;Refugio del Girasol;;;;;;;;;x
+PROV289;Three Towers;Trois Tours;Three Towers;Three Towers;Tres Torres;;;;;;;;;x
+PROV290;Sunhouse;Solfoyer;Sunhouse;Sunhouse;Refugio del Girasol;;;;;;;;;x
 PROV291;Torrentpeak;Pictorrent;Torrentpeak;Torrentpeak;Pico Torrentino;;;;;;;;;x
 PROV292;The Arbor;La Treille;The Arbor;The Arbor;El Rejo;;;;;;;;;x
 PROV293;Amberly;Ambre;Amberly;Amberly;Ambarino;;;;;;;;;x
@@ -443,7 +443,7 @@ PROV442;Ghoyan Pass;Passe de Ghoyan;;;Paso de Ghoyan;;;;;;;;;x
 PROV443;Narros;Narros;;;Narros;;;;;;;;;x
 PROV444;Mount Norvo;Mont Norvo;;;Montenorvo;;;;;;;;;x
 PROV445;Shalorath;Shalorath;;;Shalorath;;;;;;;;;x
-PROV446;Fisher Point;Rivage Lorathi;;;Costa Lorathi;;;;;;;;;x
+PROV446;Fisher Point;Fisher Point;;;Costa Lorathi;;;;;;;;;x
 PROV447;Elbateros;Elbateros;;;Elbateros;;;;;;;;;x
 PROV448;White Cliffs;Falaises Blanches;;;Acantilados Blancos;;;;;;;;;x
 PROV449;Ny Rhon Valley;Vallée de Ny Rhon;;;Valle de Ny Rhon;;;;;;;;;x
@@ -460,11 +460,11 @@ PROV459;Mother's Valley;Vallée de la Mère;;;Valle de la Madre;;;;;;;;;x
 PROV460;Willowsreach;Les Saules;;;Los Sauces;;;;;;;;;x
 PROV461;Malaqovos;Malaqovos;;;Malaqovos;;;;;;;;;x
 PROV462;Freneros;Freneros;;;Freneros;;;;;;;;;x
-PROV463;Daerves Hills;Collines Braaviennes;;;Colinas Braavosi;;;;;;;;;x
+PROV463;Daerves Hills;Collines Daerves;;;Colinas Braavosi;;;;;;;;;x
 PROV464;Prestaynos;Prestaynos;;;Prestaynos;;;;;;;;;x
 PROV465;Moroggos;Moroggos;;;Morrogos;;;;;;;;;x
 PROV466;Antaryonos;Antaryonos;;;Antaryonos;;;;;;;;;x
-PROV467;Ironport;Champs Braaviens;;;Campos Braavosi;;;;;;;;;x
+PROV467;Ironport;Ironport;;;Campos Braavosi;;;;;;;;;x
 PROV468;Moonsbridge;Côte Braavienne;;;Canal Largo;;;;;;;;;x
 PROV469;The Marshes;Les Marais;;;La Laguna;;;;;;;;;x
 PROV470;Braavos;Braavos;;;Braavos;;;;;;;;;x
@@ -476,7 +476,7 @@ PROV475;Axe Mountains;Montagnes de la Hache;;;Montañas del Hacha;;;;;;;;;x
 PROV476;Qohor;Qohor;;;Qohor;;;;;;;;;x
 PROV477;Qovosar;Qovosar;;;Qovosar;;;;;;;;;x
 PROV478;Goatwood;Forêt de la Chèvre;;;Bosque de la Cabra;;;;;;;;;x
-PROV479;Hobreth;Côte Qohorienne;;;Costa de Qohor;;;;;;;;;x
+PROV479;Hobreth;Hobreth;;;Costa de Qohor;;;;;;;;;x
 PROV480;Satholik;Satholik;;;Satholik;;;;;;;;;x
 PROV481;Sungrove;Solpinède;;;Soto Soleado;;;;;;;;;x
 PROV482;Ar Selrys;Ar Selrys;;;Ar Selrys;;;;;;;;;x
@@ -790,7 +790,7 @@ PROV789;The Manticore Isles;Les Iles Manticores;;;Islas de la Mantícora;;;;;;;;;
 PROV790;Turrani;Turrani;;;Turrani;;;;;;;;;x
 PROV791;Leng Ma;Leng Ma;;;Leng Ma;;;;;;;;;x
 PROV792;Leng Yi;Leng Yi;;;Leng Yi;;;;;;;;;x
-PROV793;Jade Isle;Ile de Jade;;;Isla de Jade;;;;;;;;;x
+PROV793;VACANT;Ile de Jade;;;;;;;;;;;;x
 PROV794;Ulthos;Ulthos;;;Ulthos;;;;;;;;;x
 PROV795;Asshai;Asshai;;;Asshai;;;;;;;;;x
 PROV796;Stygai;Stygai;;;Stygai;;;;;;;;;x
@@ -925,7 +925,7 @@ PROV924;Sea of Estermont;Mer d'Estremont;;;Costa de Estermont;;;;;;;;;x
 PROV925;Eastern Sea of Dorne;Mer de Dorne Orientale;;;Mar de Dorne Oriental;;;;;;;;;x
 PROV926;Cape of Rains;Cap des Pluies;;;Cabo de la Ira;;;;;;;;;x
 PROV927;Shipbreaker Bay;Baie des Naufrageurs;;;Bahía de los Naufragios;;;;;;;;;x
-PROV928;Emerald Sea;Mer Emerald;;;Estrecho de Tarth;;;;;;;;;x
+PROV928;Emerald Sea;Mer Émeraude;;;Estrecho de Tarth;;;;;;;;;x
 PROV929;Masseys Hook;Crochet de Massey;;;Garfio de Massey;;;;;;;;;x
 PROV930;The Gullet;Le Gosier;;;Gaznate;;;;;;;;;x
 PROV931;Eastern Blackwater Bay;Baie de la Néra Orientale;;;Bahía del Aguasnegras Oriental;;;;;;;;;x
@@ -1115,8 +1115,8 @@ PROV1114;Saffron Sea;Mer de Safran;;;Mar del Azafrán;;;;;;;;;x
 PROV1115;Bay of Ulos;Baie d'Ulos;;;Bahía de Ulos;;;;;;;;;x
 PROV1116;Howling Coast;Côte des Hurlements;;;Costa Aullante;;;;;;;;;x
 PROV1117;Leviathan Sound;Le Chenal des Léviathans;;;Ensenada del Leviatán;;;;;;;;;x
-PROV1118;Western Thousand Islands;Mille-Iles Occidentales;;;Las Mil Islas Occidentales;;;;;;;;;x
-PROV1119;Eastern Thousand Islands;Mille-Iles Orientales;;;Las Mil Islas Orientales;;;;;;;;;x
+PROV1118;Western Thousand Islands;Mille-Îles Occidentales;;;Las Mil Islas Occidentales;;;;;;;;;x
+PROV1119;Eastern Thousand Islands;Mille-Îles Orientales;;;Las Mil Islas Orientales;;;;;;;;;x
 PROV1120;Bay of Nefer;Baie du Nefer;;;Bahía de Nefer;;;;;;;;;x
 PROV1121;Mosovy Coast;Côte de Mosovy;;;Costa de Mossovy;;;;;;;;;x
 PROV1122;Eastern Shivering Sea;Mer Grelotte Orientale;;;Mar de los Escalofríos Oriental;;;;;;;;;x
@@ -1142,5 +1142,8 @@ PROV1141;The Greenblood;La Sang-vert;;;Sangreverde;;;;;;;;;x
 PROV1142;The Vaith;Le Voi;;;Vaith;;;;;;;;;x
 PROV1143;The Scourge;Le Fléau;;;Azote;;;;;;;;;x
 PROV1144;Seagard Bay;Baie de Salvemer;;;Bahía de Varamar;;;;;;;;;x
-PROV1145;Sweetport Sound;Dulceport-le-pas ;;;Puertoplácido;;;;;;;;;x
-PROV1146;Berg;Berg;;;Berg;;;;;;;;;x
+PROV1145;Sweetport Sound;Sweetport Sound;;;Puertoplácido;;;;;;;;;x
+PROV1146;Leng Xotli;Leng Xotli;;;;;;;;;;;;x
+PROV1147;Sedmelluqi;Sedmelluqi;;;;;;;;;;;;x
+PROV1148;Dendrrah;Dendrrah;;;;;;;;;;;;x
+PROV1149;Berg;Berg;;;;;;;;;;;;x
