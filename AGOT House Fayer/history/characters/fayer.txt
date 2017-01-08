@@ -1093,8 +1093,8 @@ intrigue=5
 learning=4
 trait="naive_appeaser"
 trait="kind"
-father=54600049
-mother=54600046
+father=54600046
+mother=54600049
 8282.4.17={birth=yes}
 8329.5.28={death=yes}
 }
