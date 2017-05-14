@@ -118,8 +118,7 @@ castle = {
 				province_id = 727	#Port Moraq
 				province_id = 728	#Zabhad
 				province_id = 729	#Vahar	
-				province_id = 835	#Nefer
-				province_id = 622	#Velos
+				province_id = 835	#Nefer	
 				# province_id = 585	#Port of Ibben
 				# province_id = 594	#Ib Sar
 				# province_id = 582	#Ib Nor
@@ -130,7 +129,6 @@ castle = {
 				OR = {
 					title = b_spicertowers
 					title = b_elyriacastle
-					title = b_velos
 					title = b_pyramidnewghis
 					title = b_port_moraq
 					title = b_zabhad
@@ -275,23 +273,6 @@ castle = {
 		extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	###unique buildings###
-	
-	ca_large_goldmine = {
-		desc = ca_goldmine_desc
-		potential = {
-			FROMFROM = {
-				OR = {
-					title = b_casterly_rock
-					title = b_castamere
-				}
-			}
-		}
-		#trigger = { always = no }
-		gold_cost = 500
-		build_time = 160
-		tax_income = 12
-		ai_creation_factor = 110
-	}
 	ca_goldmine = {
 		desc = ca_goldmine_desc
 		potential = {
@@ -305,15 +286,40 @@ castle = {
 				province_id = 179 #Goldshire
 				province_id = 180 #Hornvale
 				province_id = 181 #Brent Brook
+				province_id = 182 #Casterly Rock
+				province_id = 187 #Castamere
+				
+				region = world_asshai
+				duchy = { title = d_the_axe }
 			}
 		}
-		gold_cost = 500
+		gold_cost = 400
 		build_time = 730
 		tax_income = 4
 		ai_creation_factor = 110
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		extra_tech_building_start = 10.0 # Never get at start of game
 	}
+	ca_large_goldmine = {
+		desc = ca_goldmine_desc
+		potential = {
+			FROMFROM = {
+				OR = {
+					title = b_casterly_rock
+					title = b_castamere
+					title = b_axemountainscastle
+					title = b_axecastle
+				}
+			}
+		}
+		upgrades_from = ca_goldmine
+		#trigger = { always = no }
+		gold_cost = 400
+		build_time = 160
+		tax_income = 8
+		ai_creation_factor = 110
+	}
+	
 	
 	ca_silvermine = {
 		desc = ca_silver_desc
@@ -324,6 +330,7 @@ castle = {
 				province_id = 189 #Myatt
 				province_id = 190 #Lonmont
 				province_id = 195 #Silverhall
+				province_id = 334 #Yronwood
 			}
 		}
 		gold_cost = 500
@@ -442,7 +449,7 @@ castle = {
 		tax_income = 1.25
 		galleys = 45
 		levy_size = -0.35
-		garrison_size = -0.35
+		garrison_size = -0.1
 		build_time = 1825
 		ai_creation_factor = 110
 	}
@@ -579,7 +586,47 @@ castle = {
 		
 		ai_creation_factor = 110
 	}
-	
+	ca_starfall = {
+		desc = ca_starfall_desc
+		potential = {
+			FROMFROM = {
+				title = b_starfall
+			}
+		}
+		#trigger = { always = no }
+		fort_level = 3.0
+		gold_cost = 150
+		build_time = 730
+		ai_creation_factor = 110
+	}
+	ca_black_wall = {
+		desc = ca_black_wall_desc
+		potential = {
+			FROMFROM = {
+				title = b_blackwall
+			}
+		}
+		#trigger = { always = no }
+		
+		gold_cost = 300
+		fort_level = 5
+		build_time = 1825
+		ai_creation_factor = 110
+	}
+	ca_triple_walls = { #Qarth
+		desc = ca_triple_walls_desc
+		potential = {
+			FROMFROM = {
+				title = b_hall_thrones
+			}
+		}
+		#trigger = { always = no }
+		
+		gold_cost = 300
+		fort_level = 5
+		build_time = 1825
+		ai_creation_factor = 110
+	}
 	
 	ca_wildling_barracks = {
 		desc = ca_wildling_barracks_desc
@@ -587,7 +634,6 @@ castle = {
 			FROM = {
 				OR = {
 					culture_group = free_folk
-					culture = thenn
 					trait = wildling
 				}
 			}
@@ -612,7 +658,6 @@ castle = {
 			FROM = {
 				OR = {
 					culture_group = free_folk
-					culture = thenn
 					trait = wildling
 				}
 			}
@@ -640,7 +685,6 @@ castle = {
 			FROM = {
 				OR = {
 					culture_group = free_folk
-					culture = thenn
 					trait = wildling
 				}
 			}
@@ -668,7 +712,6 @@ castle = {
 			FROM = {
 				OR = {
 					culture_group = free_folk
-					culture = thenn
 					trait = wildling
 				}
 			}
@@ -766,7 +809,7 @@ castle = {
 		light_infantry = 180
 		heavy_infantry = 60
 		ai_creation_factor = 110
-		tax_income = 1	
+		tax_income = 0.5
 		fort_level = 1
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		extra_tech_building_start = 10.0 # Never get at start of game
@@ -791,7 +834,7 @@ castle = {
 		light_infantry = 360
 		heavy_infantry = 120
 		ai_creation_factor = 110
-		tax_income = 1.75	
+		tax_income = 0.85	
 		fort_level = 1
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		extra_tech_building_start = 10.0 # Never get at start of game
@@ -816,7 +859,7 @@ castle = {
 		light_infantry = 540
 		heavy_infantry = 180
 		ai_creation_factor = 110
-		tax_income = 2.5
+		tax_income = 1.25
 		fort_level = 1
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		extra_tech_building_start = 10.0 # Never get at start of game
@@ -841,7 +884,7 @@ castle = {
 		light_infantry = 720
 		heavy_infantry = 240
 		ai_creation_factor = 110
-		tax_income = 2.5
+		tax_income = 1.25
 		fort_level = 2
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		extra_tech_building_start = 10.0 # Never get at start of game
@@ -866,7 +909,7 @@ castle = {
 		light_infantry = 1080
 		heavy_infantry = 360
 		ai_creation_factor = 110
-		tax_income = 3
+		tax_income = 1.5
 		fort_level = 2
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		extra_tech_building_start = 10.0 # Never get at start of game
@@ -1181,6 +1224,28 @@ castle = {
 		camel_cavalry_defensive = 0.15
 		ai_creation_factor = 87
 		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	
+	ca_legionary_barracks = {
+		desc = ca_legionary_barracks_desc
+		potential = {
+			FROM = { culture = ghiscari }
+		}
+		trigger = { 
+			TECH_CASTLE_CONSTRUCTION = 0 
+		}
+		prerequisites = { ca_asoiaf_ghiscari_basevalue_3 }
+		light_infantry = -1000
+		heavy_infantry = 1000
+		heavy_infantry_morale = 0.2
+		heavy_infantry_defensive = 0.1
+		heavy_infantry_offensive = 0.1
+		
+		gold_cost = 350
+		tax_income = -3
+		build_time = 730
+		ai_creation_factor = 200
 		extra_tech_building_start = 10.0 # Never get at start of game
 	}
 	
@@ -1746,7 +1811,7 @@ castle = {
 					# religion = old_gods
 					# religion = drowned_god
 					# religion = storm_god
-					# religion = valyrian
+					# religion = valyrian_rel
 					# religion = rhllor
 				# }	
 			# }	
@@ -1769,7 +1834,7 @@ castle = {
 					# religion = old_gods
 					# religion = drowned_god
 					# religion = storm_god
-					# religion = valyrian
+					# religion = valyrian_rel
 					# religion = rhllor
 				# }	
 			# }	
@@ -1793,7 +1858,7 @@ castle = {
 					# religion = old_gods
 					# religion = drowned_god
 					# religion = storm_god
-					# religion = valyrian
+					# religion = valyrian_rel
 					# religion = rhllor
 				# }	
 			# }	

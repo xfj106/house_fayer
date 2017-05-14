@@ -1,0 +1,1523 @@
+##dummy titles to allow the changing of other title's coats of arms dynamically
+
+
+# c_targaryen = {    d_daemons_host
+
+# c_blackfyre = {  d_daemon_blackfyres_host
+
+c_stark = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_bolton = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+        }
+}
+c_tully = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+# c_arryn = {  c_the_eyrie
+
+c_lannister = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_lannister_baratheon = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_tyrell = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_gardener = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_baratheon = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_baratheon_rhllor = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+#c_durrandon = { c_baratheon
+
+c_martell = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_greyjoy = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_hoare = { 
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	allow = {
+		always = no
+	}
+}
+c_baelish = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_tarly = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_qoherys = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_reyne = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_dayne = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_whitewolf = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_connington = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_velaryon = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_frey = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_bracken = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_blackwood = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_malister = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_vance = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_piper = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_darrycoa = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_darklyn = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_rosbycoa = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_thorne = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_harlaw = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_goodbrother = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_drumm = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_farwynd = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_volmarkcoa = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_saltcliffecoa = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_umber = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_karstark = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_manderly = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_glover = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_ryswell = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_dustin = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_flint = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_reed = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_mormont = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_belmore = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_lynderly = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_royce = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_hunter = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_waynwood = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_grafton = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_corbray = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_waxley = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_yronwoodcoa = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_fowler = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_uller = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_jordayne = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_allyrion = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_hightower = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_florent = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_osgrey = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_rowan = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_peake = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_meadows = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_strickland = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_redwyne = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_tarthcoa = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_bywatercoa = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_massey = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_dondarrion = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_caron = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_estermontcoa = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_wylde = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_swann = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_toyne = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_buckler = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_seaworth = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_prester = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_crakehallcoa = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_swyft = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_serret = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_payne = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_brax = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_sarsfieldcoa = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_westerling = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_lorch = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_lefford = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_clegane = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_silvermane = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_goldfang = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_dreadwolf = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_winterhold = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_redwyrm = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_truedrake = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_fyreblood = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_goldfyre = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_bittersteel = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_redclaw = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_roaring = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_lionford = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_darksun = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_sunviper = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_blackadder = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_snakespear = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_redriver = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_darkfish = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_goldfish = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_steeltrout = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_redwing = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_kestrel = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_bluebird = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_skywarden = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_stagborn = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_stormhart = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_durrande = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_deer = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_bloodrose = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_blackrose = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_smallrose = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_greenrose = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_silverink = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_redjoy = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_ironkraken = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_hardman = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_twinchild = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_goldcross = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_tollbridge = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_northbridge = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_greystark = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_forrester = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_whitehill = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_hornwood_coa = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_tallhart = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_cassel = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_cerwyn = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_locke = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_magnar = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_crowl = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_stane = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_teague = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_fisher = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_justman = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_mudd = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_lothston = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_whent = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_strong = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_butterwell = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_blackwater = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_rykker = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_celtigar = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_sunglass = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_qorgyle = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_blackmontcoa = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_manwoody = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_toland = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_selmy = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_trant = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_morrigen = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_mertyns = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_rogers = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_horpe = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_fossoway = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_roxton = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_varner = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_ashfordcoa = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_ball = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_lydden = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_tarbeck = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_banefortcoa = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_marbrand = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_vikary = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_merlyn = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_stonetreecoa = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_orkwood = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_blacktydecoa = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_humble = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_codd = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_greyiron = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_cave = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_brune = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_crabb = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_boggs = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_staunton = { 
+color={ 180 180 180 }
+color2={ 255 255 255 }
+
+allow = {
+always = no
+}
+}
+c_stark_targaryen = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+
+	allow = {
+		always = no
+	}
+}
+c_baratheon_old = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+
+	allow = {
+		always = no
+	}
+}
+c_oakheart = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+
+	allow = {
+		always = no
+	}
+}
+c_crane = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+
+	allow = {
+		always = no
+	}
+}
+c_footly = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+
+	allow = {
+		always = no
+	}
+}
+c_fayer = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+
+	allow = {
+		always = no
+	}
+}

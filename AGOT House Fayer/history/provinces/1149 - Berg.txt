@@ -12,7 +12,7 @@ b_bergtemple = temple
 
 # Misc
 culture = western_valyrian
-religion = old_gods
+religion = valyrian_rel
 
 # History
 
@@ -23,6 +23,7 @@ religion = old_gods
 b_berg = ca_asoiaf_north_basevalue_1
 b_berg = ca_asoiaf_north_basevalue_2
 b_berg = ca_asoiaf_north_basevalue_3
+b_berg = ca_asoiaf_north_basevalue_4
 b_berg = ca_town_1
 b_berg = ca_shipyard_1
 

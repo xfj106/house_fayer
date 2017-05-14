@@ -466,7 +466,7 @@ k_dragonstone = {
 			color2={ 255 255 255 }
 			
 			holy_site = rhllor
-			holy_site = valyrian
+			holy_site = valyrian_rel
 		
 			b_stone_drum = {
 			}
@@ -967,6 +967,17 @@ e_iron_throne = {
 				b_lionsbane  = {
 				}
 			}
+			c_langward_hall = {
+				color={ 195 70 120 }
+				color2={ 255 255 255 }
+				
+				b_langward_hall = {
+				}
+				b_mormead  = {
+				}
+				b_corcourt = {
+				}
+			}
 		}
 		
 		d_blackwater_rush = {
@@ -1153,6 +1164,8 @@ e_iron_throne = {
 				}
 				b_woodhollow = {
 				}
+				b_hammerhold = {
+				}
 			}
 			c_byrch_hall = {
 				color={ 203 33 129 }
@@ -1231,10 +1244,6 @@ e_iron_throne = {
 				}
 				b_belhedge = {
 				}
-				b_mormead  = {
-				}
-				b_corcourt = {
-				}
 			}
 			c_attadale = {
 				color={ 157 46 109 }
@@ -1275,13 +1284,6 @@ e_iron_throne = {
 				b_lochmont = {
 				}
 				b_kingswood_sept = {
-				}
-			}
-			c_langward_hall = {
-				color={ 195 70 120 }
-				color2={ 255 255 255 }
-				
-				b_langward_hall = {
 				}
 			}
 		}
@@ -1399,10 +1401,14 @@ e_iron_throne = {
 				}
 				b_theeagletower = {
 				}
+				b_thorpe = {
+				}
 			}
 			c_dawnforest = {
 				color={ 162 162 162 }
 				color2={ 255 255 255 }
+				
+				name_tier = baron
 			
 				b_glencastle = {
 				}
@@ -1412,6 +1418,8 @@ e_iron_throne = {
 			c_kingscourse = {
 				color={ 165 165 165 }
 				color2={ 255 255 255 }
+				
+				name_tier = baron
 			
 				b_wayfarerswatch = {
 				}
@@ -1424,7 +1432,7 @@ e_iron_throne = {
 				color={ 156 156 156 }
 				color2={ 255 255 255 }
 				
-				name_tier=baron
+				name_tier = baron
 			
 				b_torrhenssquare = {
 				}
@@ -1773,17 +1781,6 @@ e_iron_throne = {
 			b_bearwood = {
 			}
 		}
-		c_berg =  {
-			color={ 190 190 190 }
-			color2={ 255 255 255 }
-			
-			b_berg = {
-			}
-			b_sierck = {
-			}
-			b_bergtemple = {
-			}
-		}
 		c_moatcailin = {
 			color={ 126 126 126 }
 			color2={ 255 255 255 }
@@ -1797,6 +1794,20 @@ e_iron_throne = {
 			b_elkstone = {
 			}
 		}
+			
+		c_berg =  {
+			color={ 190 190 190 }
+			color2={ 255 255 255 }
+			
+			b_berg = {
+			}
+			b_sierck = {
+			}
+			b_bergtemple = {
+			}
+		}
+		
+		
 		d_skagos = {
 			color={ 183 172 172 }
 			color2={ 255 255 255 }
@@ -1869,33 +1880,6 @@ e_iron_throne = {
 				b_runletfort = {
 				}
 			}
-			c_seadragonpoint = {
-				color={ 174 174 174 }
-				color2={ 255 255 255 }
-				
-				b_seadragonwatch = {
-				}
-				b_dragonport = {
-				}
-			}
-			c_bluehills = {
-				color={ 171 171 171 }
-				color2={ 255 255 255 }
-				
-				b_firsenfort = {
-				}
-				b_bluetower = {
-				}
-			}
-			c_stonyshore = {
-				color={ 180 180 180 }
-				color2={ 255 255 255 }
-				
-				b_reaverswatch = {
-				}
-				b_anglerage = {
-				}
-			}
 			c_witheredheath = {
 				color={ 183 183 183 }
 				color2={ 255 255 255 }
@@ -1915,6 +1899,48 @@ e_iron_throne = {
 				}
 			}
 		}
+		d_stonyshore = {
+			color={ 192 170 140 }
+			color2={ 255 255 255 }
+				
+			allow = {
+				OR = {				
+					custom_tooltip = {
+						text = TOOLTIPhl_creation_requirement
+						hidden_tooltip = { any_demesne_province = { duchy = { title = FROM } } }
+					}	
+					has_game_rule = { name = hl_creation_requirement value = off }
+				}	
+			}
+			
+			c_stonyshore = {
+				color={ 180 180 180 }
+				color2={ 255 255 255 }
+				
+				b_reaverswatch = {
+				}
+				b_anglerage = {
+				}
+			}
+			c_bluehills = { #Blackpool
+				color={ 171 171 171 }
+				color2={ 255 255 255 }
+				
+				b_firsenfort = {
+				}
+				b_bluetower = {
+				}
+			}
+			c_seadragonpoint = {
+				color={ 174 174 174 }
+				color2={ 255 255 255 }
+				
+				b_seadragonwatch = {
+				}
+				b_dragonport = {
+				}
+			}
+		}	
 		d_wolfswood = {
 			color={ 217 216 236 }
 			color2={ 255 255 255 }
@@ -3639,6 +3665,18 @@ e_iron_throne = {
 				}
 				b_twostone = {
 				}
+			}
+		}
+		
+		c_witch_isle = {
+			color={ 116 218 248 }
+			color2={ 255 255 255 }
+			
+			b_witch_isle = {
+			}
+			b_merlin_town = {
+			}
+			b_arwens_point = {
 			}
 		}
 	}
@@ -5837,6 +5875,8 @@ e_iron_throne = {
 				}
 				b_furnace_end = {
 				}
+				b_warkworth = {
+				}
 			}
 
 			c_felwood = {
@@ -6179,8 +6219,8 @@ e_iron_throne = {
 				}
 				b_oak_heights = {
 				}
-				b_rainwood_sept = {
-				}
+				# b_rainwood_sept = {
+				# }
 				b_stagsfield = {
 				}
 				b_grinsdale = {
@@ -6273,6 +6313,8 @@ e_iron_throne = {
 				}
 				b_glenridding = {
 				}
+				b_weeping_sept = {
+				}
 			}
 			c_wrathrock = {
 				color={ 220 220 80 }
@@ -6346,7 +6388,7 @@ e_iron_throne = {
 				b_lannisportthree = {}
 				b_lannisportsept = {
 				}
-				b_lannisportfour = {}
+				b_shawforth = {}
 			}
 			
 			c_fang_tower = {
@@ -6958,6 +7000,7 @@ k_mountain_clans = {
 	religion = mountain_old_gods
 	
 	dignity = 20
+	capital = 133
 	
 	# Always exists
 	landless = yes
@@ -6973,6 +7016,8 @@ k_mountain_clans = {
 		culture = moon_clansman
 		religion = mountain_old_gods
 		
+		capital = 133
+		
 		# Always exists
 		landless = yes
 		
@@ -6984,6 +7029,8 @@ k_mountain_clans = {
 		
 		culture = moon_clansman
 		religion = mountain_old_gods
+		
+		capital = 135
 		
 		title = "RED_HAND"
 		title_female = "RED_HAND"
@@ -7000,6 +7047,8 @@ k_mountain_clans = {
 		culture = moon_clansman
 		religion = mountain_old_gods
 		
+		capital = 136
+		
 		# Always exists
 		landless = yes
 		
@@ -7011,6 +7060,8 @@ k_mountain_clans = {
 		
 		culture = moon_clansman
 		religion = mountain_old_gods
+		
+		capital = 140
 		
 		# Always exists
 		landless = yes
@@ -7024,6 +7075,8 @@ k_mountain_clans = {
 		culture = moon_clansman
 		religion = mountain_old_gods
 		
+		capital = 145
+		
 		# Always exists
 		landless = yes
 		
@@ -7036,6 +7089,8 @@ k_mountain_clans = {
 		culture = moon_clansman
 		religion = mountain_old_gods
 		
+		capital = 129
+		
 		# Always exists
 		landless = yes
 		
@@ -7047,6 +7102,8 @@ k_mountain_clans = {
 		
 		culture = moon_clansman
 		religion = mountain_old_gods
+		
+		capital = 134
 		
 		# Always exists
 		landless = yes

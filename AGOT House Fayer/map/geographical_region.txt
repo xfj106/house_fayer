@@ -18,16 +18,16 @@ world_beyond_the_wall = {
 	}
 }
 world_the_wall = {
-	duchies = { 
-		d_the_wall
+	counties = { 
+		c_castle_black c_eastwatch c_shadow_tower c_brandons_gift c_new_gift
 	}
 }
 world_north = {
 	duchies = {
-		d_winterfell d_lasthearth d_karhold d_dreadfort d_whiteharbor d_northclans d_skagos d_rills d_wolfswood d_barrowlands d_hornwood d_theneck d_flintsfinger
+		d_winterfell d_lasthearth d_karhold d_dreadfort d_whiteharbor d_northclans d_skagos d_rills d_wolfswood d_barrowlands d_hornwood d_theneck d_flintsfinger d_stonyshore
 	}
 	counties = {
-		c_bearisland c_moatcailin c_berg
+		c_bearisland c_moatcailin c_brandons_gift c_new_gift c_berg
 	}
 }
 world_iron_isles = {
@@ -57,6 +57,9 @@ world_mountains_of_moon = {
 world_vale = {
 	duchies = {
 		d_the_giants_lance d_gulltown d_the_sisters d_northweald d_strongsong d_eastweald d_ironoaks d_runestone d_wickenden d_the_bite d_the_fingers
+	}
+	counties = {
+		c_witch_isle
 	}
 }
 world_reach = {
@@ -201,7 +204,7 @@ world_essaria = {
 }
 world_north_valyria = {
 	duchies = {
-		d_mantarys d_tolos d_elyria d_dalos d_bhorash
+		d_mantarys d_tolos d_elyria d_dalos d_bhorash d_isle_of_cedars
 	}
 }
 world_disputed_lands = {
@@ -240,7 +243,7 @@ world_astapor = {
 }
 world_new_ghis = {
 	duchies = {
-		d_new_ghis d_old_ghis d_ghiscari_hills d_isle_of_cedars
+		d_new_ghis d_old_ghis d_ghiscari_hills
 	}
 }
 world_lhazar = {
@@ -277,6 +280,9 @@ world_qarth = {
 	duchies = {
 		d_qarth d_qal d_qarkash d_port_yhos d_toqolarth
 	}
+	counties = {
+		c_old_waste_road
+	}
 }
 world_moraq = {
 	duchies = {
@@ -288,7 +294,7 @@ world_moraq = {
 }
 world_asshai = {
 	duchies = {
-		d_asshai d_shadowlands d_saffron_straits
+		d_asshai d_shadowlands d_saffron_straits d_stygai
 	}
 }
 ##Grasslands
@@ -317,10 +323,10 @@ world_dothraki_sea = {
 		world_essaria world_dothraki world_ifeqevron world_skahazadhan world_hazdahn
 	}
 	duchies = {
-		d_volaena d_adakhakileki d_rathylar d_sarnath d_kasath d_gornath d_sarys d_mardosh d_sallosh d_sathar
+		d_volaena d_adakhakileki d_rathylar d_sarnath d_kasath d_gornath d_sarys d_mardosh d_sallosh d_sathar d_toqolarth
 	}
 	counties = {
-		c_selhoru c_death_swamps c_ibbish c_barkarth
+		c_selhoru c_death_swamps c_ibbish c_barkarth c_old_waste_road c_makhrosh c_qolahn
 	}
 }
 ## Yi Ti

@@ -135,7 +135,7 @@ PROV134;Darkmoor;Sombrelande;Darkmoor;Darkmoor;Páramo Oscuro;;;;;;;;;x
 PROV135;Crown Crag;Rocouronne;Crown Crag;Crown Crag;Peña de la Corona;;;;;;;;;x
 PROV136;The Eyrie;Les Eyrié;The Eyrie;The Eyrie;Nido de Águilas;;;;;;;;;x
 PROV137;Heart's Home;Cordial;Heart's Home;Heart's Home;Hogar;;;;;;;;;x
-PROV138;Upcliff;Hautecrête;Upcliff;Upcliff;Acantilado Alto;;;;;;;;;x
+PROV138;Breakstone;Hautecrête;Upcliff;Upcliff;Acantilado Alto;;;;;;;;;x
 PROV139;Longbow Hall;Longarc;Longbow Hall;Longbow Hall;Arcolargo;;;;;;;;;x
 PROV140;The Bloody Gate;La Porte Sanglante;Bloody Gate;Bloody Gate;Puerta de la Sangre;;;;;;;;;x
 PROV141;Grey Glen;Gris-Vallon;Grey Glen;Grey Glen;Soto Gris;;;;;;;;;x
@@ -649,7 +649,7 @@ PROV648;Kosrak;Kosrak;;;Kosrak;;;;;;;;;x
 PROV649;Virzosh;Virzosh;;;Virzosh;;;;;;;;;x
 PROV650;Nekhos;Nekhos;;;Nekosh;;;;;;;;;x
 PROV651;Western Red Waste;Désert Rouge Occidental;;;Desierto Rojo Occidental;;;;;;;;;x
-PROV652;The Old Waste Road;Vielle Route Désertique;;;El Viejo Camino del Desierto;;;;;;;;;x
+PROV652;Old Waste Road;Vielle Route Désertique;;;El Viejo Camino del Desierto;;;;;;;;;x
 PROV653;Toqolarth;Toqolarth;;;Toqolarth;;;;;;;;;x
 PROV654;Qarkash;Qarkash;;;Qarkash;;;;;;;;;x
 PROV655;Cape of Skulls;Cap des Crânes;;;Cabo Calavera;;;;;;;;;x
@@ -790,7 +790,7 @@ PROV789;The Manticore Isles;Les Iles Manticores;;;Islas de la Mantícora;;;;;;;;;
 PROV790;Turrani;Turrani;;;Turrani;;;;;;;;;x
 PROV791;Leng Ma;Leng Ma;;;Leng Ma;;;;;;;;;x
 PROV792;Leng Yi;Leng Yi;;;Leng Yi;;;;;;;;;x
-PROV793;VACANT;Ile de Jade;;;;;;;;;;;;x
+PROV793;Witch Isle;;;;;;;;;;;;;x
 PROV794;Ulthos;Ulthos;;;Ulthos;;;;;;;;;x
 PROV795;Asshai;Asshai;;;Asshai;;;;;;;;;x
 PROV796;Stygai;Stygai;;;Stygai;;;;;;;;;x
@@ -1017,16 +1017,16 @@ PROV1016;Ghiscari Strait;Détroit Ghiscari;;;Estrecho de Ghiscar;;;;;;;;;x
 PROV1017;Coast of Ghiscar;Côtes de Ghiscar;;;Costa de Ghiscar;;;;;;;;;x
 PROV1018;Crimson Sea;Mer Pourpre;;;Mar Escarlata;;;;;;;;;x
 PROV1019;Jade Gates;Portes de Jade;;;Puertas de Jade;;;;;;;;;x
-PROV1020;Gulf of Asabhad;Golfe d'Asabhad;;;Golfo de Asabhad;;;;;;;;;x
-PROV1021;Northern Jade Sea;Mer de Jade Septentrionnale;;;Mar de Jade Septentrional;;;;;;;;;x
-PROV1022;Central Jade Sea;Mer de Jade;;;Mar de Jade Central;;;;;;;;;x
-PROV1023;Central Jade Sea;Mer de Jade;;;Mar de Jade Central;;;;;;;;;x
+PROV1020;Northern Jade Sea;Mer de Jade Septentrionnale;;;Mar de Jade Septentrional;;;;;;;;;x
+PROV1021;Asabhadi Sea;Golfe d'Asabhad;;;Golfo de Asabhad;;;;;;;;;x
+PROV1022;Moraqi Coast;Mer de Jade;;;Mar de Jade Central;;;;;;;;;x
+PROV1023;Western Jade Sea;Mer de Jade Occidentale;;;Mar de Jade Suroccidental;;;;;;;;;x
 PROV1024;Cape Moraq;Cap Moraq;;;Cabo Moraq;;;;;;;;;x
-PROV1025;Southern Cinnamon Straits;Détroits de Cannelle Méridionaux;;;Estrecho de Canela Meridional;;;;;;;;;x
-PROV1026;Western Jade Sea;Mer de Jade Occidentale;;;Mar de Jade Suroccidental;;;;;;;;;x
+PROV1025;Cinnamon Straits;Détroits de Cannelle Méridionaux;;;Estrecho de Canela Meridional;;;;;;;;;x
+PROV1026;Sea of Sothoryos;Mer de Jade Méridionale;;;Mar de Jade Meridional;;;;;;;;;x
 PROV1027;Northern Cinnamon Straits;Détroits de Cannelle Septentionaux;;;Estrecho de Canela Septentrional;;;;;;;;;x
 PROV1028;Coast of Faros;Côtes de Faros;;;Costa de Faros;;;;;;;;;x
-PROV1029;Western Jade Sea;Mer de Jade Occidentale;;;Mar de Jade Occidental;;;;;;;;;x
+PROV1029;Cinnamon Straits;Détroits de Cannelle Méridionaux;;;Estrecho de Canela Meridional;;;;;;;;;x
 PROV1030;Western Jade Sea;Mer de Jade Occidentale;;;Mar de Jade Suroccidental;;;;;;;;;x
 PROV1031;Western Jade Sea;Mer de Jade Occidentale;;;Mar de Jade Occidental;;;;;;;;;x
 PROV1032;Cape Wyvern;Cap Wyvern;;;Cabo Guiverno;;;;;;;;;x
@@ -1096,18 +1096,18 @@ PROV1095;Jade Coast;Côte de Jade;;;Costa de Jade;;;;;;;;;x
 PROV1096;Sea of Whips;Mer des Fouets;;;Mar de los Látigos;;;;;;;;;x
 PROV1097;Jade Straits;Détroits de jade;;;Mar de Jade Central;;;;;;;;;x
 PROV1098;Southern Jade Sea;Mer de Jade Méridionale;;;Mar de Jade Meridional;;;;;;;;;x
-PROV1099;Marahai Coast;Côte Marahai;;;Costa de Marahai;;;;;;;;;x
+PROV1099;Sea of Marahai;Côte Marahai;;;Costa de Marahai;;;;;;;;;x
 PROV1100;Central Jade Sea;Mer de Jade Centrale;;;Mar de Jade Central;;;;;;;;;x
 PROV1101;Coast of Yin;Côte de Yin;;;Costa de Yin;;;;;;;;;x
 PROV1102;Straits of Leng;Détroits de Leng;;;Estrecho de Leng;;;;;;;;;x
-PROV1103;Bay of Leng;Baie de Leng;;;Bahía de Leng;;;;;;;;;x
+PROV1103;Bay of Jinqi;Côte de Jinqi;;;Costa de Jinqi;;;;;;;;;x
 PROV1104;Eastern Coast of Leng;Côte de Leng Orientale;;;Costa Este de Leng;;;;;;;;;x
-PROV1105;Coast of Jinqi;Côte de Jinqi;;;Costa de Jinqi;;;;;;;;;x
-PROV1106;Shadow Coast;Côte de l'Ombre;;;Costa Sombría;;;;;;;;;x
-PROV1107;Southern Coast of Leng;Côte de Leng Méridionale;;;Costa Sur de Leng;;;;;;;;;x
-PROV1108;Central Jade Sea;Mer de Jade Centrale;;;Mar de Jade Central;;;;;;;;;x
+PROV1105;Shadow Coast;Côte de l'Ombre;;;Costa Sombría;;;;;;;;;x
+PROV1106;Bay of Leng;Baie de Leng;;;Bahía de Leng;;;;;;;;;x
+PROV1107;Central Jade Sea;Mer de Jade Centrale;;;Mar de Jade Central;;;;;;;;;x
+PROV1108;Central Jade Sea;Mer de Jade Centrale;;;Mar de Jade Oriental;;;;;;;;;x
 PROV1109;Manticore Sea;Mer Manticore;;;Mar de la Mantícora;;;;;;;;;x
-PROV1110;Central Jade Sea;Mer de Jade Centrale;;;Mar de Jade Oriental;;;;;;;;;x
+PROV1110;Southern Coast of Leng;Côte de Leng Méridionale;;;Costa Sur de Leng;;;;;;;;;x
 PROV1111;Asshai'i Coast;Côte d'Asshai;;;Costa de Asshai;;;;;;;;;x
 PROV1112;Southern Jade Sea;Mer de Jade Septentrionnale;;;Mar de Jade Suroriental;;;;;;;;;x
 PROV1113;Saffron Straits;Détroits de Safran;;;Estrecho del Azafrán;;;;;;;;;x

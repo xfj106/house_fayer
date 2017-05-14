@@ -240,13 +240,16 @@ b_flintkeep;Breakstone Hill;Colline Rompierre;Flint Keep;Flint Keep;Colina Piedr
 b_brinmore;Brinmore;Brinmore;Brinmore;Brinmore;La Cuna de Flint;;;;;;;;;x
 b_woodend;Woodend;Boscfin;Woodend;Woodend;Fin del Bosque;;;;;;;;;x
 b_cray;Cray;Cray;;;Humedal;;;;;;;;;x
-c_berg;Berg;Berg;;;Berg;;;;;;;;;x
-b_berg;Berg;Berg;;;Berg;;;;;;;;;x
-b_sierck;Sierck;Sierck;;;Sierck;;;;;;;;;x
-b_bergtemple;Berg;Berg;;;Berg;;;;;;;;;x
 duke_hill_clansman;The;Le;;;El;;;;;;;;;x
 duke_female_hill_clansman;The;La;;;La;;;;;;;;;x
 count_hill_clansman;The;Le;;;El;;;;;;;;;x
 count_female_hill_clansman;The;La;;;La;;;;;;;;;x
 baron_hill_clansman;The;Le;;;El;;;;;;;;;x
 baron_female_hill_clansman;The;La;;;La;;;;;;;;;x
+b_thorpe;Thorpe;;;;;;;;;;;;;x
+d_stonyshore;Stony Shore;;;;;;;;;;;;;x
+d_berg;Berg;Berg;;;Berg;;;;;;;;;x
+c_berg;Berg;Berg;;;Berg;;;;;;;;;x
+b_berg;Berg;Berg;;;Berg;;;;;;;;;x
+b_sierck;Sierck;Sierck;;;Sierck;;;;;;;;;x
+b_bergtemple;Berg;Berg;;;Berg;;;;;;;;;x
